@@ -4,56 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "e838ce9625939b7b",
+        "id": "f7d3800623dc5965",
         "type": "tabs",
+        "dimension": 42.58793969849246,
         "children": [
           {
-            "id": "af49001fce2cddbb",
+            "id": "492ed1e9cf624fd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROMPT promt.md",
+                "file": "LEGISLACION/2026/temas de defensa/capitulos 1 y 2 cuestionario.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "PROMPT promt"
+              "title": "capitulos 1 y 2 cuestionario"
             }
           },
           {
-            "id": "c16e2de4ebf2c50e",
+            "id": "8ed05cb6d2d16847",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 3.md",
+                "file": "COMU/TP4 codigo de linea/pilar, bipolar y unipolar.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 3"
+              "title": "pilar, bipolar y unipolar"
+            }
+          },
+          {
+            "id": "2a6d4c62c2e5521d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMU/TP4 codigo de linea/manchester y manchester diferencial.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "manchester y manchester diferencial"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "65a6213f7778b8ea",
+        "id": "662424624edf7409",
         "type": "tabs",
+        "dimension": 57.41206030150754,
         "children": [
           {
-            "id": "b22939290cf099c4",
+            "id": "dcca39f13c48d9c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_COSILLAS/ESP 32/consumo electrico consumo de kwh, medicion de consumo de energia.md",
+                "file": "ok OBSIDIAN FRONTEND obsidian digital garden.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "consumo electrico consumo de kwh, medicion de consumo de energia"
+              "title": "ok OBSIDIAN FRONTEND obsidian digital garden"
             }
           }
         ]
@@ -88,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +135,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,56 +228,58 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "edge-tts:Read note aloud": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c16e2de4ebf2c50e",
+  "active": "dcca39f13c48d9c8",
   "lastOpenFiles": [
-    "PROMPT promt.md",
-    "NEUROCIENCIA/clase 3.md",
-    "Sin nombre",
     "CONFIGURACION OBSIDIAN.md",
-    "SO-sistemas operativos/File System Ejercicios.md",
-    "_COSILLAS/ESP 32/consumo electrico consumo de kwh, medicion de consumo de energia.md",
-    "_COSILLAS/ngrok RDP escritorio remoto conexion remoto.md",
-    "_COSILLAS/aux.md",
-    "DDS-Notas/notas patrones.md",
-    "Seminario Integrador/clase 2.md",
-    "README.md.md",
-    "NEUROCIENCIA/clase 1.md",
-    "_COSILLAS/NVIM/nvim de intellij idea parte 1.md",
-    "DDS-Notas/OK Ingenieria Inversa de plantUML a codigo.md",
-    "DDS-Notas/Ejercicio Macowins ok.md",
-    "_COSILLAS/NVIM/nvim lazyvim configuraciones.md",
-    "_COSILLAS/Sin título.md",
-    "_COSILLAS/NVIM",
-    "_COSILLAS/wine instalacion office ok.md",
-    "DDS-Notas/TPS bolerplates.md",
-    "ADMIN GERENCIAL/NOTAS para PARCIAL- final administración gerencial.md",
-    "_COSILLAS/android/dvr android dvr celular camera server para usar celular de camata.md",
-    "DDS-Notas/vigilancia y  DVR simulacion/emuladores de DVR.md",
-    "NEUROCIENCIA/storytelling.md",
-    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/pa mi jefita gametrack.pdf",
+    "COMU/tp 5 capacidad de un canal/capacidad maxima de un canal sin ruido.md",
+    "COMU/TP4 codigo de linea/fuente con un solo simbolo.md",
+    "COMU/tp 5 capacidad de un canal/tp 5 capacidad de un canal.md",
+    "COMU/tp 5 capacidad de un canal",
+    "COMU/TP4 codigo de linea/entropia de la fuente.md",
+    "COMU/TP4 codigo de linea/cantidad de informacion de la palabra.md",
+    "COMU/TP4 codigo de linea/AMI vs Bipolar RZ.md",
+    "COMU/TP4 codigo de linea/manchester y manchester diferencial.md",
+    "COMU/TP4 codigo de linea/pilar, bipolar y unipolar.md",
+    "COMU/OK TEMAS FINAL solian tomarse en final oral.md",
+    "COMU/Sin título 2.md",
+    "COMU/TP4 codigo de linea/TP4 codigo de linea.md",
+    "COMU/TP4 codigo de linea",
+    "COMU/TP4 codigo de linea/manchester CC siempre nulo.md",
+    "COMU/TP4 codigo de linea/banda base e informacion TP N 4 y TP N 5.md",
+    "LEGISLACION/2026/temas de defensa/capítulo 3 preguntas.md",
+    "COMU/TP 2 preguntas.md",
+    "_COSILLAS/vanguardia de las mecanicas cuanticas.md",
+    "_COSILLAS/ok nginx por que se debe usarla inicio.md",
+    "ECO/ECO 2026 notas clase costos.md",
+    "COMU/clase 1.md",
+    "COMU/COMU.md",
+    "COMU/Sin título 1.md",
+    "COMU/TP preguntas.md",
+    "LEGISLACION/2026/temas de defensa/derechos reales preguntas clase.md",
+    "COMU/ok modulacion/niveles cuanticos.md",
+    "LEGISLACION/ok notas otro.md",
+    "COMU/ok modulacion",
+    "LEGISLACION/2026/capitulo 3",
+    "DDS-Notas/TPS 2026/Copia de casos de uso_sin ejemplo.pdf",
+    "LEGISLACION/2026/temas de defensa",
+    "DDS-Notas/OTROS",
+    "_COSILLAS/NAVEGADOR QUTEBROWSER",
+    "INTELIGENCIA DE NEGOCIOS/Guia_Ejercicios_v2.1 inteligencia de negocios.pdf",
+    "INTELIGENCIA DE NEGOCIOS/Clase 01 - Conceptos Iniciales.pdf",
     "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
-    "DDS-Notas/Arquitectura_ Primeros Pasos.pdf",
+    "_COSILLAS/Arduino/capturas/Pasted image 20241223141019.png",
     "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
-    "DDS-Notas/Arduino/capturas/Pasted image 20241223141019.png",
-    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128145957.png",
     "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/Pasted image 20241214003547.png",
-    "DDS-Notas/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
-    "NEUROCIENCIA",
-    "Seminario Integrador/clase 1.md",
-    "LEGISLACION/2026/2026 legislacion clase 2.md",
-    "LEGISLACION/Sin título.md",
-    "LEGISLACION/2026",
-    "DDS-Notas/Ejercicio Macowins ok-2026-04-08-14-14-02.png",
-    "DDS-Notas/ok notas Arq. mecanismos de integración - atributos de calidad.md",
-    "Seminario Integrador",
-    "LEGISLACION/profe castiarena",
-    "IA",
-    "DDS-Notas/relacion-composicion.png",
-    "DDS-Notas/relacion-agregacion.png",
-    "DDS-Notas/Tp 2024",
-    "DDS-Notas/SO/apuntes fotos/Pasted image 20250128150044.png"
+    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128145957.png",
+    "SDG/prototipo/prototipo.png",
+    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241219185548.png",
+    "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
+    "_COSILLAS/Arduino/capturas/Pasted image 20241223141337.png",
+    "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108210218.png"
   ]
 }

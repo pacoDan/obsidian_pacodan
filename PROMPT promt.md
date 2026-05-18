@@ -1,4 +1,13 @@
-Estructura bien esta transcripción, recopila todas las preguntas y respuestas para exámenes, las lecciones aprendidas,  no olvides cada detalle de esta transcripción en base a las preguntas, todos los ejemplos, y ten mas en cuenta sobre: 
+Estructura bien esta transcripción, recopila todas las preguntas y respuestas para exámenes, las lecciones aprendidas,  no olvides cada detalle de esta transcripción en base a las preguntas, todos los ejemplos, muchos ejemplos, y ten mas en cuenta sobre: 
+a) Forma Republicana de gobierno.
+b) Forma Representativa de gobierno.
+c) Forma Federal de gobierno.
+d) Amparo.
+e) Proceso de sanción de las leyes.
+f) Personas Jurídicas: comienzo de existencia y funcionamiento.
+g) Simples Actos Lícitos
+h) Responsabilidad Civil.
+
 - que es una gestión de transformación organizacional
 - habla de tema cultural
 - trabajo en célula que es

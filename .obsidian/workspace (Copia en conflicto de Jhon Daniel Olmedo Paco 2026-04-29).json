@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "3e4f4d37622e9717",
+    "type": "split",
+    "children": [
+      {
+        "id": "e838ce9625939b7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af49001fce2cddbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROMPT promt.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "PROMPT promt"
+            }
+          },
+          {
+            "id": "c16e2de4ebf2c50e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECONOMICAS/Cuestionario bloque 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Cuestionario bloque 1"
+            }
+          },
+          {
+            "id": "461dddc48e9066d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_COSILLAS/NVIM/nvim instalacion self neovim self.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "nvim instalacion self neovim self"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "1deafc82af61c0f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "718eb50ceaa48e46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LEGISLACION/APE preguntas.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "APE preguntas"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b559f8b6d6a3cb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbe79c764401f3b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8103d943415f3750",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "584f9c1e3f19c269",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "5ba4cfd017c063c1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "89f7c7ab3de3ac3b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "55bd2488a8928069",
+    "type": "split",
+    "children": [
+      {
+        "id": "157bbb0a7b086447",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f6ae2934e5efd98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for _  NOTAS importantes DDS notas dds"
+            }
+          },
+          {
+            "id": "f22964e5ce058b11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _  NOTAS importantes DDS notas dds"
+            }
+          },
+          {
+            "id": "29de0e72895e914e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d991f6aeeb5845fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of _  NOTAS importantes DDS notas dds"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "edge-tts:Read note aloud": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "461dddc48e9066d7",
+  "lastOpenFiles": [
+    "LEGISLACION/APE preguntas.md",
+    "_COSILLAS/NVIM/nvim instalacion self neovim self.md",
+    "_COSILLAS/WSL problemas de red.md",
+    "_COSILLAS/persepolis.md",
+    "DDS-Notas/TPS 2026/TP2.md",
+    "DDS-Notas/TPS 2026/TPS bolerplates.md",
+    "DDS-Notas/TPS 2026",
+    "OBSIDIAN ASTRO.md",
+    "_COSILLAS/NVIM/nvim de intellij idea parte 1.md",
+    "_COSILLAS/NVIM/nvim lazyvim configuraciones.md",
+    "LEGISLACION/APE tips.md",
+    "PROMPT promt.md",
+    "ECONOMICAS/Cuestionario bloque 1.md",
+    "ECONOMICAS/Contabilidad clase 4.md",
+    "ECONOMICAS/Contabilidad Slides Bloque 2.md",
+    "README.md.md",
+    "_COSILLAS/OLLAMA.md",
+    "NEUROCIENCIA/clase 3.md",
+    "Sin nombre",
+    "CONFIGURACION OBSIDIAN.md",
+    "SO-sistemas operativos/File System Ejercicios.md",
+    "_COSILLAS/ESP 32/consumo electrico consumo de kwh, medicion de consumo de energia.md",
+    "_COSILLAS/ngrok RDP escritorio remoto conexion remoto.md",
+    "_COSILLAS/aux.md",
+    "DDS-Notas/notas patrones.md",
+    "Seminario Integrador/clase 2.md",
+    "NEUROCIENCIA/clase 1.md",
+    "DDS-Notas/OK Ingenieria Inversa de plantUML a codigo.md",
+    "_COSILLAS/NVIM",
+    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/pa mi jefita gametrack.pdf",
+    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
+    "DDS-Notas/Arquitectura_ Primeros Pasos.pdf",
+    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
+    "DDS-Notas/Arduino/capturas/Pasted image 20241223141019.png",
+    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128145957.png",
+    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/Pasted image 20241214003547.png",
+    "DDS-Notas/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
+    "NEUROCIENCIA",
+    "LEGISLACION/2026",
+    "DDS-Notas/Ejercicio Macowins ok-2026-04-08-14-14-02.png",
+    "Seminario Integrador",
+    "LEGISLACION/profe castiarena",
+    "IA",
+    "DDS-Notas/relacion-composicion.png",
+    "DDS-Notas/relacion-agregacion.png",
+    "DDS-Notas/SO/apuntes fotos/Pasted image 20250128150044.png"
+  ]
+}

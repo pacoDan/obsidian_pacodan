@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "3e4f4d37622e9717",
+    "type": "split",
+    "children": [
+      {
+        "id": "e838ce9625939b7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af49001fce2cddbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_COSILLAS/ngrok RDP escritorio remoto conexion remoto.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ngrok RDP escritorio remoto conexion remoto"
+            }
+          },
+          {
+            "id": "2569b4e1f0c99e2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SO-sistemas operativos/clase 1 - Introducción a los Sistemas Operativos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "clase 1 - Introducción a los Sistemas Operativos"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b559f8b6d6a3cb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbe79c764401f3b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8103d943415f3750",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "584f9c1e3f19c269",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "microker",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "5ba4cfd017c063c1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "89f7c7ab3de3ac3b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "55bd2488a8928069",
+    "type": "split",
+    "children": [
+      {
+        "id": "157bbb0a7b086447",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f6ae2934e5efd98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for _  NOTAS importantes DDS notas dds"
+            }
+          },
+          {
+            "id": "f22964e5ce058b11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _  NOTAS importantes DDS notas dds"
+            }
+          },
+          {
+            "id": "29de0e72895e914e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d991f6aeeb5845fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of _  NOTAS importantes DDS notas dds"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "edge-tts:Read note aloud": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "2569b4e1f0c99e2d",
+  "lastOpenFiles": [
+    "SO-sistemas operativos/masoero hilos 1-2 ok.md",
+    "SO-sistemas operativos/clase 1 - Introducción a los Sistemas Operativos.md",
+    "SO-sistemas operativos/clase 3 - Planificación - Fundamentos y algoritmos simples.md",
+    "SO-sistemas operativos/algoritmo de reemplazo de paginas.md",
+    "_COSILLAS/ngrok RDP escritorio remoto conexion remoto.md",
+    "_COSILLAS/aux.md",
+    "DDS-Notas/notas patrones.md",
+    "Seminario Integrador/clase 2.md",
+    "README.md.md",
+    "NEUROCIENCIA/clase 1.md",
+    "_COSILLAS/NVIM/nvim de intellij idea parte 1.md",
+    "DDS-Notas/OK Ingenieria Inversa de plantUML a codigo.md",
+    "DDS-Notas/Ejercicio Macowins ok.md",
+    "_COSILLAS/NVIM/nvim lazyvim configuraciones.md",
+    "_COSILLAS/Sin título.md",
+    "_COSILLAS/NVIM",
+    "_COSILLAS/wine instalacion office ok.md",
+    "DDS-Notas/TPS bolerplates.md",
+    "PROMPT.md",
+    "ADMIN GERENCIAL/NOTAS para PARCIAL- final administración gerencial.md",
+    "_COSILLAS/android/dvr android dvr celular camera server para usar celular de camata.md",
+    "DDS-Notas/vigilancia y  DVR simulacion/emuladores de DVR.md",
+    "NEUROCIENCIA/storytelling.md",
+    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/pa mi jefita gametrack.pdf",
+    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
+    "DDS-Notas/Arquitectura_ Primeros Pasos.pdf",
+    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
+    "DDS-Notas/Arduino/capturas/Pasted image 20241223141019.png",
+    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128145957.png",
+    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/Pasted image 20241214003547.png",
+    "DDS-Notas/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
+    "NEUROCIENCIA",
+    "Seminario Integrador/clase 1.md",
+    "LEGISLACION/2026/2026 legislacion clase 2.md",
+    "LEGISLACION/Sin título.md",
+    "LEGISLACION/2026",
+    "DDS-Notas/Ejercicio Macowins ok-2026-04-08-14-14-02.png",
+    "DDS-Notas/ok notas Arq. mecanismos de integración - atributos de calidad.md",
+    "Seminario Integrador",
+    "LEGISLACION/profe castiarena",
+    "IA",
+    "DDS-Notas/relacion-composicion.png",
+    "DDS-Notas/relacion-agregacion.png",
+    "DDS-Notas/Tp 2024",
+    "DDS-Notas/SO/apuntes fotos/Pasted image 20250128150044.png",
+    "MANTADARIO - GESTOR AUTOMOTOR/Programa - Curso Mandatario Registral Nacional del Automotor SAN MIGUEL.pdf"
+  ]
+}

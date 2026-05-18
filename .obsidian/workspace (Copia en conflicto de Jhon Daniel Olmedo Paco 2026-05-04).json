@@ -1,0 +1,314 @@
+{
+  "main": {
+    "id": "3e4f4d37622e9717",
+    "type": "split",
+    "children": [
+      {
+        "id": "e838ce9625939b7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af49001fce2cddbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROMPT promt.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "PROMPT promt"
+            }
+          },
+          {
+            "id": "9d7ca4f1dc779f04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_COSILLAS/FEDORA ok instalacion.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FEDORA ok instalacion"
+            }
+          },
+          {
+            "id": "c16e2de4ebf2c50e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LEGISLACION/2026/derechos reales.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "derechos reales"
+            }
+          },
+          {
+            "id": "9280ec0fcdf38b93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NEUROCIENCIA/clase 23 de abril.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "clase 23 de abril"
+            }
+          },
+          {
+            "id": "c4b5fc399ef9f889",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTELIGENCIA DE NEGOCIOS/clase 2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "clase 2"
+            }
+          },
+          {
+            "id": "5f483be6fe0dcc1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTELIGENCIA DE NEGOCIOS/clase 4.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "clase 4"
+            }
+          },
+          {
+            "id": "461dddc48e9066d7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b559f8b6d6a3cb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbe79c764401f3b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8103d943415f3750",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "584f9c1e3f19c269",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "FEDORA",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "5ba4cfd017c063c1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "89f7c7ab3de3ac3b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "55bd2488a8928069",
+    "type": "split",
+    "children": [
+      {
+        "id": "157bbb0a7b086447",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f6ae2934e5efd98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for _  NOTAS importantes DDS notas dds"
+            }
+          },
+          {
+            "id": "f22964e5ce058b11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _  NOTAS importantes DDS notas dds"
+            }
+          },
+          {
+            "id": "29de0e72895e914e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d991f6aeeb5845fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of _  NOTAS importantes DDS notas dds"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "edge-tts:Read note aloud": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "5f483be6fe0dcc1c",
+  "lastOpenFiles": [
+    "PROMPT promt.md",
+    "INTELIGENCIA DE NEGOCIOS/clase 4.md",
+    "INTELIGENCIA DE NEGOCIOS/clase 3.md",
+    "INTELIGENCIA DE NEGOCIOS/clases.md",
+    "INTELIGENCIA DE NEGOCIOS/Clase 01 - Conceptos Iniciales.pdf",
+    "INTELIGENCIA DE NEGOCIOS/Clase 02 - Ejercicios.pdf",
+    "INTELIGENCIA DE NEGOCIOS/Clase 02 - Modelado Dimensional.pdf",
+    "INTELIGENCIA DE NEGOCIOS/Clase 03 - Modelado Fisico - Parte 1.pdf",
+    "INTELIGENCIA DE NEGOCIOS/clase 2.md",
+    "INTELIGENCIA DE NEGOCIOS/clase 1.md",
+    "_COSILLAS/FEDORA ok instalacion.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/costos.md",
+    "INTELIGENCIA DE NEGOCIOS/tips power bi al promedio de sueldos.md",
+    "Sin título.md",
+    "INTELIGENCIA DE NEGOCIOS",
+    "LEGISLACION/2026/APE 2do caso.md",
+    "_COSILLAS/NVIM/ok nvim instalacion self neovim self.md",
+    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
+    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/pa mi jefita gametrack.pdf",
+    "DDS-Notas/Arquitectura_ Primeros Pasos.pdf",
+    "DDS-Notas/Arduino/capturas/Pasted image 20241223141019.png",
+    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
+    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/Pasted image 20241214003547.png",
+    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128145957.png",
+    "SDG/prototipo/prototipo.png",
+    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241219185548.png",
+    "MANTADARIO - GESTOR AUTOMOTOR/Programa - Curso Mandatario Registral Nacional del Automotor SAN MIGUEL.pdf",
+    "DDS-Notas/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
+    "DDS-Notas/Arduino/capturas/Pasted image 20241223141337.png",
+    "ADMIN GERENCIAL/_ self aux informe Ética y management en la era digital Privacidad, transparencia algorítmica y responsabilidad gerencial en un mundo cada vez más digital.md",
+    "DDS-Notas/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108210218.png",
+    "_COSILLAS/Esp32/proyectos a realizar/ESP32-CAM_Audio-main.zip",
+    "DDS-Notas/Parciales resueltos/2dos parciales/SeguriPoint/[DDS -  UTN BA Martes] Consideraciones - Primer Segundo - 2024.pdf",
+    "GTH/Libro en md ok.md",
+    "SDG/sdg ejercicios de la Guía de Ejercicios con respuestas.V.1.6 R032025.md",
+    "DDS-Notas/aux requerimientos posibles.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/aux notas clase presencial.md",
+    "IAA/deep learning 3ra parte 2025 04 22.md",
+    "SDG/prototipo/aux_Informe de avances - Grupo 2.md",
+    "TERMINADAS/CICLO financiacion/3 ciclo gestion/2 aspectos legales de tu emprendimiento.md",
+    "TERMINADAS/GESTION DE LA TRANSFORMACION ORGANIZACIONAL/2do parcial/_listo_ GTO cultura digital tipos de cambio 2025 10 06 ok.md",
+    "SO-sistemas operativos/memoria virtual 2-2.md",
+    "ARQ pendientes a gdrive/R. TP Unidad 9 Cap 17 Repertorio de Instrucciones ok.md",
+    "TERMINADAS/NO SQL/clase 1 ok.md",
+    "_COSILLAS/ELIXIR/SDG comentarios recuperatorio.md",
+    "SO-sistemas operativos/clase 2 - Procesos e Hilos.md"
+  ]
+}

@@ -1,0 +1,8 @@
+Para demostrar que el aporte de **corriente continua (CC)** del código Manchester es siempre nulo, se debe analizar su regla de formación y el comportamiento del valor medio de la señal:
+
+- **Transición constante en cada bit:** La característica fundamental del código Manchester (bifase) es que **siempre existe una transición en la mitad del intervalo de cada bit**, sin importar si la fuente transmite un "0" o un "1".
+- **Equilibrio de niveles:** Debido a esta transición central, el pulso no permanece en un nivel fijo (alto o bajo) durante todo el intervalo de bit, sino que pasa la **misma cantidad de tiempo en cada polaridad**.
+- **Valor medio nulo:** El aporte de CC se define como el **valor medio** de la señal; en el Manchester, al compensarse el tiempo transcurrido en niveles positivos y negativos dentro de un mismo bit, el promedio resultante para cada intervalo es cero.
+- **Independencia de la secuencia:** Como cada bit individualmente tiene un valor medio de cero, cualquier secuencia de bits, por larga que sea, mantendrá un **valor medio total de cero**, eliminando la componente de "frecuencia cero".
+- **Ventaja técnica:** Esta característica garantiza una excelente respuesta frente a **acoplamientos inductivos y transformadores** en la línea de comunicación, ya que estos dispositivos eliminan las componentes de baja frecuencia o continuas, las cuales son inexistentes en este código.
+- **Autosincronismo:** Además de anular la CC, las constantes transiciones aseguran que el receptor no pierda el **sincronismo**, incluso ante cadenas largas de ceros o unos idénticos.

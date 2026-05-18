@@ -1,0 +1,17 @@
+- Explicar ARQ
+- AB, pensando en el dominio del tiempo y en las frecuencias, también pensando en la serie de fourier y transformada de fourier
+- Fibra Óptica
+- Modelo OSI y teoría de la Información
+- Etapas de la digitalizacion
+	- Muestreo
+	- cuantificacion
+	- codificacion
+- Coaxil y par trenzado
+- Entropía
+- Digitalizar una señal analogica y control de paridad
+- Tipos de Fibra Optica y tipos de perdidas
+- ARQ. y Diafonia
+- Diferencia entre 16-PSK y 16-QAM
+- Cual es la mejor entre 8-PSK y 16-PSK
+- Vtx o velocidad binaria
+- Vtx (bits totales)>Vtd(bits con información y con errores)>Vrtd (bits con info y sin errores)

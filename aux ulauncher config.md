@@ -18,3 +18,5 @@ si la ultima no funciona, usar este: https://github.com/brpaz/ulauncher-file-sea
 
 
 
+---
+

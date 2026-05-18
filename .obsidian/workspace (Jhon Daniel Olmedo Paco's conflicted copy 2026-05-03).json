@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "984ed07584bd6933",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d5caf5726b0c38f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "631e7a165db16568",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff651db5d9feb30a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec13c36d9679eb49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29cda2a9c61c25c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "a2ff6bb14b65eb17",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "78ffc58151dd943c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "715018b352323aa0",
+    "type": "split",
+    "children": [
+      {
+        "id": "33634a07f646742d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e526420d0b37766f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "d91a80d7a0bed808",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "b21b3917f2fbd9fd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4836bd46544a2651",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "631e7a165db16568",
+  "lastOpenFiles": [
+    "NEUROCIENCIA/clase 1.md",
+    "LEGISLACION/legislacion- sistema juridico.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/clase 2.md",
+    "_COSILLAS/portal cautivo_ linux server.md",
+    "_COSILLAS/ESP 32/otras cosas sabrosas/catapulta v2.md",
+    "SO-sistemas operativos/aux.md",
+    "DDS-Notas/MyMusic/MyMusic.md",
+    "PORTAL CAUTIVO/portal cautivo.md",
+    "GESTION COMERCIAL/landing que debe tener y errores a evitar.md",
+    "SDG/segmentacion.md",
+    "_COSILLAS/MERCURIAL.md",
+    "TERMINADAS/CICLO financiacion/2 equipo de trabajo/cuestionario Liderazgo y Equipos Emprendedores.md",
+    "_COSILLAS/android/deploy y generacion de claves para app android.md",
+    "_COSILLAS/openvino.md",
+    "DDS-Notas/Android Studio/uso de gpu.md",
+    "_COSILLAS/seeders e hidratacion de datos.md",
+    "ECONOMICAS/Contabilidad Slides Bloque 2.md",
+    "_COSILLAS/wine instalacion office ok.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/clase 1.md",
+    "TERMINADAS/NO SQL/alternativas a S3.md",
+    "ADMIN GERENCIAL/notas admin gerencial poder autoridad poder fuentes del poder delegacion 2025 05 14 19 07 57.md",
+    "_COSILLAS/DIY mini refrigerador - aire acondicionado.md",
+    "TERMINADAS/GESTION DE LA TRANSFORMACION ORGANIZACIONAL/presentacion borrador.md",
+    "ADMIN GERENCIAL/aux prompt.md",
+    "ECONOMICAS/DOLAR EN BOLIVIA/ES BOLIVIA EL MEJOR PAÍS PARA EL ARBITRAJE FINANCIERO.md",
+    "GTH/carta de presentacion.md",
+    "SDG/Pasted image 20250717024033.png",
+    "SDG/Pasted image 20250717024029.png"
+  ]
+}
