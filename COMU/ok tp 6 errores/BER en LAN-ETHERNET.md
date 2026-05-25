@@ -1,0 +1,5 @@
+En una red **LAN-Ethernet**, el comportamiento esperado en la medición de la tasa de error de bits (**BER**) es un valor estimativo de **$10^{-9}$**. Este valor indica que, en condiciones óptimas de calidad, se produce aproximadamente **un error por cada mil millones de bits** transmitidos.
+
+Si en una medición sobre este tipo de red se detecta un comportamiento distinto, como un **BER de $10^{-4}$** (por ejemplo, 20 bits erróneos en 200,000 bits totales), esto se considera un desempeño **muy deficiente** en comparación con los parámetros normales. En tales casos, se puede esperar una **pérdida de paquetes de datos muy importante** dentro de la red.
+
+Como referencia comparativa, las fuentes mencionan que otros servicios tienen tolerancias distintas; por ejemplo, en una red de telefonía, el parámetro de BER suele ser de **$10^{-6}$**. En cualquier caso, el BER se utiliza como un **factor de calidad** fundamental para evaluar el estado de los canales digitales.
