@@ -6,7 +6,6 @@
       {
         "id": "f7d3800623dc5965",
         "type": "tabs",
-        "dimension": 42.58793969849246,
         "children": [
           {
             "id": "492ed1e9cf624fd3",
@@ -20,56 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "capitulos 1 y 2 cuestionario"
-            }
-          },
-          {
-            "id": "8ed05cb6d2d16847",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMU/TP4 codigo de linea/pilar, bipolar y unipolar.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "pilar, bipolar y unipolar"
-            }
-          },
-          {
-            "id": "2a6d4c62c2e5521d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMU/TP4 codigo de linea/manchester y manchester diferencial.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "manchester y manchester diferencial"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "662424624edf7409",
-        "type": "tabs",
-        "dimension": 57.41206030150754,
-        "children": [
-          {
-            "id": "dcca39f13c48d9c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ok OBSIDIAN FRONTEND obsidian digital garden.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ok OBSIDIAN FRONTEND obsidian digital garden"
             }
           }
         ]
@@ -104,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian",
+                "query": "nvim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,44 +182,45 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dcca39f13c48d9c8",
+  "active": "492ed1e9cf624fd3",
   "lastOpenFiles": [
-    "CONFIGURACION OBSIDIAN.md",
-    "COMU/tp 5 capacidad de un canal/capacidad maxima de un canal sin ruido.md",
-    "COMU/TP4 codigo de linea/fuente con un solo simbolo.md",
-    "COMU/tp 5 capacidad de un canal/tp 5 capacidad de un canal.md",
-    "COMU/tp 5 capacidad de un canal",
-    "COMU/TP4 codigo de linea/entropia de la fuente.md",
-    "COMU/TP4 codigo de linea/cantidad de informacion de la palabra.md",
-    "COMU/TP4 codigo de linea/AMI vs Bipolar RZ.md",
-    "COMU/TP4 codigo de linea/manchester y manchester diferencial.md",
     "COMU/TP4 codigo de linea/pilar, bipolar y unipolar.md",
-    "COMU/OK TEMAS FINAL solian tomarse en final oral.md",
-    "COMU/Sin título 2.md",
-    "COMU/TP4 codigo de linea/TP4 codigo de linea.md",
+    "_COSILLAS/esp 32 medidor de distancia, tobillera esp32.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/matriz de trazabilidad de requerimientos.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/casos de prueba.md",
+    "PROMPT promt.md",
+    "_COSILLAS/FEDORA ok instalacion.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/WBS.md",
+    "DDS-Notas/TPS 2026/tpi 3.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/self matriz de trazabilidad de requerimientos.md",
+    "_COSILLAS/COSAS UTILES LINKS UTILES.md",
+    "Pasted image 20260529081319.png",
+    "_COSILLAS/aux super.md",
+    "_COSILLAS/ok self miobsidian web.md",
+    "_COSILLAS/linkedin fotos consejos fotos linkedin.md",
+    "_COSILLAS/5v a 12v.md",
+    "LEGISLACION/2026/expo/organo de administracion.md",
+    "_COSILLAS/top navegadores usados.md",
+    "_COSILLAS/_COSILLAS.md",
+    "LEGISLACION/2026/expo/expo.md",
+    "LEGISLACION/2026/expo",
+    "_COSILLAS/edicion de fotos y retoques de fotos.md",
+    "aux 3.md",
+    "COMU/ok tp 6 errores/CRC polinomios.md",
+    "COMU/ok tp 6 errores/BER en LAN-ETHERNET.md",
+    "COMU/ok tp 6 errores/BER.md",
+    "COMU/ok tp 6 errores/correcion de errores en la calidad de servicios de las redes.md",
+    "COMU/ok tp 6 errores/políticas que se emplean para el tratamiento de errores.md",
+    "COMU/ok tp 6 errores/causas de errores.md",
+    "COMU/ok tp 6 errores",
+    "COMU/tp 5 capacidad de un canal",
     "COMU/TP4 codigo de linea",
-    "COMU/TP4 codigo de linea/manchester CC siempre nulo.md",
-    "COMU/TP4 codigo de linea/banda base e informacion TP N 4 y TP N 5.md",
-    "LEGISLACION/2026/temas de defensa/capítulo 3 preguntas.md",
-    "COMU/TP 2 preguntas.md",
-    "_COSILLAS/vanguardia de las mecanicas cuanticas.md",
-    "_COSILLAS/ok nginx por que se debe usarla inicio.md",
-    "ECO/ECO 2026 notas clase costos.md",
-    "COMU/clase 1.md",
-    "COMU/COMU.md",
-    "COMU/Sin título 1.md",
-    "COMU/TP preguntas.md",
-    "LEGISLACION/2026/temas de defensa/derechos reales preguntas clase.md",
-    "COMU/ok modulacion/niveles cuanticos.md",
-    "LEGISLACION/ok notas otro.md",
     "COMU/ok modulacion",
     "LEGISLACION/2026/capitulo 3",
     "DDS-Notas/TPS 2026/Copia de casos de uso_sin ejemplo.pdf",
     "LEGISLACION/2026/temas de defensa",
     "DDS-Notas/OTROS",
     "_COSILLAS/NAVEGADOR QUTEBROWSER",
-    "INTELIGENCIA DE NEGOCIOS/Guia_Ejercicios_v2.1 inteligencia de negocios.pdf",
-    "INTELIGENCIA DE NEGOCIOS/Clase 01 - Conceptos Iniciales.pdf",
     "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
     "_COSILLAS/Arduino/capturas/Pasted image 20241223141019.png",
     "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
@@ -279,7 +229,6 @@
     "SDG/prototipo/prototipo.png",
     "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241219185548.png",
     "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
-    "_COSILLAS/Arduino/capturas/Pasted image 20241223141337.png",
-    "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108210218.png"
+    "_COSILLAS/Arduino/capturas/Pasted image 20241223141337.png"
   ]
 }

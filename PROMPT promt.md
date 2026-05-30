@@ -16,7 +16,8 @@ h) Responsabilidad Civil.
 - condiciones del rollplay
 
 
-
+SUPER:
+en forma de tabla dar su precio con su nombre en orden alfabético y marca (o empresa del producto que esta en el packaging), peso o volumen es decir con su precio por litro o kilo según diga, o costo por unidad, detalle de producto y el precio de promo que dice, así poder ir cotejando precios
 
 TTS voces
 
