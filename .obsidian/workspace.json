@@ -6,7 +6,6 @@
       {
         "id": "f7d3800623dc5965",
         "type": "tabs",
-        "dimension": 42.09514656415185,
         "children": [
           {
             "id": "3b2ea2337af99d06",
@@ -112,49 +111,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 1.md",
+                "file": "NEUROCIENCIA/recopilados.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 1"
-            }
-          },
-          {
-            "id": "ccf6095b03dd60a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LEGISLACION/2026/expo/constitucion.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "constitucion"
+              "title": "recopilados"
             }
           }
         ],
-        "currentTab": 8
-      },
-      {
-        "id": "b04f1d5de529e1d9",
-        "type": "tabs",
-        "dimension": 57.904853435848146,
-        "children": [
-          {
-            "id": "083d4ac04155b818",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LEGISLACION/2026/expo/GRUPO-8_CAP X_SOCIEDADES.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "GRUPO-8_CAP X_SOCIEDADES"
-            }
-          }
-        ]
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -217,8 +183,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -315,17 +280,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "584f9c1e3f19c269",
+  "active": "d5fa9ada2419f872",
   "lastOpenFiles": [
+    "PROMPT promt.md",
+    "NEUROCIENCIA/recopilados.md",
+    "NEUROCIENCIA/clase 1.md",
+    "LEGISLACION/2026/expo/GRUPO-8_CAP X_SOCIEDADES.pdf",
+    "LEGISLACION/2026/expo/constitucion.md",
     "LEGISLACION/2026/expo/Capítulo 10. Sociedades..pdf",
     "NEUROCIENCIA/clase 2.md",
-    "LEGISLACION/2026/expo/constitucion.md",
-    "NEUROCIENCIA/clase 1.md",
     "LEGISLACION/2026/expo/organo de administracion.md",
-    "PROMPT promt.md",
     "NEUROCIENCIA/clases.md",
     "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
-    "LEGISLACION/2026/expo/GRUPO-8_CAP X_SOCIEDADES.pdf",
     "DDS-Notas/MAVEN.md",
     "LEGISLACION/2026/expo/expo.md",
     "NEUROCIENCIA/clase 9 ultima VER.md",
@@ -353,7 +319,6 @@
     "LEGISLACION/2026/capitulo 3",
     "DDS-Notas/TPS 2026/Copia de casos de uso_sin ejemplo.pdf",
     "LEGISLACION/2026/temas de defensa",
-    "DDS-Notas/OTROS",
     "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
     "_COSILLAS/Arduino/capturas/Pasted image 20241223141019.png",
     "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
