@@ -6,94 +6,93 @@
       {
         "id": "f7d3800623dc5965",
         "type": "tabs",
-        "dimension": 42.09514656415185,
         "children": [
           {
-            "id": "3b2ea2337af99d06",
+            "id": "492ed1e9cf624fd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 1.md",
+                "file": "LEGISLACION/2026/temas de defensa/capitulos 1 y 2 cuestionario.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "capitulos 1 y 2 cuestionario"
+            }
+          },
+          {
+            "id": "8ed05cb6d2d16847",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMU/TP4 codigo de linea/pilar, bipolar y unipolar.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 1"
+              "title": "pilar, bipolar y unipolar"
             }
           },
           {
-            "id": "415231d0067588d1",
+            "id": "2a6d4c62c2e5521d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 2.md",
-                "mode": "source",
+                "file": "_COSILLAS/esp 32 medidor de distancia, tobillera esp32.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 2"
+              "title": "esp 32 medidor de distancia, tobillera esp32"
             }
           },
           {
-            "id": "6e6acb1fadc66e51",
+            "id": "9f706f83c26941ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clases.md",
-                "mode": "source",
+                "file": "_COSILLAS/ok self miobsidian web.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clases"
+              "title": "ok self miobsidian web"
             }
           },
           {
-            "id": "5fd7719d7dee8f03",
+            "id": "ced8e70aa03cd7eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 4 toma de desiciones.md",
-                "mode": "source",
+                "file": "_COSILLAS/linkedin fotos consejos fotos linkedin.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 4 toma de desiciones"
+              "title": "linkedin fotos consejos fotos linkedin"
             }
           },
           {
-            "id": "e695d49f5f61ad63",
+            "id": "a8a52eafb58bac1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
-                "mode": "source",
+                "file": "_COSILLAS/5v a 12v.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "DERECHO SOCIETARIO PARA EMPRENDEDORES"
+              "title": "5v a 12v"
             }
           },
           {
-            "id": "e2bd28052d4ca4f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "DERECHO SOCIETARIO PARA EMPRENDEDORES"
-            }
-          },
-          {
-            "id": "88a0d46920fac608",
+            "id": "bc561f57b0b1fbfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -107,54 +106,21 @@
             }
           },
           {
-            "id": "d5fa9ada2419f872",
+            "id": "2a9d3ed86b3af148",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 1.md",
+                "file": "LEGISLACION/2026/ok tp.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 1"
-            }
-          },
-          {
-            "id": "ccf6095b03dd60a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LEGISLACION/2026/expo/constitucion.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "constitucion"
+              "title": "ok tp"
             }
           }
         ],
-        "currentTab": 8
-      },
-      {
-        "id": "b04f1d5de529e1d9",
-        "type": "tabs",
-        "dimension": 57.904853435848146,
-        "children": [
-          {
-            "id": "083d4ac04155b818",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LEGISLACION/2026/expo/GRUPO-8_CAP X_SOCIEDADES.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "GRUPO-8_CAP X_SOCIEDADES"
-            }
-          }
-        ]
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -186,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"NEUROCIENCIA/\"  te",
+                "query": "tobille",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,12 +183,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "55bd2488a8928069",
@@ -304,6 +270,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -315,45 +282,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "584f9c1e3f19c269",
+  "active": "2a9d3ed86b3af148",
   "lastOpenFiles": [
-    "LEGISLACION/2026/expo/Capítulo 10. Sociedades..pdf",
-    "NEUROCIENCIA/clase 2.md",
-    "LEGISLACION/2026/expo/constitucion.md",
-    "NEUROCIENCIA/clase 1.md",
-    "LEGISLACION/2026/expo/organo de administracion.md",
+    "LEGISLACION/Sin título.md",
+    "LEGISLACION/2026/ok tp.md",
     "PROMPT promt.md",
-    "NEUROCIENCIA/clases.md",
-    "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
-    "LEGISLACION/2026/expo/GRUPO-8_CAP X_SOCIEDADES.pdf",
-    "DDS-Notas/MAVEN.md",
+    "LEGISLACION/2026/expo/organo de administracion.md",
     "LEGISLACION/2026/expo/expo.md",
-    "NEUROCIENCIA/clase 9 ultima VER.md",
-    "NEUROCIENCIA/clase 8 del libro que tu cerebro no quiere leer.md",
-    "NEUROCIENCIA/clase 7 negocios y neurociencia.md",
-    "NEUROCIENCIA/clase 6 plasticidad cerebral.md",
-    "NEUROCIENCIA/clase 5 ansiedad.md",
-    "NEUROCIENCIA/clase 4 toma de desiciones.md",
-    "NEUROCIENCIA/clase 3 medio ambiente v2.md",
-    "NEUROCIENCIA/clase 3 medio ambiente.md",
-    "README.md.md",
-    "LEGISLACION/2026/temas de defensa/capitulos 1 y 2 cuestionario.md",
-    "COMU/TP4 codigo de linea/pilar, bipolar y unipolar.md",
-    "_COSILLAS/esp 32 medidor de distancia, tobillera esp32.md",
-    "Seminario Integrador HABILITACION PROEFSIONAL/matriz de trazabilidad de requerimientos.md",
-    "Seminario Integrador HABILITACION PROEFSIONAL/casos de prueba.md",
-    "_COSILLAS/FEDORA ok instalacion.md",
-    "Seminario Integrador HABILITACION PROEFSIONAL/WBS.md",
-    "Pasted image 20260529081319.png",
     "LEGISLACION/2026/expo",
+    "_COSILLAS/5v a 12v.md",
+    "_COSILLAS/linkedin fotos consejos fotos linkedin.md",
+    "_COSILLAS/edicion de fotos y retoques de fotos.md",
+    "aux 3.md",
+    "_COSILLAS/ok self miobsidian web.md",
+    "_COSILLAS/FEDORA ok instalacion.md",
+    "_COSILLAS/esp 32 medidor de distancia, tobillera esp32.md",
+    "COMU/ok tp 6 errores/CRC polinomios.md",
+    "COMU/ok tp 6 errores/BER en LAN-ETHERNET.md",
+    "COMU/ok tp 6 errores/BER.md",
+    "COMU/ok tp 6 errores/correcion de errores en la calidad de servicios de las redes.md",
+    "COMU/ok tp 6 errores/políticas que se emplean para el tratamiento de errores.md",
+    "COMU/ok tp 6 errores/causas de errores.md",
+    "COMU/ok tp 6 errores/ok tp 6 errores.md",
     "COMU/ok tp 6 errores",
+    "COMU/TP4 codigo de linea/manchester y manchester diferencial.md",
+    "ok OBSIDIAN FRONTEND obsidian digital garden.md",
+    "CONFIGURACION OBSIDIAN.md",
+    "COMU/tp 5 capacidad de un canal/capacidad maxima de un canal sin ruido.md",
+    "COMU/TP4 codigo de linea/fuente con un solo simbolo.md",
+    "COMU/tp 5 capacidad de un canal/tp 5 capacidad de un canal.md",
     "COMU/tp 5 capacidad de un canal",
+    "COMU/TP4 codigo de linea/entropia de la fuente.md",
     "COMU/TP4 codigo de linea",
     "COMU/ok modulacion",
     "LEGISLACION/2026/capitulo 3",
     "DDS-Notas/TPS 2026/Copia de casos de uso_sin ejemplo.pdf",
     "LEGISLACION/2026/temas de defensa",
     "DDS-Notas/OTROS",
+    "_COSILLAS/NAVEGADOR QUTEBROWSER",
     "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
     "_COSILLAS/Arduino/capturas/Pasted image 20241223141019.png",
     "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
@@ -362,6 +328,7 @@
     "SDG/prototipo/prototipo.png",
     "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241219185548.png",
     "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
-    "_COSILLAS/Arduino/capturas/Pasted image 20241223141337.png"
+    "_COSILLAS/Arduino/capturas/Pasted image 20241223141337.png",
+    "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108210218.png"
   ]
 }
