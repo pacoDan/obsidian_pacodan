@@ -48,79 +48,9 @@
               "icon": "lucide-file",
               "title": "clases"
             }
-          },
-          {
-            "id": "5fd7719d7dee8f03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NEUROCIENCIA/clase 4 toma de desiciones.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "clase 4 toma de desiciones"
-            }
-          },
-          {
-            "id": "e695d49f5f61ad63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "DERECHO SOCIETARIO PARA EMPRENDEDORES"
-            }
-          },
-          {
-            "id": "e2bd28052d4ca4f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "DERECHO SOCIETARIO PARA EMPRENDEDORES"
-            }
-          },
-          {
-            "id": "88a0d46920fac608",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LEGISLACION/2026/expo/organo de administracion.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "organo de administracion"
-            }
-          },
-          {
-            "id": "d5fa9ada2419f872",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NEUROCIENCIA/recopilados.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "recopilados"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"NEUROCIENCIA/\"  te",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -280,8 +210,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d5fa9ada2419f872",
+  "active": "6e6acb1fadc66e51",
   "lastOpenFiles": [
+    "_COSILLAS/okm UNIFICAR DOCUMENTOS a .md e interar documentos a .md.md",
+    "_COSILLAS/_COSILLAS.md",
+    "_COSILLAS/ELIXIR/02 Curso de Elixir - Instalación de Elixir mediante asdf.md",
+    "_COSILLAS/_aux 14 de marzo.md",
+    "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+    "NEUROCIENCIA/clase 4 toma de desiciones.md",
+    "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
+    "LEGISLACION/2026/expo/organo de administracion.md",
+    "_COSILLAS/ok ia local docker deepseek OLLAMA.md",
+    "README.md.md",
+    "LEGISLACION/2026/EXAMEN/preguntas MUCHAS.md",
+    "LEGISLACION/2026/EXAMEN/EXAMEN TEMAS.md",
+    "LEGISLACION/2026/EXAMEN/EXAMEN.md",
+    "_COSILLAS/unuificar documentos a .md.md",
+    "_COSILLAS/COSAS UTILES LINKS UTILES.md",
+    "_COSILLAS/monolito web en python fast ai en python.md",
+    "LEGISLACION/2026/EXAMEN/ALGUNOS puntuales recopilados.md",
+    "LEGISLACION/2026/EXAMEN/PREGUNTAS EXAMEN.md",
+    "LEGISLACION/2026/EXAMEN",
     "PROMPT promt.md",
     "NEUROCIENCIA/recopilados.md",
     "NEUROCIENCIA/clase 1.md",
@@ -289,27 +238,9 @@
     "LEGISLACION/2026/expo/constitucion.md",
     "LEGISLACION/2026/expo/Capítulo 10. Sociedades..pdf",
     "NEUROCIENCIA/clase 2.md",
-    "LEGISLACION/2026/expo/organo de administracion.md",
     "NEUROCIENCIA/clases.md",
-    "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
     "DDS-Notas/MAVEN.md",
     "LEGISLACION/2026/expo/expo.md",
-    "NEUROCIENCIA/clase 9 ultima VER.md",
-    "NEUROCIENCIA/clase 8 del libro que tu cerebro no quiere leer.md",
-    "NEUROCIENCIA/clase 7 negocios y neurociencia.md",
-    "NEUROCIENCIA/clase 6 plasticidad cerebral.md",
-    "NEUROCIENCIA/clase 5 ansiedad.md",
-    "NEUROCIENCIA/clase 4 toma de desiciones.md",
-    "NEUROCIENCIA/clase 3 medio ambiente v2.md",
-    "NEUROCIENCIA/clase 3 medio ambiente.md",
-    "README.md.md",
-    "LEGISLACION/2026/temas de defensa/capitulos 1 y 2 cuestionario.md",
-    "COMU/TP4 codigo de linea/pilar, bipolar y unipolar.md",
-    "_COSILLAS/esp 32 medidor de distancia, tobillera esp32.md",
-    "Seminario Integrador HABILITACION PROEFSIONAL/matriz de trazabilidad de requerimientos.md",
-    "Seminario Integrador HABILITACION PROEFSIONAL/casos de prueba.md",
-    "_COSILLAS/FEDORA ok instalacion.md",
-    "Seminario Integrador HABILITACION PROEFSIONAL/WBS.md",
     "Pasted image 20260529081319.png",
     "LEGISLACION/2026/expo",
     "COMU/ok tp 6 errores",
@@ -318,7 +249,6 @@
     "COMU/ok modulacion",
     "LEGISLACION/2026/capitulo 3",
     "DDS-Notas/TPS 2026/Copia de casos de uso_sin ejemplo.pdf",
-    "LEGISLACION/2026/temas de defensa",
     "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
     "_COSILLAS/Arduino/capturas/Pasted image 20241223141019.png",
     "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
