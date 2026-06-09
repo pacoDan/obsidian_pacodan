@@ -256,7 +256,7 @@ IV. Obligaciones
 
 1. Generalidades y Clasificaciones de Bienes
 
-- **Definición de "Cosa":** ¿Es cualquier objeto material? No, debe tener obligatoriamente una **valoración económica**; de lo contrario, no es considerada "cosa" en sentido legal.
+- ==**Definición de "Cosa":** ¿Es cualquier objeto material? No, debe tener obligatoriamente una **valoración económica**; de lo contrario, no es considerada "cosa" en sentido legal.==
 - **Ejercicio de lógica:** ¿Es una piedra en el fondo de un patio una cosa inmueble porque no se mueve? No, si no tiene valor económico ni siquiera es una "cosa", y si fuera un diamante, sería mueble por su facilidad de desplazamiento.
 - **Muebles vs. Inmuebles:** ¿Cómo se clasifican los animales (perros, vacas, caballos)? Son **cosas muebles** porque se desplazan por fuerza propia o ajena.
 - **Otras categorías de cosas:**
