@@ -1,70 +1,56 @@
 {
   "main": {
-    "id": "3e4f4d37622e9717",
+    "id": "76b505a02306bf62",
     "type": "split",
     "children": [
       {
-        "id": "f7d3800623dc5965",
+        "id": "2e5a8d6ea0879a4d",
         "type": "tabs",
         "children": [
           {
-            "id": "3b2ea2337af99d06",
+            "id": "73b99bbf07caaa03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 1.md",
+                "file": "_COSILLAS/ok captura de pantalla gnome-screenshot xfce4-screenshooter.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 1"
+              "title": "ok captura de pantalla gnome-screenshot xfce4-screenshooter"
             }
           },
           {
-            "id": "415231d0067588d1",
+            "id": "a55061a8a2eb8ba2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/clase 2.md",
-                "mode": "source",
+                "file": "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "clase 2"
-            }
-          },
-          {
-            "id": "6e6acb1fadc66e51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NEUROCIENCIA/clases.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "clases"
+              "title": "ok preguntas MUCHAS"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3b559f8b6d6a3cb2",
+    "id": "f8434da698d2a864",
     "type": "split",
     "children": [
       {
-        "id": "dbe79c764401f3b8",
+        "id": "77178dbc13e9a1a4",
         "type": "tabs",
         "children": [
           {
-            "id": "8103d943415f3750",
+            "id": "682a80cd09e45bf3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,12 +63,12 @@
             }
           },
           {
-            "id": "584f9c1e3f19c269",
+            "id": "078d09bd6e0b9a95",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "push origin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,46 +80,36 @@
             }
           },
           {
-            "id": "5ba4cfd017c063c1",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "starred"
-            }
-          },
-          {
-            "id": "89f7c7ab3de3ac3b",
+            "id": "3808d6f68c2aa21e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 300
   },
   "right": {
-    "id": "55bd2488a8928069",
+    "id": "3bddd586551dd828",
     "type": "split",
     "children": [
       {
-        "id": "157bbb0a7b086447",
+        "id": "2a128e2f844e48a3",
         "type": "tabs",
         "children": [
           {
-            "id": "5f6ae2934e5efd98",
+            "id": "f59bdb810b8294ab",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "file": "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _  NOTAS importantes DDS notas dds"
+              "title": "Enlaces entrantes de ok preguntas MUCHAS"
             }
           },
           {
-            "id": "f22964e5ce058b11",
+            "id": "c3bc32506db04370",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "file": "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _  NOTAS importantes DDS notas dds"
+              "title": "Enlaces salientes de ok preguntas MUCHAS"
             }
           },
           {
-            "id": "29de0e72895e914e",
+            "id": "55b12abb36c6d9ca",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -172,22 +148,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "d991f6aeeb5845fe",
+            "id": "f805e22812fb4ebe",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+                "file": "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _  NOTAS importantes DDS notas dds"
+              "title": "Esquema de ok preguntas MUCHAS"
             }
           }
         ]
@@ -210,53 +186,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6e6acb1fadc66e51",
+  "active": "a55061a8a2eb8ba2",
   "lastOpenFiles": [
-    "_COSILLAS/okm UNIFICAR DOCUMENTOS a .md e interar documentos a .md.md",
-    "_COSILLAS/_COSILLAS.md",
-    "_COSILLAS/ELIXIR/02 Curso de Elixir - Instalación de Elixir mediante asdf.md",
-    "_COSILLAS/_aux 14 de marzo.md",
-    "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
-    "NEUROCIENCIA/clase 4 toma de desiciones.md",
-    "LEGISLACION/2026/expo/DERECHO SOCIETARIO PARA EMPRENDEDORES.md",
-    "LEGISLACION/2026/expo/organo de administracion.md",
-    "_COSILLAS/ok ia local docker deepseek OLLAMA.md",
-    "README.md.md",
-    "LEGISLACION/2026/EXAMEN/preguntas MUCHAS.md",
-    "LEGISLACION/2026/EXAMEN/EXAMEN TEMAS.md",
-    "LEGISLACION/2026/EXAMEN/EXAMEN.md",
-    "_COSILLAS/unuificar documentos a .md.md",
-    "_COSILLAS/COSAS UTILES LINKS UTILES.md",
-    "_COSILLAS/monolito web en python fast ai en python.md",
-    "LEGISLACION/2026/EXAMEN/ALGUNOS puntuales recopilados.md",
-    "LEGISLACION/2026/EXAMEN/PREGUNTAS EXAMEN.md",
-    "LEGISLACION/2026/EXAMEN",
+    "_COSILLAS/ok captura de pantalla gnome-screenshot xfce4-screenshooter.md",
+    "ECO/2026/UNIDAD 3 costos y sistemas de costeo/cuestionario resumen.md",
     "PROMPT promt.md",
-    "NEUROCIENCIA/recopilados.md",
-    "NEUROCIENCIA/clase 1.md",
-    "LEGISLACION/2026/expo/GRUPO-8_CAP X_SOCIEDADES.pdf",
-    "LEGISLACION/2026/expo/constitucion.md",
-    "LEGISLACION/2026/expo/Capítulo 10. Sociedades..pdf",
-    "NEUROCIENCIA/clase 2.md",
-    "NEUROCIENCIA/clases.md",
-    "DDS-Notas/MAVEN.md",
-    "LEGISLACION/2026/expo/expo.md",
-    "Pasted image 20260529081319.png",
-    "LEGISLACION/2026/expo",
-    "COMU/ok tp 6 errores",
-    "COMU/tp 5 capacidad de un canal",
-    "COMU/TP4 codigo de linea",
-    "COMU/ok modulacion",
-    "LEGISLACION/2026/capitulo 3",
-    "DDS-Notas/TPS 2026/Copia de casos de uso_sin ejemplo.pdf",
-    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128150044.png",
-    "_COSILLAS/Arduino/capturas/Pasted image 20241223141019.png",
-    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241220091107.png",
-    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/Pasted image 20241214003547.png",
-    "SO-sistemas operativos/SO/apuntes fotos/Pasted image 20250128145957.png",
-    "SDG/prototipo/prototipo.png",
-    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241219185548.png",
-    "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250108213659.png",
-    "_COSILLAS/Arduino/capturas/Pasted image 20241223141337.png"
+    "ECO/2026/UNIDAD 3 costos y sistemas de costeo/UNIDAD 3 costos y sistemas de costeo.md",
+    "ECO/2026/UNIDAD 3 costos y sistemas de costeo",
+    "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md"
   ]
 }
