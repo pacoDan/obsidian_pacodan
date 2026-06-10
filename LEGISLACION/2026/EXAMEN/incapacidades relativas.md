@@ -1,0 +1,9 @@
+No, la **incapacidad de derecho absoluta no existe** en nuestro ordenamiento jurídico y su finalidad no es la protección del interés del sujeto.
+
+A continuación, se detallan los puntos clave para comprender esta distinción según las fuentes:
+
+- **Inexistencia de la incapacidad absoluta de derecho:** No se puede concebir a una persona humana sin ningún derecho, ya que una incapacidad de este tipo representaría la **"muerte civil"** del individuo. Por lo tanto, las incapacidades de derecho son **siempre relativas** a actos o situaciones determinadas.
+- **Fundamento de la incapacidad de derecho:** A diferencia de lo que sugiere tu consulta, estas incapacidades no se establecen para proteger al sujeto afectado, sino que responden a **razones éticas, de interés general, de moral o de orden público**. Buscan evitar que personas en posiciones específicas (como jueces, abogados o padres) actúen de forma poco ética al adquirir ciertos bienes o derechos en contextos determinados.
+- **La incapacidad que sí protege al sujeto:** El sistema que se establece específicamente para **proteger a la persona** es el de las **incapacidades de ejercicio**. Estas se aplican cuando alguien, por su falta de madurez (menores) o por una afección física o mental, se encuentra en una situación de desventaja y requiere de un representante o apoyos para ejercer sus derechos.
+
+En resumen, mientras que la **incapacidad de ejercicio busca amparar al sujeto** para que no sufra perjuicios por su condición, la **incapacidad de derecho busca resguardar la ética y el interés de la sociedad** evitando que ciertos sujetos realicen actos que se consideran inmorales o contrarios al bien común.
