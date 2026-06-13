@@ -1,0 +1,9 @@
+Según las fuentes proporcionadas, existen tres condiciones o características fundamentales para que se considere que existe un **contrato laboral**, independientemente de si este es formal (escrito) o informal (de palabra):
+
+1. **Prestación voluntaria:** El trabajador debe realizar la tarea con un consentimiento expreso o tácito. La ley entiende que la voluntad de ambas partes es necesaria para que la relación sea laboral; de lo contrario, se trataría de otro tipo de condiciones, como el trabajo esclavo.
+2. **Onerosidad (o Retribución):** El trabajo **no es gratuito**. Debe existir una contraprestación o retribución por el servicio prestado. Aunque habitualmente es un salario en dinero, las fuentes aclaran que no siempre tiene que haber efectivo de por medio; puede ser un intercambio de servicios o productos (trueque), pero siempre debe ser cuantificable o monetizable como retribución.
+3. **Subordinación (o Estructura Jerárquica):** Se establece una relación de jerarquía donde queda claro quién solicita el servicio y quién lo presta. El empleador es quien tiene la facultad de mandar y fijar las condiciones de la prestación (lugar, horario, normas), mientras que el trabajador está subordinado a esa estructura y debe obedecer.
+
+Además de estas condiciones, se menciona el **tiempo** como un factor relevante. Por regla general, si no se especifica una duración en el contrato, se entiende que es por **tiempo indeterminado**. Sin embargo, la naturaleza del tiempo puede ser fluctuante dependiendo del tipo de contrato (indefinido, temporal, eventual, etc.).
+
+Finalmente, las fuentes destacan que un contrato de palabra es **perfectamente válido** si se cumplen las condiciones de voluntariedad, onerosidad y subordinación, aunque su existencia sea más difícil de demostrar legalmente que uno escrito.

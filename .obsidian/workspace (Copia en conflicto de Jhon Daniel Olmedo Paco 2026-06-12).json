@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "76b505a02306bf62",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e5a8d6ea0879a4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73b99bbf07caaa03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_COSILLAS/ok captura de pantalla gnome-screenshot xfce4-screenshooter.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ok captura de pantalla gnome-screenshot xfce4-screenshooter"
+            }
+          },
+          {
+            "id": "a55061a8a2eb8ba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_COSILLAS/ESP 32/blink ok.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "blink ok"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8434da698d2a864",
+    "type": "split",
+    "children": [
+      {
+        "id": "77178dbc13e9a1a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "682a80cd09e45bf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "078d09bd6e0b9a95",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "espressi",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "3808d6f68c2aa21e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3bddd586551dd828",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a128e2f844e48a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f59bdb810b8294ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de ok preguntas MUCHAS"
+            }
+          },
+          {
+            "id": "c3bc32506db04370",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de ok preguntas MUCHAS"
+            }
+          },
+          {
+            "id": "55b12abb36c6d9ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "f805e22812fb4ebe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de ok preguntas MUCHAS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "edge-tts:Read note aloud": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "a55061a8a2eb8ba2",
+  "lastOpenFiles": [
+    "LEGISLACION/2026/EXAMEN/quiebra, consecuencias juridicas de una quiebra.md",
+    "LEGISLACION/2026/EXAMEN/personas.md",
+    "LEGISLACION/2026/EXAMEN/SA y SRL.md",
+    "LEGISLACION/2026/EXAMEN/obligaciones extincion.md",
+    "LEGISLACION/2026/EXAMEN/uzucapcion derechos reales.md",
+    "LEGISLACION/2026/EXAMEN/SAL simple acto licito vs acto juridico.md",
+    "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
+    "LEGISLACION/2026/EXAMEN/instrumento publico.md",
+    "LEGISLACION/2026/EXAMEN/cheque y pagare.md",
+    "LEGISLACION/2026/EXAMEN/derechos reales.md",
+    "LEGISLACION/2026/EXAMEN/PREGUNTAS EXAMEN.md",
+    "LEGISLACION/2026/EXAMEN/proteccion de interes del sujeto.md",
+    "LEGISLACION/2026/EXAMEN/incapacidades relativas.md",
+    "_COSILLAS/ok captura de pantalla gnome-screenshot xfce4-screenshooter.md",
+    "ECO/2026/UNIDAD 3 costos y sistemas de costeo/cuestionario resumen.md",
+    "PROMPT promt.md",
+    "ECO/2026/UNIDAD 3 costos y sistemas de costeo/UNIDAD 3 costos y sistemas de costeo.md",
+    "ECO/2026/UNIDAD 3 costos y sistemas de costeo"
+  ]
+}

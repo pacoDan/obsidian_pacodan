@@ -6,6 +6,7 @@
       {
         "id": "2e5a8d6ea0879a4d",
         "type": "tabs",
+        "dimension": 52.596089008766015,
         "children": [
           {
             "id": "73b99bbf07caaa03",
@@ -13,30 +14,122 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_COSILLAS/ok captura de pantalla gnome-screenshot xfce4-screenshooter.md",
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/ok claudio examen.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ok captura de pantalla gnome-screenshot xfce4-screenshooter"
+              "title": "ok claudio examen"
             }
           },
           {
-            "id": "a55061a8a2eb8ba2",
+            "id": "3a902f02571f16b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LEGISLACION/2026/EXAMEN/quiebra, consecuencias juridicas de una quiebra.md",
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/tasa de asignacion de los CIF (revisar).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "tasa de asignacion de los CIF (revisar)"
+            }
+          },
+          {
+            "id": "34393968e034a7dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/contrato laboral, condiciones esenciales de contrato laboral.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "contrato laboral, condiciones esenciales de contrato laboral"
+            }
+          },
+          {
+            "id": "a32cf414c2353203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/ejercicio 2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ejercicio 2"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "a054304ac6322018",
+        "type": "tabs",
+        "dimension": 47.403910991233985,
+        "children": [
+          {
+            "id": "02f2fb482b72ee32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/índice de liquidez.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "índice de liquidez"
+            }
+          },
+          {
+            "id": "f7841e62850724c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/calculo de sueldos, formula de calculo de sueldos HE horas extras.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "calculo de sueldos, formula de calculo de sueldos HE horas extras"
+            }
+          },
+          {
+            "id": "aaafcf1abdca0d04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/MOD y sueldos, sueldos y MOD, sueldos y mano de obra directa.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "MOD y sueldos, sueldos y MOD, sueldos y mano de obra directa"
+            }
+          },
+          {
+            "id": "39aa4ad76551bb92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/cuestionario costos mati.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "quiebra, consecuencias juridicas de una quiebra"
+              "title": "cuestionario costos mati"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "push origin",
+                "query": "subir",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,25 +279,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a55061a8a2eb8ba2",
+  "active": "a32cf414c2353203",
   "lastOpenFiles": [
-    "LEGISLACION/2026/EXAMEN/personas.md",
-    "LEGISLACION/2026/EXAMEN/quiebra, consecuencias juridicas de una quiebra.md",
-    "LEGISLACION/2026/EXAMEN/SA y SRL.md",
-    "LEGISLACION/2026/EXAMEN/obligaciones extincion.md",
-    "LEGISLACION/2026/EXAMEN/uzucapcion derechos reales.md",
-    "LEGISLACION/2026/EXAMEN/SAL simple acto licito vs acto juridico.md",
-    "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
-    "LEGISLACION/2026/EXAMEN/instrumento publico.md",
-    "LEGISLACION/2026/EXAMEN/cheque y pagare.md",
-    "LEGISLACION/2026/EXAMEN/derechos reales.md",
-    "LEGISLACION/2026/EXAMEN/PREGUNTAS EXAMEN.md",
-    "LEGISLACION/2026/EXAMEN/proteccion de interes del sujeto.md",
-    "LEGISLACION/2026/EXAMEN/incapacidades relativas.md",
-    "_COSILLAS/ok captura de pantalla gnome-screenshot xfce4-screenshooter.md",
-    "ECO/2026/UNIDAD 3 costos y sistemas de costeo/cuestionario resumen.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/sueldos ejemplo ejercicio sueldos.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/ejercicio 2.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/MOD y sueldos, sueldos y MOD, sueldos y mano de obra directa.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/VR valor residual , tabla de depreciacion, tabla de amortizacion.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/margen de utilidad.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/ok claudio examen.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/cuestionario costos mati.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/El contrato laboral y las diferentes formas de pago de haberes.pdf",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/contrato laboral, condiciones esenciales de contrato laboral.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/CIF y MO  costos indirectos de fabricacion y mano de obra.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/calculo de sueldos, formula de calculo de sueldos HE horas extras.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/índice de liquidez.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/EXAMEN COSTOS.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/tasa de asignacion de los CIF (revisar).md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/costo y gasto 2023 .md",
     "PROMPT promt.md",
-    "ECO/2026/UNIDAD 3 costos y sistemas de costeo/UNIDAD 3 costos y sistemas de costeo.md",
-    "ECO/2026/UNIDAD 3 costos y sistemas de costeo"
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/examen.md",
+    "_COSILLAS/bases de datos en json, alternativas a bases de datos no sql.md",
+    "_COSILLAS/backend como servicio, alternativa a firestore firebase.md",
+    "pentesting avanzado/2 - Fase de reconocimiento pasivo y activo.md",
+    "_COSILLAS/_COSILLAS.md",
+    "_COSILLAS/aux super.md",
+    "_COSILLAS/COSAS UTILES LINKS UTILES links ia.md",
+    "_COSILLAS/ok UNIFICAR DOCUMENTOS a .md e interar documentos a .md.md",
+    "_COSILLAS/FFMPEG convertidor de video audio ffmpeg/comandos ffmpeg video y audio a video.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/COSTOS.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/Costos 2022 - introduccion.pdf",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/depreciación y venta de un bien (1).pdf",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/El Capital Social.pdf",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/Sistema de cont patrimonial.pdf",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/Punto de equilibrio.pdf",
+    "DDS-Notas/TPS 2026/TPA/TPA2 DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #2.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS",
+    "DDS-Notas/TPS 2026/ORDENANZA/clase 1/2026-02-28 Turno Ágil.pdf"
   ]
 }
