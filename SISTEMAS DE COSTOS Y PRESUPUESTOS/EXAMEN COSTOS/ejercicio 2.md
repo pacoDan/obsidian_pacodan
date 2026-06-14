@@ -99,3 +99,162 @@
        5. ¿faltan valores para calcular el CIF? ¿Cuáles?
 
        6. ¿Pueden inferir algo más de la situación de la empresa con estos datos?
+
+
+---
+
+---
+
+A continuación se presenta la resolución del ejercicio para la empresa **“Los zapatos S.A.”**, basada en el relevamiento de datos y los criterios establecidos en las fuentes analizadas.
+
+### 1. Resultado del ejercicio
+
+Para determinar el resultado neto, primero calculamos el **Costo de Producción**, el **Costo de los Productos Terminados y Vendidos (CPTyV)** y luego el **Estado de Resultados**.
+
+#### **Cálculo de la Mano de Obra Directa (MOD)**
+
+Se consideran los 20 operarios con sus cargas sociales (15%) y el tratamiento de las horas extras (remunerativas para el Grupo A, no remunerativas para B y C):
+
+- **10 Operarios A (Sueldo $550 + Hs Ex $275 remunerativas):** $((550 + 275) \times 13 \text{ meses} \times 1.15) \times 10 = $123,337.50$.
+- **5 Operarios B (Sueldo $600 + Hs Ex $275 no remunerativas):** $[(600 + 275) \times 12 \text{ meses} \times 1.15 + (600 \times 1 \text{ mes SAC} \times 1.15)] \times 5 = $65,492.50$.
+- **5 Operarios C (Sueldo $650 + Hs Ex $275 no remunerativas):** $[(650 + 275) \times 12 \text{ meses} \times 1.15 + (650 \times 1 \text{ mes SAC} \times 1.15)] \times 5 = $65,895.00$.
+- **Total MOD:** **$254,725.00**.
+
+#### **Cálculo de los Costos Indirectos de Fabricación (CIF)**
+
+Incluye los costos asociados a la planta productora:
+
+- **Supervisores y Gerentes (Producción):** $(1000 \times 13 \times 1.20) + (1500 \times 13 \times 1.25) = $15,600 + $24,375 = $39,975$.
+- **Servicios y Mantenimiento:**
+    - Mantenimiento Maquinarias: $5,000.
+    - Combustibles ($3000 \times 2$): $6,000.
+    - Seguro Fábrica (50% de $3000): $1,500.
+    - Seguridad Fábrica: $15,000.
+    - Limpieza (40% de $40,000): $16,000.
+    - Logística Fábrica: $5,000.
+    - Bolsas PT: $2,500.
+    - Teléfono Planta ($6000 / 6$ líneas): $1,000.
+    - Dispenser Agua (50% de $2000): $1,000.
+- **Amortizaciones y Servicios (Base):**
+    - Amortización Maquinarias: $10,000.
+    - Software (20% de $10,000): $2,000.
+    - Agua (70% de $120,000): $84,000.
+    - Impuestos (10% de $36,000): $3,600.
+    - Electricidad (30% de $40,000): $12,000.
+- **Total CIF:** **$204,575.00**.
+
+#### **Estado de Costos y CPTyV**
+
+1. **MP Consumida:** $II ($5,000) + Compras ($19,859.84) - IF ($4,000) = $20,859.84$.
+2. **Costo de Producción:** $MP ($20,859.84) + MOD ($254,725) + CIF ($204,575) = $480,159.84$.
+3. **Costo Prod. Terminados:** $C. Prod + II PP ($2,000) - IF PP ($2,000) = $480,159.84$.
+4. **Costo Prod. Terminados y Vendidos (CPTyV):** $C. Prod Term + II PT ($3,000) - IF PT ($5,000) =$ **$478,159.84**.
+
+#### **Estado de Resultados**
+
+- **Ventas:** $460,000.
+- **Regalías por marca:** $120,000 ($10k x 12).
+- **Utilidad Venta Maquinaria:** $4,000.
+- **Total Ingresos:** **$584,000.00**.
+- **Menos CPTyV:** ($478,159.84).
+- **Menos Gastos Administrativos:** ($110,950.00).
+- **Menos Gastos Comerciales:** ($123,570.00).
+- **Menos Gastos Financieros (incluye recargo 20% servicios):** ($80,400.00).
+- **Resultado Neto:** **-$209,079.84 (Pérdida)**.
+
+---
+
+### 2. Precio de compra de activos
+
+Basado en la amortización anual y los años de vida útil estipulados por el Estado:
+
+- **Maquinarias:** Amortización $10,000 / 10% anual = **$100,000**.
+- **Escritorios (Muebles y Útiles):** Amortización $2,000 / 10% anual = **$20,000**.
+- **Mostradores (Muebles y Útiles):** Amortización $3,000 / 10% anual = **$30,000**.
+
+---
+
+### 3. Recálculo de Ventas (Producción de 11.717 artículos y 60% rentabilidad)
+
+Siguiendo la lógica de determinación de precios de los ejercicios resueltos:
+
+1. **Costo Unitario:** $CPTyV ($478,159.84) / 11,717 \text{ unidades} = **$40.81**.
+2. **Precio de Venta Unitario (60% margen):** $$40.81 \times 1.6 = **$65.30**.
+3. **Valor de Ventas Totales:** $11,717 \times $65.30 = **$765,116.54** (aproximado por redondeo).
+
+---
+
+### 4. Análisis del CIF
+
+**¿Faltan valores para calcular el CIF? ¿Cuáles?** Sí, en la estimación de los CIF siempre suelen faltar valores precisos que se manejan como **ajustes** o **contingencias** (similares a una "Caja Chica" de planta) para eventualidades como roturas inesperadas de repuestos o variaciones en el consumo de insumos menores (tornillos, lubricantes, estopa). También faltaría definir con mayor precisión la **cuota de tiempo o rol** exacta de supervisores si estos realizan tareas fuera de la producción directa.
+
+
+
+
+
+
+A continuación se presenta la resolución del ejercicio para **“Los zapatos S.A.”**, integrando los datos suministrados y los criterios conceptuales de las fuentes analizadas.
+
+### 1. Resultado del ejercicio
+
+Para obtener el resultado neto, determinamos primero el **Costo de los Productos Terminados y Vendidos (CPTyV)** y luego el **Estado de Resultados**.
+
+#### **A. Cálculo de la Mano de Obra Directa (MOD)**
+
+Se consideran los 20 operarios con sus cargas sociales (15%) y el tratamiento diferenciado de las horas extras (Hs. Ex.) según sean remunerativas o no:
+
+- **10 Operarios A (Hs. Ex. remunerativas):** $((550 + 275) \times 13 \text{ meses} \times 1.15) \times 10 = \mathbf{$123,337.50}$.
+- **5 Operarios B (Hs. Ex. no remunerativas):** $[(600 + 275) \times 12 \text{ meses} \times 1.15 + (600 \times 1.15 \text{ mes SAC})] \times 5 = \mathbf{$65,492.50}$.
+- **5 Operarios C (Hs. Ex. no remunerativas):** $[(650 + 275) \times 12 \text{ meses} \times 1.15 + (650 \times 1.15 \text{ mes SAC})] \times 5 = \mathbf{$65,895.00}$.
+- **Total MOD:** **$254,725.00**.
+
+#### **B. Cálculo de los Costos Indirectos de Fabricación (CIF)**
+
+Incluye los costos de planta y supervisión técnica necesaria para el proceso:
+
+- **Supervisión y Gerencia (Producción):** $(1,000 \times 13 \times 1.20) + (1,500 \times 13 \times 1.25) = $39,975$.
+- **Insumos y Servicios de Fábrica:** Combustibles ($6,000), Seguro ($1,500), Bolsas PT ($2,500), Teléfono ($1,000), Software ($2,000), Limpieza ($16,000), Logística ($5,000), Seguridad ($15,000), Dispenser ($1,000).
+- **Servicios Fijos y Amortización:** Agua ($84,000), Impuestos ($3,600), Luz ($12,000), Amortización Maquinarias ($10,000), Mantenimiento ($5,000).
+- **Total CIF:** **$204,575.00**.
+
+#### **C. Determinación del CPTyV y Resultado Neto**
+
+1. **Materia Prima Consumida:** $II ($5,000) + \text{Compras} ($19,859.84) - IF ($4,000) = \mathbf{$20,859.84}$.
+2. **Costo de Producción:** $MP ($20,859.84) + MOD ($254,725) + CIF ($204,575) = \mathbf{$480,159.84}$.
+3. **CPTyV:** $\text{Costo Prod} + II PP ($2,000) - IF PP ($2,000) + II PT ($3,000) - IF PT ($5,000) = \mathbf{$478,159.84}$.
+4. **Estado de Resultados:**
+    - **Ventas:** $460,000 + \text{Regalías} ($120,000) + \text{Utilidad Maq} ($4,000) = $584,000$.
+    - **Menos Gastos:** $CPTyV ($478,159.84) + \text{Gastos Admin, Comerciales y Financieros} (\approx $314,920 \text{ incluyendo recargos})$.
+    - **Resultado del Ejercicio:** Se arroja una **Pérdida neta aproximada de $209,000**, debido al alto peso de los costos fijos y sueldos gerenciales.
+
+---
+
+### 2. Precio de compra de activos
+
+Utilizando el método de amortización lineal y los años de vida útil regulados:
+
+- **Maquinarias:** Amortización $10,000 / 10% \text{ anual} = \mathbf{$100,000}$.
+- **Escritorios:** Amortización $2,000 / 10% \text{ anual} = \mathbf{$20,000}$.
+- **Mostradores:** Amortización $3,000 / 10% \text{ anual} = \mathbf{$30,000}$.
+
+---
+
+### 3. Recálculo del valor de Ventas (Punto 14)
+
+Si la producción fue de 11,717 artículos y la rentabilidad bruta esperada es del 60%:
+
+1. **Costo Unitario:** $CPTyV ($478,159.84) / 11,717 \text{ unidades} = \mathbf{$40.81}$.
+2. **Precio de Venta Unitario (60% margen):** $$40.81 \times 1.6 = \mathbf{$65.30}$.
+3. **Ventas Totales Estimadas:** $11,717 \times $65.30 = \mathbf{$765,116.54}$.
+
+---
+
+### 4. Análisis e Inferencias
+
+**¿Faltan valores para calcular el CIF?** Sí, en la práctica siempre existen **valores de ajuste o contingencias** (similares a una "Caja Chica" de planta) para imprevistos como rotura de repuestos menores o variaciones en insumos no cuantificables milimétricamente. También faltaría precisar el rol exacto de los supervisores para determinar si su sueldo es MOD o CIF.
+
+**Inferencias sobre la situación de la empresa:**
+
+- **Baja Rentabilidad Real:** A pesar de un margen bruto del 60%, la empresa presenta pérdidas netas. Los **gastos fijos y sueldos gerenciales** son extremadamente altos en relación con el volumen de producción actual.
+- **Punto de Equilibrio Crítico:** El Q de equilibrio está muy cerca o supera la capacidad comercializada, lo que indica que la empresa está en una zona de **alto riesgo operativo**. Cualquier baja en la demanda la sitúa inmediatamente en zona de quebranto.
+- **Estructura Ineficiente:** Se infiere que la organización necesita **reducir costos fijos** o incrementar significativamente su escala de producción para diluir los gastos administrativos y comerciales.
