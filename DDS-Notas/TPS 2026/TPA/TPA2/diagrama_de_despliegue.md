@@ -4,13 +4,13 @@ diagrama de arq:
 
 node "Cliente Web / Mobile" as Cliente
 
-cloud "API Gateway" as Gateway
+cloud "Internet" as Gateway
 
 node "Microservicio Donaciones" as Donaciones {
 
     component "REST API\nDonaciones" as DonacionesAPI
 
-    component "Algoritmo de\nAsignación" as Asignador
+    component "AsignadorDeDonacionesAlgoritmos" as Asignador
 
     component "Notificaciones" as Notificador
 

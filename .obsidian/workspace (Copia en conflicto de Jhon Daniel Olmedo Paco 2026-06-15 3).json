@@ -4,58 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8aef3cdf957383e7",
+        "id": "8859fd447010796d",
         "type": "tabs",
-        "dimension": 31.5,
         "children": [
           {
-            "id": "4269d49d09c6af9e",
+            "id": "c0112d22afddd8e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDS-Notas/TPS 2026/TPA/TPA2 justificaciones de diseño.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "TPA2 justificaciones de diseño"
-            }
-          },
-          {
-            "id": "012eecb706f7cf4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_despliegue.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "diagrama_de_despliegue"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "a12207ec663ac7aa",
-        "type": "tabs",
-        "dimension": 68.5,
-        "children": [
-          {
-            "id": "c05b3d4bc75aa5e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_despliegue.md",
+                "file": "DDS-Notas/TPS 2026/ok api rest vs cola.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "diagrama_de_despliegue"
+              "title": "ok api rest vs cola"
             }
           }
         ]
@@ -90,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qutebrowser",
+                "query": "markitdown",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.52499771118164,
-    "collapsed": true
+    "width": 337.52499771118164
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -209,75 +171,36 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "floating": {
-    "id": "04bd5bf8be0d3eca",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9d1317d0d28d01c3",
-        "type": "window",
-        "children": [
-          {
-            "id": "6a6546f655e5af16",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4cc710d5f5dd3408",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "DDS-Notas/TPS 2026/TPA/TPA2 DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #2.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "TPA2 DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #2"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 140,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "4cc710d5f5dd3408",
+  "active": "c0112d22afddd8e6",
   "lastOpenFiles": [
-    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_despliegue.md",
-    "DDS-Notas/TPS 2026/TPA/TPA2 DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #2.md",
-    "DDS-Notas/TPS 2026/TPA/TPA2 justificaciones de diseño.md",
+    "DDS-Notas/TPS 2026/ORDENANZA/dds final turno agil arq.md",
     "DDS-Notas/TPS 2026/ORDENANZA/dds final educAR arq.md",
-    "DDS-Notas/TPS 2026/TPA/TPA.md",
-    "_COSILLAS/NAVEGADOR QUTEBROWSER/ok ok navegador qutebrowser config autoguardado de sesion y zoom.md",
-    "_COSILLAS/NAVEGADOR QUTEBROWSER/NAVEGADOR qutebrowser.md",
-    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases.md",
-    "DDS-Notas/TPS 2026/ORDENANZA/dds final turno agil diagrama de arq.md",
-    "DDS-Notas/TPS 2026/ORDENANZA/ORDENANZA.md",
-    "DDS-Notas/TPS 2026/ok arq recomendaciones.md",
-    "DDS-Notas/TPS 2026/ok api rest vs cola.md",
-    "VPS, docker y ipsconfig/VPS, docker y ipsconfig.md",
-    "DDS-Notas/TPS 2026/TPS bolerplates.md",
-    "DDS-Notas/DDS Finales/dds dinal turno agil 2026-02-28 Turno Ágil.md",
     "DDS-Notas/arq consejos.md",
-    "DDS-Notas/DDS Finales/EducAR Final DDS 20251220.pdf",
+    "DDS-Notas/TPS 2026/ORDENANZA/dds final turno agil diagrama de arq.md",
+    "VPS, docker y ipsconfig/VPS, docker y ipsconfig.md",
+    "DDS-Notas/TPS 2026/ORDENANZA/dds final educar diagrama de arq.md",
+    "DDS-Notas/TPS 2026/ok api rest vs cola.md",
     "DDS-Notas/ok API REST, rest por que api rest, por que rest.md",
+    "DDS-Notas/TPS 2026/ORDENANZA/ORDENANZA.md",
+    "DDS-Notas/TPS 2026/TPA/TPA2 justificaciones de diseño.md",
+    "DDS-Notas/DDS Finales/dds dinal turno agil 2026-02-28 Turno Ágil.md",
+    "DDS-Notas/DDS Finales/EducAR Final DDS 20251220.pdf",
     "DDS-Notas/DDS Finales/EducAR Final DDS 20251220.md",
+    "DDS-Notas/TPS 2026/TPA/TPA2 DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #2.md",
     "_COSILLAS/ok UNIFICAR DOCUMENTOS a .md e interar documentos a .md.md",
     "_COSILLAS/COSAS UTILES LINKS UTILES links ia.md",
     "SDG/_ aux RTAS.md",
+    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_despliegue.md",
     "DDS-Notas/DDS Finales/dds dinal turno agil 2026-02-28 Turno Ágil.pdf",
+    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases.md",
     "DDS-Notas/OTROS/OTROS.md",
+    "DDS-Notas/TPS 2026/TPA/TPA.md",
     "DDS-Notas/TPS 2026/TPA/TPA2/URL de callback.md",
     "_COSILLAS/ok comandos nvim.md",
     "_COSILLAS/descargar txt descargar subtitulo de youtube vtt a txt.md",
     "PROMPT promt.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/índice de liquidez.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/p financiero.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/El contrato laboral y las diferentes formas de pago de haberes.pdf",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS",

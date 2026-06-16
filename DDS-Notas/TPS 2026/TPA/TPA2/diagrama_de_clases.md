@@ -3,59 +3,113 @@ diagrama de clases:
 @startuml
 skinparam classAttributeIconSize 0
 
-'=========================
-' DONANTES
-'=========================
-
-abstract class Donante {
-    +id: UUID
-    +nombre: String
-    +email: String
-    +telefono: String
-}
-
-class DonanteHumano {
-    +apellido: String
-    +dni: String
-}
-
-class DonanteJuridico {
-    +cuit: String
-    +razonSocial: String
-}
-
-Donante <|-- DonanteHumano
-Donante <|-- DonanteJuridico
-
-'=========================
-' DONACIONES
+'Donaciones - Donantes
 '=========================
 
-class Donacion {
-    +id: UUID
-    +fechaRecepcion: DateTime
-    +descripcion: String
-    +estadoActual: EstadoDonacion
+ class Donante {
+    donaciones: List<Donacion>
+    persona: Persona
+}
+Donante --> "*" Donacion
+Donante --> Persona
+
+class Donacion{
+	nombreObjeto
+	tipoVianda
 }
 
-class HistorialEstadoDonacion {
-    +fechaHora: DateTime
-    +estado: EstadoDonacion
-    +usuario: String
+abstract class Persona{
+
+}
+class PersonaHumana{
+	nombre
+	apellido
+	edad
+	numeroDeDocumento
+	genero
+	direccion
+	mediosDeContacto: List<MedioDeContacto>
 }
 
-enum EstadoDonacion {
-    RECIBIDA
-    EN_DEPOSITO
-    ASIGNADA
-    EN_RUTA
-    ENTREGADA
+Persona <|-- PersonaHumana
+class MedioDeContacto{
+	tipoMedio: String
+	datoMedio: String
 }
 
-Donante "1" --> "*" Donacion
-Donacion "1" --> "*" HistorialEstadoDonacion
+class PersonaJuridica{
+	razonSocial
+	tipo: EnumTipoPersonaJuridica
+	rubro
+	mediosDeContacto: List<MedioDeContacto>
+	representante: PersonaHumana
+}
+PersonaJuridica --> EnumTipoPersonaJuridica
+PersonaJuridica --> PersonaHumana
+PersonaJuridica --> "*" MedioDeContacto
 
+enum EnumTipoPersonaJuridica{
+	Gubernamental
+	ONG
+	Empresa
+	Institución
+}
+Persona <|-- PersonaJuridica
+
+
+'Donaciones - Registro de personas donantes
 '=========================
+PersonaJuridica --> Persona
+class RegistroNuevoUsuario{
+	administrador: Persona
+	fecha
+	hora
+	datosDeRegistro:List<String>
+	correoRegistro: String
+	fechaAcceso
+}
+RegistroNuevoUsuario --> Persona
+class RegistroDonacion{
+	representanteEnDeposito: PersonaHumana
+	donador: Persona
+	donacion: Donacion
+	deposito: Deposito
+}
+RegistroDonacion --> PersonaHumana
+RegistroDonacion --> Donacion
+RegistroDonacion --> Deposito
+class Deposito{
+	nombreDeposito: String
+}
+'Entiendo que hay una persona para recibir la donacion de la persona donante
+
+'Donaciones - Donaciones y segmentación
+'==============
+class FormularioDeDonacion{
+	descripcionGeneral
+	bienesContenidos: List<Bien>
+	tipoCategoria: TipoCategoria
+}
+'falta las subcategorias de las categorias
+
+class Bien{
+	descripcion: String
+	foto
+}
+class TipoCategoria{
+	nombre
+	subcategorias:List<SubTipoCategoria>
+	estadoUsado: Bool
+	esMobiliario: Bool
+	esVestimenta: Bool
+	esAlimento: Bool
+	
+}
+TipoCategoria --> "*" SubTipoCategoria
+class SubTipoCategoria{
+	nombre
+}
+
 ' BENEFICIARIOS
 '=========================
 
