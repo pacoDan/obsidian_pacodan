@@ -1,0 +1,16 @@
+En el ámbito del derecho, el término **vinculante** significa que una norma, fuente o decisión es de **aplicación obligatoria**,.
+
+**¿Qué lo hace vinculante?** Lo que le otorga el carácter vinculante a una norma es el propio diseño del sistema jurídico y la autoridad competente que la dicta,. Al formar parte del ordenamiento legal (como el "núcleo duro" de la Constitución o las leyes del Congreso), el sistema le imprime la fuerza del Estado para que sea acatada por todos los miembros de la sociedad con el fin de regular la convivencia,.
+
+**¿Qué implica siempre?** Que algo sea vinculante **implica siempre la obligatoriedad de su cumplimiento**. Quien deba instrumentar, aplicar o someterse a esa norma no tiene la opción de ignorarla. Además, implica que **nadie puede alegar ignorancia** de la misma para excusarse de cumplirla y que, en caso de inobservancia, existe un elemento de **coerción o sanción** respaldado por el Estado (multas, inhabilitación, privación de libertad, etc.),,,.
+
+**Ejemplos en el sistema jurídico:**
+
+- **La Ley (Siempre vinculante):** Es la principal fuente formal del derecho y siempre tiene carácter obligatorio general,.
+    - _Ejemplo:_ Un Decreto de Necesidad y Urgencia (DNU) emitido por el Poder Ejecutivo, o una ley sancionada por el Congreso Nacional, como la Ley de Matrimonio Civil o las leyes de tránsito,,.
+- **La Costumbre (Condicionalmente vinculante):** La repetición constante y uniforme de ciertos actos por una comunidad general en principio no es obligatoria,. Solo se vuelve verdaderamente vinculante en dos escenarios: cuando la propia ley dice explícitamente que se aplique la costumbre, o para **llenar vacíos legales o lagunas normativas** que no están previstos en la ley,.
+    - _Ejemplo:_ El dejar **propina** en el rubro gastronómico, que al no estar estrictamente regulado en una ley, es una costumbre que actúa frente a un vacío legal. Otro caso fue el uso masivo de los **cheques posdatados**: antes de que la ley los permitiera, la gente los usaba masivamente, obligando al sistema a legalizarlos y darles fuerza vinculante bajo la figura del "cheque de pago diferido",.
+- **La Jurisprudencia (Condicionalmente vinculante):** Las sentencias dictadas por los jueces no son vinculantes (obligatorias) para otros jueces en casos futuros,. Sin embargo, **la única excepción vinculante es el "fallo plenario"**.
+    - _Ejemplo:_ Si distintos jueces de la misma cámara laboral dictan sentencias muy contradictorias sobre el despido de un trabajador (por ejemplo, si se deben pagar o no ciertos pluses), se genera un "escándalo jurídico",. Para solucionarlo, todas las salas de la cámara se reúnen en pleno y dictan un fallo plenario, el cual pasa a ser una **"bajada de línea" de cumplimiento obligatorio** y vinculante para todos los jueces inferiores en casos futuros similares.
+- **La Doctrina (Nunca vinculante):** Son las opiniones, libros, tratados y conclusiones elaboradas por los juristas y académicos del derecho.
+    - _Ejemplo:_ La opinión de un autor sobre si las condenas penales deben ser más o menos duras (doctrina garantista vs. punitivista) sirve de apoyo e ilustración para un juez, pero **nunca es vinculante**, ya que si lo fuera, existirían múltiples verdades absolutas enfrentadas,,.

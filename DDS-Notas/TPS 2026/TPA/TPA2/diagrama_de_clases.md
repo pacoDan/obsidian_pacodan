@@ -1,12 +1,11 @@
 diagrama de clases:
 ```plantuml
 @startuml
-skinparam classAttributeIconSize 0
 
 'Donaciones - Donantes
 '=========================
 
- class Donante {
+class Donante {
     donaciones: List<Donacion>
     persona: Persona
 }
@@ -113,17 +112,6 @@ class SubTipoCategoria{
 ' BENEFICIARIOS
 '=========================
 
-class EntidadBeneficiaria {
-    +id: UUID
-    +nombre: String
-    +direccion: String
-}
-
-class NecesidadMaterial {
-    +id: UUID
-    +descripcion: String
-    +cantidadSolicitada: Integer
-}
 
 class NecesidadRecurrente
 class NecesidadExtraordinaria
@@ -133,68 +121,147 @@ NecesidadMaterial <|-- NecesidadExtraordinaria
 
 EntidadBeneficiaria "1" --> "*" NecesidadMaterial
 
-'=========================
-' ASIGNACION
-'=========================
-
-class Asignacion {
-    +id: UUID
-    +fechaAsignacion: DateTime
-    +puntajeRanking: Double
-}
-
-Donacion "1" --> "0..1" Asignacion
-EntidadBeneficiaria "1" --> "*" Asignacion
-
-'=========================
-' LOGISTICA
-'=========================
-
-class Entrega {
-    +id: UUID
-    +estado: EstadoEntrega
-}
-
-enum EstadoEntrega {
-    PENDIENTE
-    PLANIFICADA
-    EN_RUTA
-    ENTREGADA
-}
-
-class Ruta {
-    +id: UUID
-    +fechaProgramada: Date
-}
-
-class Camion {
-    +id: UUID
-    +patente: String
-    +capacidad: Double
-}
-
-class Chofer {
-    +id: UUID
-    +nombre: String
-}
-
-Asignacion "1" --> "1" Entrega
-
-Entrega "*" --> "1" Ruta
-Ruta "1" --> "1" Camion
-Camion "1" --> "1" Chofer
-
-class PosicionGPS {
-    +latitud: Double
-    +longitud: Double
-    +fechaHora: DateTime
-}
 
 Camion "1" --> "*" PosicionGPS
 
+'OK
+'------------------
+'eventos y sus notificaciones
+class Evento{
+	notificar()
+	crearAccion(): Accion
+}
+class EventoAusenciaDePlataforma20Dias{
+	crearAccion()
+}
+'avisa a donante y a entidad beneficiada
+class EventoDonacionAsignadaRecibido{
+	crearAccion()
+}
+'a todas las beneficiarias de la reparticion, y sus donantes, con mapa interactivo
+class EventoInicioDeRuta{
+	crearAccion()
+}
+'espera ACK de recibido, se avisa a donante, entidad, dar comprobante de entrega, sus datos y datos del camion
+class EventoEntregaRealizadaConExito{
+	crearAccion()
+}
+'notifcar entidad, doante, administradores de sistema, SE REPLANIFICA, generar nueva asignacion
+class EventoEntregaNoRealizadaConExito{
+	crearAccion()
+}
+EventoAusenciaDePlataforma20Dias ..> Evento
+EventoDonacionAsignadaRecibido ..> Evento
+EventoInicioDeRuta ..> Evento
+EventoEntregaRealizadaConExito ..> Evento
+EventoEntregaNoRealizadaConExito ..> Evento
+
+interface Accion{
+	notificar()
+}
+class AccionAvisarDonante{
+	notificar()
+}
+class AccionAvisarEntidadBeneficiada{
+	notificar()
+}
+class AccionAvisarAAdministradores{
+	notificar()
+}
+Evento --> Accion
+AccionAvisarDonante ..> Accion
+AccionAvisarEntidadBeneficiada ..> Accion
+AccionAvisarAAdministradores ..> Accion
+
 @enduml
+```
+ok asignación de donaciones:
+```cpp
+#AsignacionDeDonacion>> Beneficiacio asignarDonacion(Donacion donacion){
+	if(donacion.estaEnDeposito()){
+		return this.algoritmoDeAsignacion.elegirBeneficiario(donacion, this.beneficiarios);
+	}
+	else lanzarExcepcion
+}
+```
+notificaciones:
+```cpp
+#AccionAusenciaDePlataforma>>realizarAccion(){
+	this.observadoresPacientes.notificar();
+}
+```
+
+
+trazabilidad de estados:
+```plantuml
+class MovimiendoDeDonacion{
+	estadoDonacion: EstadoDeDonacion
+	cambiarEstadoDonacion(EstadoDeDonacion donacion)
+	'accionPosible: Accion
+	'accionePosibles: List<Accion>
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+interface EstadoDeDonacion{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+MovimiendoDeDonacion --> EstadoDeDonacion
+
+class EstadoEnDeposito{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+class EstadoAsignacionRealizada{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+class EstadoListaParaEntregar{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+class EstadoEnTraslado{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+class EstadoEntregado{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+class EstadoEntregaFallida{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+class EstadoEntregaVencida{
+	estadoPosibles(): List<EstadoDeDonacion>
+}
+EstadoEnDeposito ..|> EstadoDeDonacion
+EstadoAsignacionRealizada ..|> EstadoDeDonacion
+EstadoListaParaEntregar ..|> EstadoDeDonacion
+EstadoEntregado ..|> EstadoDeDonacion
+EstadoEntregaFallida ..|> EstadoDeDonacion
+EstadoEntregaVencida ..|> EstadoDeDonacion
+EstadoEnTraslado ..|> EstadoDeDonacion
+
 ```
 
 
 
+asignacion de donaciones:
+```plantuml
+'OK
+'------------
+'asignacion de donaciones
 
+class AsignacionDeDonacion{
+	asignador: AlgoritmoDeAsignacion
+	beneficiarios: List<Beneficiario>
+	asignarDonacion(Donacion, List<Beneficiario>))
+	asignarDonacion(Donacion)
+}
+interface AlgoritmoDeAsignacion{
+	Beneficiario elegirBeneficiario(Donacion, List<Beneficiario>)
+}
+class AlgoritmoCompatibilidadSemantica{
+	Beneficiario elegirBeneficiario(Donacion, List<Beneficiario>)
+}
+class AlgoritmoPrioridadSubAtendidos{
+	Beneficiario elegirBeneficiario(Donacion, List<Beneficiario>)
+}
+AlgoritmoCompatibilidadSemantica ..|> AlgoritmoDeAsignacion
+AlgoritmoPrioridadSubAtendidos ..|> AlgoritmoDeAsignacion
+AsignacionDeDonacion --> AlgoritmoDeAsignacion
+
+```

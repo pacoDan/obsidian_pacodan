@@ -1,0 +1,44 @@
+- **Inteligencia del Negocio (Business Intelligence):** Transformación de datos en información y conocimiento para la toma de decisiones estratégicas.
+    - **Rama 1: Data Warehouse (DW) - _[Core para Ingenieros de Datos]_**
+        - **Concepto Base:** Base de datos corporativa que integra y filtra información de múltiples fuentes para consultas complejas y toma de decisiones.
+        - **Características del DW:**
+            - **Orientado a sujetos:** Organizado alrededor de temas mayores del negocio, no de operaciones diarias.
+            - **Integrado:** Los datos se unifican antes de ingresar.
+            - **Variante en el tiempo:** Mantiene rigurosidad temporal e información histórica.
+            - **No volátil:** Es de solo lectura, la información es inalterable y solo se añaden nuevas variables.
+            - **Simple de manejar:** Solo requiere carga inicial y acceso (sin _updates_ masivos diarios).
+        - **Funcionalidades y Proceso (ETL/Arquitectura):**
+            - **Acceso a Fuentes (Source):** Conexión a bases heterogéneas (relacionales, documentales, geográficas, públicas) mediante mapeo e integración.
+            - **Carga (Load):**
+                - _Extracción:_ Recuperación de datos desde los aplicativos fuente.
+                - _Depuración:_ Limpieza, estandarización de formatos y eliminación de datos redundantes.
+                - _Conversión:_ Cambio de datos a la estructura global requerida por el DW.
+                - _Ingreso (Carga):_ Puede ser de renovación completa (truncar y cargar) o incremental (detectando cambios e insertando/actualizando registros).
+            - **Conciliación de Datos:** Controles para garantizar exactitud y cantidad de datos (auditoría de calidad). Puede ser completa o por fases (tras migrar, depurar, convertir y cargar).
+            - **Almacenamiento (Storage):** Gestión en bases relacionales (RDBMS) o multidimensionales (MDDBMS).
+            - **Metadatos:** "Datos sobre los datos" (diccionario, reglas de validación, dominio). Son esenciales para documentar el contexto y facilitar la recuperación.
+        - **Implementación en Base de Datos Relacional (RDBMS):**
+            - **Modelo Estrella (Star Model):** Arquitectura principal.
+                - _Tabla de Hechos (Fact Table):_ Almacena las métricas/valores numéricos del evento a un alto nivel de granularidad (atomicidad).
+                - _Tablas de Dimensiones:_ Almacenan información descriptiva. Tienen pocos registros pero gran cantidad de atributos.
+    - **Rama 2: Data Marts - _[Punto de encuentro Ingeniero/Científico]_**
+        - **Concepto Base:** Vistas multidimensionales enfocadas en un área específica del negocio.
+        - **Características:** Manejan datos resumidos o muestras, disminuyen costos de operación y optimizan los requerimientos de departamentos particulares.
+    - **Rama 3: Data Mining (DM) - _[Core para Científicos de Datos]_**
+        - **Concepto Base:** Búsqueda de patrones ocultos e información predecible en bases de datos a través de algoritmos.
+        - **Requerimientos del entorno:**
+            - _Volumen de Datos:_ Tablas con gran cantidad de columnas (mejora el nivel de análisis y combinaciones) y gran cantidad de filas (historia que minimiza el error).
+            - _Hardware:_ Múltiples procesadores y alta memoria RAM por la cantidad de combinaciones.
+        - **Capacidades y Objetivos:**
+            - Generar **modelos descriptivos** (comprender relaciones y dependencias pasadas) y **modelos predictivos** (inferir comportamientos futuros ante nuevos estímulos).
+            - Soportar decisiones identificando segmentos y prioridades.
+        - **Herramientas Algorítmicas (Modelado):**
+            - **Redes Neuronales Artificiales:** Modelos no lineales que emulan el cerebro biológico, conectados por nodos en capas (entrada, oculta, salida).
+                - _Mecanismo:_ Se activan si la suma de entradas supera un "umbral de activación", propagando la señal para aprender iterativamente.
+                - _Algoritmos de Optimización asociados:_
+                    - _Ascenso a Colina (Voraz):_ Elige siempre la mejor opción local mutando una solución hasta llegar a un "pico" (mejor resultado).
+                    - _Recocido Simulado:_ Utiliza una variable de "temperatura". Al inicio (alta temperatura) acepta mutaciones que empeoran la solución para no quedarse atascado, y al ir bajando la temperatura, se "congela" en la solución óptima real.
+            - **Algoritmos Genéticos:** Modelos de optimización basados en evolución.
+                - _Mecanismo:_ Definen una solución, aplican una "función objetivo", ordenan, seleccionan a los más aptos y los "cruzan" (y mutan) cíclicamente para encontrar la combinación óptima.
+            - **Árboles de Decisión:** Modelos basados en heurística de ocurrencia y probabilidades.
+                - _Ventajas:_ Reducen el número de variables, son fáciles de interpretar, explican el comportamiento paso a paso y permiten regenerar el camino decisorio para clasificar nuevos datos.

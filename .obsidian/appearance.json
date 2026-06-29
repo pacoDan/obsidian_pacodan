@@ -4,5 +4,9 @@
   ],
   "cssTheme": "Minimal Dracula",
   "theme": "moonstone",
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "baseFontSizeAction": false,
+  "baseFontSize": 10,
+  "monospaceFontFamily": "JetBrainsMono Nerd Font"
 }

@@ -1,64 +1,43 @@
-diagrama de arq:
+diagrama de Arq.:
 ```plantuml
 @startuml
-
-node "Cliente Web / Mobile" as Cliente
-
-cloud "Internet" as Gateway
-
+node "Frontend Cliente Web / Mobile" as Frontend
+cloud "Internet" as Medio
 node "Microservicio Donaciones" as Donaciones {
-
-    component "REST API\nDonaciones" as DonacionesAPI
-
-    component "AsignadorDeDonacionesAlgoritmos" as Asignador
-
+    component "Donaciones" as DonacionesAPI
     component "Notificaciones" as Notificador
-
     database "DB Donaciones" as DBDonaciones
 }
 
 node "Microservicio Logística" as Logistica {
-
-    component "REST API\nLogística" as LogisticaAPI
-
+    component "Logística" as LogisticaAPI
     component "Planificador\nde Entregas" as Planificador
-
     component "Tracking\nTiempo Real" as Tracking
-
     database "DB Logística" as DBLogistica
+    'component "AsignadorDeDonacionesAlgoritmos" as Asignador
 }
+component "Proveedor Externo\nPlanificación de Rutas" as Externo
 
-queue "Broker de Mensajes" as Broker
-
-cloud "Proveedor Externo\nPlanificación de Rutas" as Externo
-
-Cliente --> Gateway
-
-Gateway --> DonacionesAPI
-Gateway --> LogisticaAPI
 
 DonacionesAPI --> DBDonaciones
 LogisticaAPI --> DBLogistica
-
-DonacionesAPI --> Broker : DonaciónAsignada
-Broker --> LogisticaAPI
-
-DonacionesAPI --> Asignador
-
+DonacionesAPI --> LogisticaAPI : API REST
+'DonacionesAPI --> Asignador
 LogisticaAPI --> Planificador
+Planificador --> Externo : API REST, Solicitud lote <=100
+Externo --> LogisticaAPI : API REST
+Tracking --> Frontend : GraphQL
 
-Planificador --> Externo : Solicitud lote <=100
+Frontend --> DonacionesAPI : API REST
+Frontend --> LogisticaAPI : API REST
 
-Externo --> LogisticaAPI : Callback REST
+Notificador --> Frontend : Email/SMS/App
 
-Tracking --> Cliente : WebSocket/SSE
-
-LogisticaAPI --> Broker : EntregaIniciada
-LogisticaAPI --> Broker : EntregaCompletada
-
-Broker --> Notificador
-
-Notificador --> Cliente : Email/SMS/App
-
+actor "Donador/Beneficiario/Administradores/Repartidor" as usuario
+usuario --> Medio
+Medio --> Frontend
 @enduml
 ```
+
+
+los algoritmos van donde **Logística**, de alguna manera se hara con un crontask/ de manera periódica ese proceso, pero a la vez hay que recibir las donaciones pero partiendo de las que estan en deposito, no desde cuando el usuario las elige donar.. solo desde cuando estan en reposo en deposito
