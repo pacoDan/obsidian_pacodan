@@ -1,3 +1,37 @@
+### Estructura Genérica del Balance General Proyectado
+
+|Rubro|Cuenta Contable|¿De dónde se saca el número? (Origen del dato)|
+|:--|:--|:--|
+|**ACTIVO**|**Caja y Bancos**|**Del Presupuesto Financiero.** Es el saldo final de disponibilidad de efectivo (Caja inicial + Ingresos totales - Egresos totales).|
+|_(Lo que la empresa tiene o le deben)_|**Deudores por Ventas**|**Del Presupuesto de Ingresos.** Surge de la sumatoria de la columna "Diferido" (es el dinero de las ventas que cobrarás en el próximo ejercicio).|
+||**Mercaderías (Bienes de Cambio)**|**Del esquema de stock.** Es el costo de las mercaderías que ya compraste (y entraron al depósito) pero que aún no vendiste al cierre del semestre.|
+||**Bienes de Uso**|**Del Balance Inicial ajustado.** Es el valor original de tus máquinas o muebles, sumando si compraste nuevos, o restando el valor de origen si vendiste alguno.|
+||**Amortización Acumulada**|**Del Balance Inicial + Presupuesto Económico.** Es el desgaste acumulado que traías, menos el desgaste de los bienes que vendiste, **más** la nueva amortización del semestre calculada en el Presupuesto Económico. _(Se anota restando al Activo)_.|
+||||
+|**PASIVO**|**Proveedores**|**Del Presupuesto de Egresos.** Surge de la columna "Diferido" por las compras de mercadería que ya ingresaron pero que pagarás en el próximo ejercicio.|
+|_(Lo que la empresa debe)_|**Acreedores / Otras Deudas**|**Del Presupuesto de Egresos.** Surge de la columna "Diferido" por préstamos, gastos o impuestos que quedaron pendientes de pago al cierre.|
+||||
+|**PATRIMONIO NETO**|**Capital Social**|**Del Balance Inicial.** Es el aporte original de los socios y se mantiene estático, salvo que haya nuevas capitalizaciones.|
+|_(Capital propio de la empresa)_|**Resultado del Ejercicio**|**Del Presupuesto Económico.** Es el importe final que arrojó tu cuadro de resultados (la ganancia neta o pérdida neta tras restar los costos, gastos y amortizaciones).|
+
+---
+
+### ¿Cómo corrobora esto que tus presupuestos están bien hechos?
+
+El Balance Proyectado es la prueba de fuego porque conecta los dos principios contables (Devengado y Percibido) que armaste por separado. Para corroborar que todo está perfecto, aplicas la ecuación estática:
+
+**TOTAL ACTIVO = TOTAL PASIVO + TOTAL PATRIMONIO NETO**.
+
+Si el balance **no cuadra** (es decir, el Activo te da un número distinto a la suma del Pasivo + PN), el profesor advierte que los errores más comunes suelen estar en:
+
+1. **Olvidar un diferido:** Si vendiste a crédito y no anotaste ese cobro futuro en la columna de "Diferido" del presupuesto financiero, te faltará en "Deudores por Venta" y el Activo quedará rengo.
+2. **Confundir caja con ganancia:** La "Caja" del Balance _solo_ puede salir del saldo final del Financiero (plata real), mientras que el "Resultado del Ejercicio" que va al Patrimonio Neto _solo_ puede salir del resultado final del Económico (ganancia devengada).
+3. **No dar de baja la amortización:** Como descubriste en tu propio ejercicio, si vendes un Bien de Uso y olvidas dar de baja la amortización acumulada de ese bien específico, el Activo te dará un valor incorrecto y no igualará al Pasivo + PN.
+
+
+---
+
+
 Para darte cuenta de cómo se relaciona la información de los **Datos Complementarios** con los importes del **Balance General Inicial**, debes realizar lo que el profesor valora mucho en clase: no solo calcular, sino "entender lo que estás haciendo".
 
 El truco para verificar que el balance inicial está bien armado (y que no tiene "trampas" o errores) es cruzar las políticas de compra, cobro y pago con las ventas. A diferencia del Ejercicio 18, donde en clase descubrieron que faltaba mercadería en stock, **los datos que me pasaste (que corresponden al Ejercicio 19) cuadran a la perfección**.

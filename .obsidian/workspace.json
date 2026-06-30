@@ -4,38 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "8aef3cdf957383e7",
+        "id": "cbcc6db6c486852a",
         "type": "tabs",
         "children": [
           {
-            "id": "e01a27d1b80193e2",
+            "id": "9184839beffc88b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECO/_repartición de temas.md",
+                "file": "INTELIGENCIA DE NEGOCIOS/examen/examen.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_repartición de temas"
+              "title": "examen"
             }
           },
           {
-            "id": "275467ed4cc577a4",
+            "id": "8e57a0239d5b7ddb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTELIGENCIA DE NEGOCIOS/GDD/_ algunos temas de parcial.md",
+                "file": "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 1 que puede y que NO puede hacer.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "SCD tipo 1 que puede y que NO puede hacer"
+            }
+          },
+          {
+            "id": "897c787fd779e569",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTELIGENCIA DE NEGOCIOS/examen/dimension degenerada.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_ algunos temas de parcial"
+              "title": "dimension degenerada"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qutebrowser",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,35 +200,37 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e01a27d1b80193e2",
+  "active": "682a80cd09e45bf3",
   "lastOpenFiles": [
-    "ECO/2da parte del Plan de Negocio - la misma corresponde al análisis económico-financiero del Plan de Negocio.md",
-    "ECO/ejemplo repartición de temas.md",
-    "ECO/_repartición de temas.md",
-    "INTELIGENCIA DE NEGOCIOS/INTELIGENCIA DE NEGOCIOS.md",
-    "INTELIGENCIA DE NEGOCIOS/analisis olap, que son los cubos de dimensiones.md",
-    "INTELIGENCIA DE NEGOCIOS/bronce , oro, que tiene que ver con Fabric, Bi o ambos.md",
-    "INTELIGENCIA DE NEGOCIOS/diferencia entre lakehouse y data warehorse.md",
-    "INTELIGENCIA DE NEGOCIOS/TODAS las  preguntas.md",
-    "INTELIGENCIA DE NEGOCIOS/ok tips ejercicios.md",
-    "INTELIGENCIA DE NEGOCIOS/GDD/ok tips para ejercicios desde GDD.md",
-    "INTELIGENCIA DE NEGOCIOS/GDD/recomendacion trazabilidad de 1 segundo.md",
-    "INTELIGENCIA DE NEGOCIOS/GDD/_ algunos temas de parcial.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ok ejercicio 6 esquema de financiación.md",
-    "INTELIGENCIA DE NEGOCIOS/GDD/GDD Tecnologias Olap.md",
-    "INTELIGENCIA DE NEGOCIOS/GDD/GDD DW y Data M.md",
-    "INTELIGENCIA DE NEGOCIOS/GDD/GDD.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/balance general.md",
-    "INTELIGENCIA DE NEGOCIOS/GDD",
-    "DDS-Notas/DDS-Notas.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ejercicio 19 enunciado.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 3 que puede y que NO puede hacer.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 1 que puede y que NO puede hacer.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 2.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/data quality.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/3 V de Big Data.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/dimension conformada.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/LK en entrella, proceso de  normalizarla.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/hechos, tipos de hechos.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/OLAP y Data Mining.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/cientifico de datos.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/ETL reglas de negocio.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/datamining.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/tabla de hechos.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/datalake vs datawarehouse diferencias.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/data management.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/dimensión  de cambio lento.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/características del modelo copo de nieve.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/area de stagging.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/componentes tipicos de un dw.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/dimension degenerada.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/examen.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto económico gastos financieros.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto financiero.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ok ejercicio 19 esquema de financiacion.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/clase presupuestos.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto economico.md",
-    "SIMULACION/SIMULACION.md",
-    "PROMPT promt.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/p financiero.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ejercicio 18 enunciado ok.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ejercicio 19 enunciado.md",
+    "INTELIGENCIA DE NEGOCIOS/examen",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ejercicio 18 resuelto.md",
+    "NEUROCIENCIA/clases",
+    "INTELIGENCIA DE NEGOCIOS/GDD",
     "Seminario Integrador HABILITACION PROEFSIONAL/PRESENTACION",
     "_COSILLAS/catalogoopengalicia.pdf",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
@@ -223,8 +240,6 @@
     "DDS-Notas/DDS Finales/EducAR Final DDS 20251220.pdf",
     "DDS-Notas/DDS Finales/dds dinal turno agil 2026-02-28 Turno Ágil.pdf",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/El contrato laboral y las diferentes formas de pago de haberes.pdf",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/Costos 2022 - introduccion.pdf"
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/El contrato laboral y las diferentes formas de pago de haberes.pdf"
   ]
 }

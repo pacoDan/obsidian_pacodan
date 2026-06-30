@@ -1,0 +1,9 @@
+El **área de staging** (también conocida como área _raw_ o, en arquitecturas modernas como la Medallion, como **capa de bronce**) es un gran repositorio de datos temporal e intermedio que sirve como el primer punto de consolidación de la información. Este repositorio puede estar implementado en una base de datos o en un servidor de archivos.
+
+Su propósito fundamental es almacenar los datos extraídos desde diversas fuentes (bases de datos, archivos, sistemas en la nube, sensores, etc.) de la forma **lo más cruda posible**, es decir, exactamente igual a como vienen del sistema de origen, minimizando cualquier tipo de lógica o procesamiento durante su captura.
+
+El uso de un área de staging resuelve un gran desafío técnico y de negocio por las siguientes razones:
+
+- **Protección de los sistemas de origen (OLTP):** Los sistemas transaccionales están pensados y optimizados para la operatoria diaria del negocio (ej. realizar facturas o registrar logística), no para soportar consultas masivas que extraigan grandes volúmenes de datos con filtros complejos. Si se aplicaran las reglas de negocio y limpiezas en el momento de la extracción, la base de datos productiva se vería absorbida por el procesamiento y la operación de la empresa podría ralentizarse o detenerse.
+- **Extracción y desconexión rápida:** Al guardar los datos tal cual vienen, el objetivo se reduce a leer y escribir la información a la máxima velocidad posible para desconectarse rápidamente de los sistemas origen y no penalizar su rendimiento.
+- **Fábrica de transformaciones independiente:** Una vez que la información cruda ya reposa en el área de staging, los arquitectos de datos se independizan del sistema transaccional. A partir de este entorno temporal es desde donde verdaderamente se aplican todas las lógicas, reglas de negocio, limpieza y transformaciones pesadas antes de cargar el dato final y estructurado en el Data Warehouse (tablas base o _fact tables_).
