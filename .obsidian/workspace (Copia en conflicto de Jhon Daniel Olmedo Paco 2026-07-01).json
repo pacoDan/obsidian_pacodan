@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEUROCIENCIA/self presentacionnclases teoriccas.md",
-                "mode": "source",
+                "file": "LEGISLACION/2026/temas de defensa/derechos reales preguntas clase.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "self presentacionnclases teoriccas"
+              "title": "derechos reales preguntas clase"
             }
           }
         ],
@@ -121,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 544.5249977111816
+    "width": 323.5
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -216,12 +216,8 @@
   },
   "active": "05e3b18252c9c684",
   "lastOpenFiles": [
-    "NEUROCIENCIA/presentacion segun bibliografias.md",
     "NEUROCIENCIA/self presentacionnclases teoriccas.md",
-    "NEUROCIENCIA/presentacion imagenes.md",
-    "NEUROCIENCIA/presentacion speech tentativo.md",
-    "LEGISLACION/2026/EXAMEN/actos juridicos ejemplos.md",
-    "LEGISLACION/2026/temas de defensa/derechos reales preguntas clase.md",
+    "NEUROCIENCIA/Sin título 1.md",
     "LEGISLACION/2026/temas de defensa/derechos reales cuestionario.md",
     "LEGISLACION/2026/temas de defensa/capitulos 1 y 2 cuestionario.md",
     "LEGISLACION/2026/temas de defensa/capítulo 3 preguntas.md",
@@ -242,6 +238,10 @@
     "INTELIGENCIA DE NEGOCIOS/examen/datamining.md",
     "INTELIGENCIA DE NEGOCIOS/examen/tabla de hechos.md",
     "INTELIGENCIA DE NEGOCIOS/examen/datalake vs datawarehouse diferencias.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/data management.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/dimensión  de cambio lento.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/características del modelo copo de nieve.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/area de stagging.md",
     "INTELIGENCIA DE NEGOCIOS/examen",
     "NEUROCIENCIA/clases",
     "INTELIGENCIA DE NEGOCIOS/GDD",
