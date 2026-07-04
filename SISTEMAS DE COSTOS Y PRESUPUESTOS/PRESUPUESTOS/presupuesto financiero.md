@@ -1,3 +1,46 @@
+A diferencia del presupuesto económico, este se rige por el **Principio del Percibido**, donde los movimientos se asientan solo en el momento en que el dinero o los activos ingresan o salen.
+
+Aquí tienes los conceptos y elementos clave que debes considerar:
+
+### 1. Elemento Inicial Imprescindible
+
+- **Caja Inicial:** Siempre se debe anotar el saldo inicial de efectivo al comenzar el período. Es el respaldo para afrontar las obligaciones inmediatas; omitirlo puede dejar el presupuesto en "rojo" ficticio y llevar a pedir préstamos innecesarios.
+
+### 2. Ingresos de Fondos (Entradas)
+
+- **Cobranzas por Ventas:** Incluye tanto las ventas al contado como el cobro de deudas de meses anteriores (deudores por ventas) según la política de cobranza.
+- **Venta de Bienes de Uso:** Se registra el **monto total percibido** por la venta (ej. $1.820), no solo la ganancia contable.
+- **Préstamos Recibidos:** Si la empresa solicita un crédito, el ingreso total del capital se anota en el mes que se recibe.
+- **Otros Ingresos:** Cobro de dividendos, comisiones o alquileres percibidos.
+
+### 3. Egresos de Fondos (Salidas)
+
+- **Pagos a Proveedores:** Basados en el presupuesto de compras y los plazos de financiación acordados. Es vital seguir la "escalerita" de pagos (ej. 50% a 30 días, 50% a 60 días).
+- **Gastos Fijos y Operativos:** Servicios (luz, agua, teléfono), seguridad y sueldos. Se registran en el mes que **realmente se pagan**, que suele ser el mes siguiente al que se devengan.
+- **Inversiones en Bienes de Uso:** Si compras mobiliario o maquinaria al contado, se registra la **erogación total** en ese mes.
+- **Cancelación de Deudas:** Pago de capital e intereses de préstamos, y cancelación de "otras deudas" o acreedores varios.
+- **Comisiones sobre Ventas:** Generalmente se pagan al mes siguiente de producida la venta.
+
+### 4. Herramientas de Control y Análisis
+
+- **El "Cuadrito" de Financiación:** Es una herramienta técnica para visualizar el desfase temporal entre compras/ventas y sus pagos/cobros. Ayuda a determinar si la financiación es **propia, ajena o mixta**:
+    - _Propia:_ Debes tener todo el dinero antes de comprar.
+    - _Ajena:_ Pagas con lo que recaudas de las ventas.
+    - _Mixta:_ Aportas una parte y el resto se financia con ventas.
+- **Diferidos:** Son los montos que quedan por cobrar o pagar **fuera del ciclo presupuestado**. Este dato es fundamental para el **Balance Proyectado**.
+- **Saldo de Caja Mensual:** La diferencia entre ingresos y egresos totales de cada mes indica la **liquidez** disponible para operar o la necesidad de financiamiento externo.
+
+### Lo que NO debe ir en el Presupuesto Financiero
+
+- **Amortizaciones (Depreciaciones):** Son pérdidas contables pero no implican salida de dinero; por lo tanto, no afectan el flujo de caja.
+- **Resultados por Venta de Activos:** En el financiero va el dinero total, no la "ganancia" o "pérdida" contable del movimiento.
+- **Variables de Devengado:** Cualquier compromiso que no se pague o cobre dentro del período analizado no debe figurar en las columnas mensuales, sino en la de diferidos.
+
+**Tip de resolución:** Al asentar los movimientos, deja espacios o filas según el diferimiento para mantener el orden y evitar errores en la cadena de pagos, ya que un error en el primer mes arrastra la falla a todo el presupuesto.
+
+---
+
+
 **Cómo se realiza el Presupuesto Financiero**
 - **Objetivo principal:** Controlar la disponibilidad de dinero; es decir, registrar exclusivamente la plata que entra y la plata que sale de la empresa para obtener la caja del período.
 

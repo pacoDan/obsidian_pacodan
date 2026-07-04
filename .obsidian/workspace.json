@@ -4,63 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "cbcc6db6c486852a",
+        "id": "7e96e7b1f5819ca8",
         "type": "tabs",
         "children": [
           {
-            "id": "9184839beffc88b0",
+            "id": "d94b68a2b077eca8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTELIGENCIA DE NEGOCIOS/examen/examen.md",
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/EXAMEN lineamientos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "examen"
+              "title": "EXAMEN lineamientos"
             }
           },
           {
-            "id": "8e57a0239d5b7ddb",
+            "id": "125300a1d5fafe25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 1 que puede y que NO puede hacer.md",
+                "file": "ECO/2026/PRESENTACION/speech.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SCD tipo 1 que puede y que NO puede hacer"
+              "title": "speech"
             }
           },
           {
-            "id": "897c787fd779e569",
+            "id": "debdcdc26cd82ce6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTELIGENCIA DE NEGOCIOS/examen/dimension degenerada.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "dimension degenerada"
-            }
-          },
-          {
-            "id": "05e3b18252c9c684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NEUROCIENCIA/self presentacionnclases teoriccas.md",
+                "file": "ECO/2026/PRESENTACION/speech.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "self presentacionnclases teoriccas"
+              "title": "speech"
+            }
+          },
+          {
+            "id": "b2bfe78255c78dc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ENUNCIADO A2  2026.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ENUNCIADO A2  2026"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"NEUROCIENCIA/\" reso",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 544.5249977111816
+    "width": 349.5234146118164
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -214,46 +214,46 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "05e3b18252c9c684",
+  "active": "b2bfe78255c78dc3",
   "lastOpenFiles": [
-    "NEUROCIENCIA/presentacion segun bibliografias.md",
-    "NEUROCIENCIA/self presentacionnclases teoriccas.md",
-    "NEUROCIENCIA/presentacion imagenes.md",
-    "NEUROCIENCIA/presentacion speech tentativo.md",
-    "LEGISLACION/2026/EXAMEN/actos juridicos ejemplos.md",
-    "LEGISLACION/2026/temas de defensa/derechos reales preguntas clase.md",
-    "LEGISLACION/2026/temas de defensa/derechos reales cuestionario.md",
-    "LEGISLACION/2026/temas de defensa/capitulos 1 y 2 cuestionario.md",
-    "LEGISLACION/2026/temas de defensa/capítulo 3 preguntas.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/EXAMEN lineamientos.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto financiero.md",
+    "ECO/2026/PRESENTACION/speech.md",
+    "ECO/2026/PRESENTACION/temas.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ENUNCIADO A2  2026.md",
+    "ECO/2026/PRESENTACION/repartición de temas.md",
+    "ECO/2026/PRESENTACION/VAN TIR PAYBACK notas.md",
+    "ECO/2026/PRESENTACION/analisis de sensibilidad.md",
+    "ECO/ECO.md",
+    "OTROS YA APROBADOS/OTROS YA APROBADOS.md",
+    "OTROS YA APROBADOS",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/empresa comercial no comercial.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto economico.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ENUNCIADO  A2 2026.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/presentacion.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/speech.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/self presentacion de clases teoricas.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/presentacion segun bibliografias.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/presentacion speech tentativo.md",
     "LEGISLACION/2026/temas de defensa/amparo.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ejercicio 19 enunciado.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/dimension degenerada.md",
+    "ECO/clase proyectos de inversion teoria 2026.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/examen.md",
     "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 1 que puede y que NO puede hacer.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 3 que puede y que NO puede hacer.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 2.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/data quality.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/3 V de Big Data.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/dimension conformada.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/LK en entrella, proceso de  normalizarla.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/hechos, tipos de hechos.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/OLAP y Data Mining.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/cientifico de datos.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/ETL reglas de negocio.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/datamining.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/tabla de hechos.md",
-    "INTELIGENCIA DE NEGOCIOS/examen/datalake vs datawarehouse diferencias.md",
+    "LEGISLACION/2026/temas de defensa/ley caracteristicas.md",
+    "LEGISLACION/2026/temas de defensa/obligaciones preguntas clase.md",
+    "LEGISLACION/2026/temas de defensa/unidad 5 hechos y actos juridicos.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion",
+    "LEGISLACION/2026/temas de defensa/hechos y actos.md",
+    "ECO/transcripciones/[Spanish (auto-generated)] economia proyectos de inversion 2026 05 30 14 42 16 [DownSub.com].txt",
+    "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu.txt",
+    "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu (1).txt",
+    "ECO/transcripciones",
     "INTELIGENCIA DE NEGOCIOS/examen",
-    "NEUROCIENCIA/clases",
+    "OTROS YA APROBADOS/NEUROCIENCIA/clases",
     "INTELIGENCIA DE NEGOCIOS/GDD",
     "Seminario Integrador HABILITACION PROEFSIONAL/PRESENTACION",
-    "_COSILLAS/catalogoopengalicia.pdf",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
-    "REDES",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
-    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png",
-    "DDS-Notas/DDS Finales/EducAR Final DDS 20251220.pdf",
-    "DDS-Notas/DDS Finales/dds dinal turno agil 2026-02-28 Turno Ágil.pdf",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/COSTOS/El contrato laboral y las diferentes formas de pago de haberes.pdf"
+    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"
   ]
 }

@@ -1,3 +1,46 @@
+- **Ventas Proyectadas:** El total del valor de la venta en el mes que se produce el compromiso, independientemente de la política de cobranza.
+- **Costo de Mercaderías Vendidas (CMV):** El valor de lo que costó la mercadería que se vendió en ese mes.
+- **Gastos Fijos y Operativos:** Servicios (luz, gas, teléfono), seguridad, sueldos y cualquier gasto de estructura del mes.
+- **Comisiones:** Aunque se paguen a mes vencido, el gasto económico pertenece al mes de la venta que lo generó.
+- **Amortizaciones (Depreciaciones):** El desgaste contable de los bienes de uso (muebles, máquinas, inmuebles). Es una pérdida de valor que no implica salida de dinero.
+- **Intereses:** El costo financiero por el uso de capital ajeno (préstamos), devengado mes a mes según el tiempo transcurrido.
+- **Resultados por Venta de Bienes de Uso:** Únicamente la **ganancia o pérdida** (Precio de Venta - Valor Contable), no el total del dinero recibido.
+- **Alquileres Ganados:** Si la empresa alquila bienes propios, se registra la ganancia devengada mensualmente.
+
+### Conceptos que NO van en el Presupuesto Económico
+
+Aquí radica la confusión frecuente con el Presupuesto Financiero. **No deben incluirse movimientos de caja que no alteren la riqueza neta**:
+
+- **Caja Inicial:** Es un respaldo financiero, no una ganancia.
+- **Compras de Bienes de Uso (Erogación total):** Comprar un mueble o máquina es un cambio de activos (sale dinero, entra bien), no una pérdida. Solo va su amortización.
+- **Pago de Capital de Préstamos:** Devolver el dinero prestado reduce una deuda pero no es una pérdida económica (el interés sí lo es).
+- **Cobranzas de Ventas:** El acto de cobrar (la entrada de plata) es un movimiento financiero. El resultado económico ya se registró con la venta.
+- **Pago a Proveedores o Acreedores:** Son cancelaciones de pasivos. No te hacen "más pobre", solo reducen tu deuda y tu caja simultáneamente.
+- **Diferidos:** El concepto de "lo que queda por pagar/cobrar después" es puramente financiero y de balance.
+
+---
+
+### Tabla del Presupuesto Económico Genérico
+
+|Concepto|Mes X|Mes X+1|Mes X+n|Justificación Técnica|
+|:--|:-:|:-:|:-:|:--|
+|**Ventas**|XXX|XXX|XXX|Total devengado en el mes.|
+|**(-) CMV**|(XXX)|(XXX)|(XXX)|Costo de lo vendido en el período.|
+|**(=) Contribución Marginal**|**XXX**|**XXX**|**XXX**|Rentabilidad bruta operativa.|
+|**(-) Gastos de Estructura**|(XXX)|(XXX)|(XXX)|Gastos fijos y operativos del mes.|
+|**(-) Amortizaciones**|(XXX)|(XXX)|(XXX)|Desgaste contable de activos.|
+|**(-) Intereses**|(XXX)|(XXX)|(XXX)|Costo financiero devengado.|
+|**(+) Otros Resultados**|XXX|XXX|XXX|Ganancia por venta de activos o alquileres.|
+|**(=) RESULTADO NETO**|**XXX**|**XXX**|**XXX**|**Utilidad o Pérdida del ejercicio.**|
+
+**Tip de resolución:** Si un presupuesto económico no incluye los **totales** de cada columna y fila, carece de utilidad para el análisis de gestión y la toma de decisiones estratégicas.
+
+
+
+---
+
+
+
 **Cómo se realiza el Presupuesto Económico**
 
 - **Objetivo principal:** Evaluar los resultados del período presupuestado para determinar si existen pérdidas o ganancias.
