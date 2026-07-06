@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "125300a1d5fafe25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECO/2026/PRESENTACION/speech.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "speech"
+            }
+          },
+          {
             "id": "debdcdc26cd82ce6",
             "type": "leaf",
             "state": {
@@ -41,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 1,2,3.md",
+                "file": "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "slide 1,2,3"
+              "title": "slide 1"
+            }
+          },
+          {
+            "id": "7830144e312ef0be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README.md"
+            }
+          },
+          {
+            "id": "a2e5a2043007370f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTELIGENCIA DE NEGOCIOS/POWER BI/Sin título.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Sin título"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -107,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5234146118164,
-    "collapsed": true
+    "width": 349.5234146118164
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -201,19 +242,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b2bfe78255c78dc3",
+  "active": "a2e5a2043007370f",
   "lastOpenFiles": [
-    "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 2.md",
-    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 2.md",
+    "PROMPT promt.md",
     "INTELIGENCIA DE NEGOCIOS/POWER BI/Sin título.md",
-    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 1.md",
     "INTELIGENCIA DE NEGOCIOS/POWER BI/POWER BI.md",
-    "INTELIGENCIA DE NEGOCIOS/POWER BI/Sin nombre.md",
     "INTELIGENCIA DE NEGOCIOS/POWER BI",
-    "INTELIGENCIA DE NEGOCIOS/Sin nombre/Sin nombre.md",
-    "INTELIGENCIA DE NEGOCIOS/Sin nombre",
+    "README.md.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 1.md",
     "Seminario Integrador HABILITACION PROEFSIONAL/speech/arq en general.md",
-    "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 1,2,3.md",
     "Seminario Integrador HABILITACION PROEFSIONAL/speech/speech.md",
     "Seminario Integrador HABILITACION PROEFSIONAL/Seminario Integrador HABILITACION PROEFSIONAL.md",
     "Seminario Integrador HABILITACION PROEFSIONAL/speech",
@@ -233,12 +270,16 @@
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/empresa comercial no comercial.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto economico.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ENUNCIADO  A2 2026.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/presentacion.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/speech.md",
+    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion/self presentacion de clases teoricas.md",
     "OTROS YA APROBADOS/NEUROCIENCIA/presentacion",
     "ECO/transcripciones/[Spanish (auto-generated)] economia proyectos de inversion 2026 05 30 14 42 16 [DownSub.com].txt",
     "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu.txt",
     "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu (1).txt",
     "ECO/transcripciones",
     "INTELIGENCIA DE NEGOCIOS/examen",
+    "OTROS YA APROBADOS/NEUROCIENCIA/clases",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"
