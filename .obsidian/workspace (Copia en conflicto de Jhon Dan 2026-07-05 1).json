@@ -4,53 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "0f4292c019572d72",
+        "id": "7e96e7b1f5819ca8",
         "type": "tabs",
         "children": [
           {
-            "id": "12c0cff38b59738a",
+            "id": "d94b68a2b077eca8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECO/proyecto de inversion indicadores restantes.md",
+                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/EXAMEN lineamientos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "proyecto de inversion indicadores restantes"
+              "title": "EXAMEN lineamientos"
             }
           },
           {
-            "id": "3bd44fa106040e73",
+            "id": "debdcdc26cd82ce6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECO/factores de la produccion/ejercicio.md",
-                "mode": "preview",
+                "file": "ECO/2026/PRESENTACION/speech.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ejercicio"
+              "title": "speech"
             }
           },
           {
-            "id": "16ebeb57c1a5ff13",
+            "id": "b2bfe78255c78dc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECO/contabilidad - cuadro de resultados.md",
+                "file": "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 1,2,3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "contabilidad - cuadro de resultados"
+              "title": "slide 1,2,3"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5234146118164
+    "width": 349.5234146118164,
+    "collapsed": true
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -200,44 +201,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3bd44fa106040e73",
+  "active": "b2bfe78255c78dc3",
   "lastOpenFiles": [
-    "ECO/factores de la produccion/factores de la produccion.md",
-    "ECO/factores de la produccion/ejercicio.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/Sin título.md",
-    "ECO/factores de la produccion",
-    "ECO/RENTA NACIONAL moneda credito y bancos/calculo de PBI ok.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/factores de la produccion.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion",
-    "ECO/RENTA NACIONAL moneda credito y bancos/cantidad de moneda y tasa de interes ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/encaje bancario ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/multiplicador bancario ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/RENTA NACIONAL moneda credito y bancos.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/saldo de la balanza de pagos, PBI vs PNB ok.md",
-    "ECO/Sin título.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos",
-    "DDS-Notas/ARQ CONSEJOS.md",
-    "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
-    "ECO/proyecto de inversion indicadores restantes.md",
-    "ECO/proyectos de inversion VAN.md",
-    "ECO/CONTABILIDAD/CONTABILIDAD.md",
-    "ECO/CONTABILIDAD",
-    "ECO/CONTABILIDAD.md",
-    "ECO/proyectos de inversion tipos de proyectos.md",
-    "ECO/eco politicas de gobierno.md",
-    "ECO/sistemas de costeos dierencias.md",
-    "ECO/sistema de costeo punto de equilibrio costeo directo o variable.md",
-    "ECO/CONTABILIDAD/contabilidad efecto palanca explicación y efectos en la empresa.md",
-    "ECO/CONTABILIDAD/contabilidad - cuadro de resultados.md",
-    "ECO/CONTABILIDAD/contabilidad -  balance general - mercaderias.md",
-    "ECO/CONTABILIDAD/contabilidad - balance general.md",
-    "ECO/eco vs financiero.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 3.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 2.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 2.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/Sin título.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 1.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/POWER BI.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/Sin nombre.md",
     "INTELIGENCIA DE NEGOCIOS/POWER BI",
+    "INTELIGENCIA DE NEGOCIOS/Sin nombre/Sin nombre.md",
     "INTELIGENCIA DE NEGOCIOS/Sin nombre",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/arq en general.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 1,2,3.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/speech.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/Seminario Integrador HABILITACION PROEFSIONAL.md",
     "Seminario Integrador HABILITACION PROEFSIONAL/speech",
+    "_COSILLAS/Orange Pi Zero 3W SCB raspberry pi 3w.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ENUNCIADO A2  2026.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ENUNCIADO.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/EXAMEN lineamientos.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto financiero.md",
+    "ECO/2026/PRESENTACION/speech.md",
+    "ECO/2026/PRESENTACION/temas.md",
+    "ECO/2026/PRESENTACION/repartición de temas.md",
+    "ECO/2026/PRESENTACION/VAN TIR PAYBACK notas.md",
+    "ECO/2026/PRESENTACION/analisis de sensibilidad.md",
+    "ECO/ECO.md",
+    "OTROS YA APROBADOS/OTROS YA APROBADOS.md",
     "OTROS YA APROBADOS",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/empresa comercial no comercial.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/presupuesto economico.md",
     "OTROS YA APROBADOS/NEUROCIENCIA/presentacion",
     "ECO/transcripciones/[Spanish (auto-generated)] economia proyectos de inversion 2026 05 30 14 42 16 [DownSub.com].txt",
+    "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu.txt",
+    "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu (1).txt",
+    "ECO/transcripciones",
+    "INTELIGENCIA DE NEGOCIOS/examen",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"

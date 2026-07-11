@@ -1,0 +1,18 @@
+El **Valor Actual Neto (VAN)** es un indicador de evaluación financiera que se define como el valor actualizado de todos los ingresos menos los egresos proyectados que genera un proyecto de inversión. Para actualizar y traer esos fondos futuros al momento presente, se utiliza una tasa de descuento que representa el **costo de oportunidad del inversor**, es decir, el rendimiento mínimo que este exige o espera ganar por poner su dinero a trabajar.
+
+**¿Qué indica el VAN?** El VAN indica el **beneficio extraordinario**, expresado en unidades monetarias (pesos, dólares, etc.), que un proyecto otorga **por sobre la tasa de rentabilidad pretendida** por el inversor. En otras palabras, no representa simplemente el total del dinero nominal que ganarás al final, sino la riqueza adicional y real que estás generando, valuada a pesos de hoy, una vez que ya has cubierto tus expectativas mínimas de ganancia.
+
+De este indicador se desprenden tres reglas de decisión fundamentales para aceptar o rechazar un proyecto:
+
+- **VAN > 0 (Positivo):** El proyecto es factible y se acepta. El beneficio real del proyecto es mayor al beneficio deseado, lo que significa que el inversor recupera su capital, obtiene la tasa de oportunidad exigida y, además, gana un excedente.
+- **VAN = 0:** El proyecto es financieramente indiferente, ya que el beneficio obtenido es exactamente igual a la tasa de oportunidad deseada. El inversor no pierde plata ni gana un extra, por lo que la decisión final dependerá de factores estratégicos de la empresa (como ganar cuota de mercado o perjudicar a un competidor).
+- **VAN < 0 (Negativo):** El proyecto se rechaza. Esto no necesariamente significa que el proyecto dé pérdidas contables, sino que su rendimiento es inferior a la tasa mínima que el inversor requería, por lo que no se cumple el objetivo de rentabilidad esperado.
+
+**Ejemplos prácticos del uso del VAN:**
+
+- **Ejemplo 1 (El concepto de beneficio adicional):** Imagina que tienes $100 y tu alternativa más segura (tu costo de oportunidad) es ponerlos en un plazo fijo que te paga un 10% anual, por lo que al cabo de un año esperarías tener $110. Si en lugar de eso decides invertir esos $100 en un proyecto productivo y, al evaluarlo, el cálculo te arroja un **VAN de $7**, significa que al terminar el proyecto recuperarás los $100 invertidos, obtendrás los $10 de ganancia que deseabas como mínimo, y además te llevarás **$7 adicionales** de ganancia extraordinaria a valor de hoy.
+- **Ejemplo 2 (El impacto de la tasa de exigencia):** Supongamos que inviertes $100 en el momento inicial y el proyecto te devuelve $110 al cabo de un periodo.
+    - Si tu tasa de oportunidad exigida es del **10%**, el VAN será exactamente **$0**, porque el proyecto te paga exactamente lo que pretendías ganar.
+    - Si eres menos exigente y tu tasa de referencia es del **8%**, el VAN te dará **positivo** (aproximadamente $1,85 extra expresado en plata de hoy), por lo que sería un buen negocio.
+    - Si por el contrario, eres muy exigente y pides ganar un **15%**, el VAN arrojará un resultado **negativo** (perderías dinero en relación a tu expectativa del 15%) y desecharías el proyecto.
+- **Ejemplo 3 (Aplicación a gran escala):** Si una empresa evalúa un proyecto a 5 años de duración y actualiza todos sus flujos de fondos utilizando la tasa del 10% que exigen sus accionistas, y el resultado matemático del VAN es de $476.537. Esto indica que el proyecto es altamente rentable: no solo cubre el 10% de ganancia pretendida sobre cada peso invertido, sino que le genera a la empresa un **beneficio extraordinario de 476.537 unidades monetarias**.

@@ -1,0 +1,13 @@
+En sintonía con lo que veníamos conversando sobre el mercado monetario y la cantidad de dinero, el **multiplicador bancario** (o multiplicador monetario) es el mecanismo mediante el cual los bancos comerciales y entidades financieras expanden o "crean" dinero secundario dentro de la economía a través de un ciclo continuo de depósitos y préstamos.
+
+**¿Qué es y cómo funciona el proceso?** Cuando una persona deposita dinero en una cuenta, el banco no lo guarda en su totalidad. Por normativa del Banco Central, el banco debe retener y guardar solo un porcentaje de ese depósito como garantía, lo que se conoce como "tasa de encaje" o "coeficiente de reservas". **El porcentaje restante de ese dinero es utilizado por el banco para otorgar nuevos préstamos** a otras personas o empresas.
+
+Ese dinero prestado vuelve a circular en la economía, se utiliza para comprar bienes o servicios, y eventualmente termina siendo depositado nuevamente en el sistema bancario por otra persona. Al recibir este nuevo depósito, el banco repite la operación: guarda la porción correspondiente a la reserva obligatoria y vuelve a prestar el resto, formando un ciclo que se repite sucesivamente.
+
+**¿Qué indica el multiplicador bancario?** Este multiplicador indica **en qué proporción aumentará el dinero inicial (base monetaria) gracias a este proceso bancario**. En términos prácticos, demuestra por qué **la oferta monetaria total (el dinero disponible en cuentas y depósitos) termina siendo muchísimo más grande que la cantidad de dinero real o físico emitido originalmente** por el Banco Central.
+
+**¿Cómo se calcula?** En un escenario teórico ideal, donde las personas no guardan efectivo debajo del colchón y depositan todo su dinero en los bancos, el multiplicador se calcula matemáticamente como la inversa de la tasa de encaje: **`1 / coeficiente de reservas`**.
+
+- **Ejemplo práctico:** Si el coeficiente de reservas fijado por el Banco Central es del 20% (0,20), el multiplicador bancario será 5 (`1 / 0,20`). Esto significa que, al final del ciclo de retenciones y préstamos, una inyección inicial de $1.000 emitidos de forma física terminará convirtiéndose en **$5.000 de depósitos totales** circulando de manera virtual en las cuentas de diferentes ahorristas de la economía.
+
+En la realidad, como la gente suele conservar una parte del dinero en efectivo en sus bolsillos, el multiplicador efectivo se calcula relacionando y dividiendo la **oferta monetaria** total sobre la **base monetaria**. Si el Banco Central decide reducir la exigencia de reservas a los bancos, el multiplicador será mayor y habrá más oferta monetaria circulando, lo cual funciona como una política monetaria expansiva.

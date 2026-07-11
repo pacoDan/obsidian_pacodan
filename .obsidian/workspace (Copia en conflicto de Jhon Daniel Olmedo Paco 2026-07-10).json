@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "3bd44fa106040e73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ECO/factores de la produccion/ejercicio.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ejercicio"
-            }
-          },
-          {
             "id": "16ebeb57c1a5ff13",
             "type": "leaf",
             "state": {
@@ -49,8 +35,7 @@
               "title": "contabilidad - cuadro de resultados"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -189,37 +174,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "edge-tts:Read note aloud": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "3bd44fa106040e73",
+  "active": "12c0cff38b59738a",
   "lastOpenFiles": [
-    "ECO/factores de la produccion/factores de la produccion.md",
-    "ECO/factores de la produccion/ejercicio.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/Sin título.md",
-    "ECO/factores de la produccion",
-    "ECO/RENTA NACIONAL moneda credito y bancos/calculo de PBI ok.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/factores de la produccion.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion",
-    "ECO/RENTA NACIONAL moneda credito y bancos/cantidad de moneda y tasa de interes ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/encaje bancario ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/multiplicador bancario ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/RENTA NACIONAL moneda credito y bancos.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/saldo de la balanza de pagos, PBI vs PNB ok.md",
-    "ECO/Sin título.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos",
-    "DDS-Notas/ARQ CONSEJOS.md",
-    "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
-    "ECO/proyecto de inversion indicadores restantes.md",
     "ECO/proyectos de inversion VAN.md",
+    "ECO/proyecto de inversion indicadores restantes.md",
     "ECO/CONTABILIDAD/CONTABILIDAD.md",
     "ECO/CONTABILIDAD",
     "ECO/CONTABILIDAD.md",
@@ -232,12 +199,28 @@
     "ECO/CONTABILIDAD/contabilidad -  balance general - mercaderias.md",
     "ECO/CONTABILIDAD/contabilidad - balance general.md",
     "ECO/eco vs financiero.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/EXAMEN lineamientos.md",
+    "ECO/2026/PRESENTACION/speech.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 3.md",
+    "PROMPT promt.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 2.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 1,2,3.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/slide 2.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/clase 1.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/POWER BI.md",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI/Sin nombre.md",
     "INTELIGENCIA DE NEGOCIOS/POWER BI",
+    "INTELIGENCIA DE NEGOCIOS/Sin nombre/Sin nombre.md",
     "INTELIGENCIA DE NEGOCIOS/Sin nombre",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/arq en general.md",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech/speech.md",
     "Seminario Integrador HABILITACION PROEFSIONAL/speech",
     "OTROS YA APROBADOS",
     "OTROS YA APROBADOS/NEUROCIENCIA/presentacion",
     "ECO/transcripciones/[Spanish (auto-generated)] economia proyectos de inversion 2026 05 30 14 42 16 [DownSub.com].txt",
+    "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu.txt",
+    "ECO/transcripciones/[Spanish (auto-generated)] ECO proyectos de inversion GMT20250527 172610 Recording 1920x1080 [DownSu (1).txt",
+    "ECO/transcripciones",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"

@@ -1,0 +1,19 @@
+Que el resultado del ejercicio sea exactamente **cero** en un sistema de costeo directo significa que la empresa se encuentra en su **Punto de Equilibrio Económico**. En este nivel de operación, los ingresos generados por las ventas igualan exactamente a los egresos totales (la suma de los costos variables totales y los costos fijos estructurales). Es decir, la empresa **no pierde ni gana dinero**, sino que sale "hecha", ya que la contribución marginal generada alcanzó justo para cubrir los costos fijos.
+
+Aquí te detallo qué ocurre en los otros escenarios y su significado:
+
+**Si el resultado es menor a cero (Negativo):** Significa que la empresa está operando con **pérdidas**. Esto sucede cuando el volumen de unidades vendidas está por debajo del punto de equilibrio, lo que implica que la _contribución marginal_ generada no fue suficiente para cubrir la totalidad de los costos fijos de estructura de la empresa. Gráficamente, la empresa se ubicaría "hacia atrás" de la coordenada de equilibrio, cayendo en lo que se visualiza como el "triángulo de pérdidas".
+
+**Si el resultado es mayor a cero (Positivo):** Implica que la empresa ha comenzado a generar **ganancias, utilidades o beneficios puramente positivos**. Al sobrepasar la cantidad de ventas del punto de equilibrio, los costos fijos ya se encuentran totalmente cubiertos; por lo tanto, la contribución marginal de cada unidad adicional que se logre vender de ahí en adelante se transforma automáticamente en beneficio o ganancia para la compañía.
+
+**Significado e importancia de esta herramienta:** Tener claro en qué punto el resultado es cero, negativo o positivo es una de las principales herramientas de control para la **toma de decisiones empresariales**. Permite a los gestores planificar comercialmente determinando cuántos bienes o servicios necesitan vender como mínimo para que el negocio "tenga sentido" y sea sustentable.
+
+Además, este análisis permite proyectar el **potencial de beneficio** de la empresa. Si la empresa está en zona de pérdida (resultado menor a cero), revela rápidamente la necesidad de tomar acciones correctivas urgentes, como lanzar campañas para aumentar las ventas, o replantear la eficiencia para reducir los costos fijos y variables antes de agotar su capacidad financiera.
+
+En este punto operativo específico, ocurren las siguientes situaciones:
+
+- **Igualdad de ingresos y egresos:** Los ingresos totales generados por las ventas son exactamente iguales a los costos totales de la empresa (la suma de los costos variables totales y los costos fijos estructurales).
+- **Cobertura exacta de la estructura:** La suma de la _contribución marginal_ de todos los productos vendidos alcanza el monto exacto para cubrir la totalidad de los gastos fijos de estructura.
+- **Ausencia de pérdidas y ganancias:** La empresa no pierde ni gana dinero. Todo lo que se logre producir y vender por encima de este nivel comenzará a generar ganancias puras (beneficios positivos). Por el contrario, cualquier volumen de venta que se ubique por debajo de este punto significará que la empresa opere a pérdida.
+
+==Cabe destacar una ventaja técnica fundamental: **solo el sistema de costeo directo permite calcular y visualizar este Punto de Equilibrio**. Dado que este método separa de forma estricta los costos fijos de los variables en el estado de resultados, arroja la _contribución marginal_ unitaria, la cual es el dato clave que va en el denominador de la ecuación para determinar cuántas unidades mínimas se necesitan vender para que la utilidad sea cero. En un sistema por absorción esto es matemáticamente imposible, ya que los costos fijos productivos se esconden mezclados dentro del costo de venta.==
