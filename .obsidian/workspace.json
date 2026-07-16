@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMU/finales alsina supuestos.md",
-                "mode": "preview",
+                "file": "COMU/codigos de linea.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "finales alsina supuestos"
+              "title": "codigos de linea"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5234146118164,
-    "collapsed": true
+    "width": 349.5234146118164
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -194,8 +193,9 @@
   },
   "active": "12c0cff38b59738a",
   "lastOpenFiles": [
-    "COMU/QAM vs PSK.md",
     "COMU/finales alsina supuestos.md",
+    "COMU/codigos de linea.md",
+    "COMU/QAM vs PSK.md",
     "COMU/final 2025 07 30.md",
     "ECO/proyecto de inversion indicadores restantes.md",
     "COMU/ok ARQ.md",
@@ -222,7 +222,6 @@
     "ECO/RENTA NACIONAL moneda credito y bancos/saldo de la balanza de pagos, PBI vs PNB ok.md",
     "ECO/Sin título.md",
     "ECO/RENTA NACIONAL moneda credito y bancos",
-    "DDS-Notas/ARQ CONSEJOS.md",
     "ECO/CONTABILIDAD",
     "INTELIGENCIA DE NEGOCIOS/POWER BI",
     "INTELIGENCIA DE NEGOCIOS/Sin nombre",
