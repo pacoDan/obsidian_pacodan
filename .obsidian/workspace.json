@@ -4,41 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0f4292c019572d72",
+        "id": "7942cf31c5f73381",
         "type": "tabs",
         "children": [
           {
-            "id": "12c0cff38b59738a",
+            "id": "93a7919fcf1eb0bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMU/codigos de linea.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "codigos de linea"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b586b6f1505b31b9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e9e6b1b7e1093b83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMU/final 2025 07 30.md",
+                "file": "ECO/2026/POLITICAS DE INTERVENCION.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "final 2025 07 30"
+              "title": "POLITICAS DE INTERVENCION"
             }
           }
         ]
@@ -191,18 +171,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "12c0cff38b59738a",
+  "active": "93a7919fcf1eb0bb",
   "lastOpenFiles": [
-    "COMU/finales alsina supuestos.md",
-    "COMU/codigos de linea.md",
-    "COMU/QAM vs PSK.md",
-    "COMU/final 2025 07 30.md",
+    "ECO/RENTA NACIONAL moneda credito y bancos/calculo de PBI ok.md",
+    "ECO/2026/POLITICAS DE INTERVENCION.md",
+    "OTROS YA APROBADOS/COMU/final 2025 07 30.md",
+    "OTROS YA APROBADOS/COMU/finales alsina supuestos.md",
+    "OTROS YA APROBADOS/COMU/codigos de linea.md",
+    "OTROS YA APROBADOS/COMU/QAM vs PSK.md",
     "ECO/proyecto de inversion indicadores restantes.md",
-    "COMU/ok ARQ.md",
-    "COMU/ok FINAL 2026 04 22.md",
-    "COMU/filtros.md",
-    "COMU/ok filtro pasa bajos y PCM.md",
-    "COMU/LIBRO ejercicios repetitivos.md",
+    "OTROS YA APROBADOS/COMU/ok ARQ.md",
+    "OTROS YA APROBADOS/COMU/ok FINAL 2026 04 22.md",
+    "OTROS YA APROBADOS/COMU/filtros.md",
+    "OTROS YA APROBADOS/COMU/ok filtro pasa bajos y PCM.md",
+    "OTROS YA APROBADOS/COMU/LIBRO ejercicios repetitivos.md",
     "LEGISLACION/UNIDAD 2.md",
     "LEGISLACION/UNIDAD 7 derechos reales.md",
     "LEGISLACION/UNIDAD 6 obligaciones.md",
@@ -212,7 +194,6 @@
     "ECO/factores de la produccion/factores de la produccion.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/Sin título.md",
     "ECO/factores de la produccion",
-    "ECO/RENTA NACIONAL moneda credito y bancos/calculo de PBI ok.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/factores de la produccion.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion",
     "ECO/RENTA NACIONAL moneda credito y bancos/cantidad de moneda y tasa de interes ok.md",
@@ -220,7 +201,6 @@
     "ECO/RENTA NACIONAL moneda credito y bancos/multiplicador bancario ok.md",
     "ECO/RENTA NACIONAL moneda credito y bancos/RENTA NACIONAL moneda credito y bancos.md",
     "ECO/RENTA NACIONAL moneda credito y bancos/saldo de la balanza de pagos, PBI vs PNB ok.md",
-    "ECO/Sin título.md",
     "ECO/RENTA NACIONAL moneda credito y bancos",
     "ECO/CONTABILIDAD",
     "INTELIGENCIA DE NEGOCIOS/POWER BI",
