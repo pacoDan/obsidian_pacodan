@@ -1,3 +1,12 @@
+VARIABLES DE ENTORNO:
+```sh
+export PATH="$PATH:/home/daniel/Android/Sdk/platform-tools:/home/daniel/Android/Sdk/emulator:/home/daniel/Android/Sdk/tools"
+```
+```sh
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
+```
+
 el comando emulator
 presente en la carpeta `/c/Users/Daniel/AppData/Local/Android/Sdk/emulator/emulator`
 para listar  las maquinas virtuales
@@ -16,12 +25,6 @@ Ejecuta los siguientes comandos para reiniciar el servidor ADB:
 adb kill-server
 adb start-server
 ```
-variables de entorno:
-```sh
-export ANDROID_HOME=~/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
-```
-
 
 para buildear hacia la play store, pero debe estar ene l sitio de expo
 https://docs.expo.dev/develop/tools/ 
