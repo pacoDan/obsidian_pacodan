@@ -13,12 +13,117 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECO/2026/POLITICAS DE INTERVENCION.md",
+                "file": "LEGISLACION/UNIDAD 9 contratos comerciales y titulos circulatorios.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "POLITICAS DE INTERVENCION"
+              "title": "UNIDAD 9 contratos comerciales y titulos circulatorios"
+            }
+          },
+          {
+            "id": "674d1c3e0114feda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LEGISLACION/Derechos Reales. Capítulo VII. Parte 4-4.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Derechos Reales. Capítulo VII. Parte 4-4"
+            }
+          },
+          {
+            "id": "60f0d9aceeaf7c4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LEGISLACION/FINAL tema 3.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FINAL tema 3"
+            }
+          },
+          {
+            "id": "52a85ec88352fd26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/componentes arquitectonicos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "componentes arquitectonicos"
+            }
+          },
+          {
+            "id": "535abfe52908322b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECO/eco politicas de gobierno.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "eco politicas de gobierno"
+            }
+          },
+          {
+            "id": "27b7985a8baa9410",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/FINAL posible enunciado 3.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FINAL posible enunciado 3"
+            }
+          },
+          {
+            "id": "72e88c2aefec0ea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/FINAL posible enunciado 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FINAL posible enunciado 1"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "10af9e78d8cc2429",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eafe15fc965c2d57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/FINAL posible enunciado 2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FINAL posible enunciado 2"
             }
           }
         ]
@@ -41,7 +146,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -78,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5234146118164
+    "width": 307.50499725341797
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -171,44 +278,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "93a7919fcf1eb0bb",
+  "active": "72e88c2aefec0ea2",
   "lastOpenFiles": [
-    "ECO/RENTA NACIONAL moneda credito y bancos/calculo de PBI ok.md",
-    "ECO/2026/POLITICAS DE INTERVENCION.md",
-    "OTROS YA APROBADOS/COMU/final 2025 07 30.md",
-    "OTROS YA APROBADOS/COMU/finales alsina supuestos.md",
-    "OTROS YA APROBADOS/COMU/codigos de linea.md",
-    "OTROS YA APROBADOS/COMU/QAM vs PSK.md",
-    "ECO/proyecto de inversion indicadores restantes.md",
-    "OTROS YA APROBADOS/COMU/ok ARQ.md",
-    "OTROS YA APROBADOS/COMU/ok FINAL 2026 04 22.md",
-    "OTROS YA APROBADOS/COMU/filtros.md",
-    "OTROS YA APROBADOS/COMU/ok filtro pasa bajos y PCM.md",
-    "OTROS YA APROBADOS/COMU/LIBRO ejercicios repetitivos.md",
-    "LEGISLACION/UNIDAD 2.md",
-    "LEGISLACION/UNIDAD 7 derechos reales.md",
-    "LEGISLACION/UNIDAD 6 obligaciones.md",
-    "LEGISLACION/UNIDAD 8.md",
+    "DDS-Notas/FINAL posible enunciado 3.md",
+    "DDS-Notas/FINAL posible enunciado 1.md",
+    "DDS-Notas/FINAL posible enunciado 2.md",
+    "ok cinnamon, autologin login automatico.md",
+    "ECO/eco politicas de gobierno.md",
+    "DDS-Notas/componentes arquitectonicos.md",
+    "PROMPT promt.md",
+    "LEGISLACION/FINAL tema 3.md",
+    "LEGISLACION/ok capitulo 5 - hechos y actos jurídicos PARTE 1.md",
+    "LEGISLACION/vicios de voluntad, vicios de los elementos de la voluntad.md",
+    "LEGISLACION/FINAL tema 5.md",
+    "LEGISLACION/FINAL ORAL tema 1.md",
+    "LEGISLACION/teoria de la imprevision.md",
+    "LEGISLACION/obligaciones y la responsabilidad civil - Atribución y Eximentes.md",
+    "LEGISLACION/lucro cesante.md",
+    "LEGISLACION/FINAL tema 4 contratos a sociedades.md",
+    "LEGISLACION/FINAL tema 2 PERSONA.md",
+    "LEGISLACION/inconstitucionalidad de una ley.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 4-4.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 3-4.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 2-4 ok.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 1-4 ok.md",
+    "README.md.md",
     "LEGISLACION/UNIDAD 9 contratos comerciales y titulos circulatorios.md",
-    "ECO/factores de la produccion/ejercicio.md",
-    "ECO/factores de la produccion/factores de la produccion.md",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/Sin título.md",
+    "LEGISLACION/UNIDAD 8.md",
+    "LEGISLACION/UNIDAD 6 obligaciones.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL",
+    "DDS-Notas/DDS FRANCO",
     "ECO/factores de la produccion",
-    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion/factores de la produccion.md",
     "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion",
-    "ECO/RENTA NACIONAL moneda credito y bancos/cantidad de moneda y tasa de interes ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/encaje bancario ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/multiplicador bancario ok.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/RENTA NACIONAL moneda credito y bancos.md",
-    "ECO/RENTA NACIONAL moneda credito y bancos/saldo de la balanza de pagos, PBI vs PNB ok.md",
     "ECO/RENTA NACIONAL moneda credito y bancos",
     "ECO/CONTABILIDAD",
     "INTELIGENCIA DE NEGOCIOS/POWER BI",
     "INTELIGENCIA DE NEGOCIOS/Sin nombre",
     "Seminario Integrador HABILITACION PROEFSIONAL/speech",
     "OTROS YA APROBADOS",
-    "OTROS YA APROBADOS/NEUROCIENCIA/presentacion",
-    "ECO/transcripciones/[Spanish (auto-generated)] economia proyectos de inversion 2026 05 30 14 42 16 [DownSub.com].txt",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"

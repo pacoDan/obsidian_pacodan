@@ -1,5 +1,5 @@
 tree:
-```
+```java
 Capítulo IX: Contratos Comerciales y Títulos Circulatorios [cite: 1, 2]
 ├── Contratos Comerciales [cite: 9]
 │   ├── Contrato de Seguro [cite: 10]

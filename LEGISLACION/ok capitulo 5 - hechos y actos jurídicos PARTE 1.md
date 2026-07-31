@@ -48,8 +48,8 @@ Para que un acto sea voluntario, deben concurrir cuatro elementos: tres internos
 Sirven para procesar la voluntad en el fuero íntimo del sujeto antes de actuar:
 
 1. **Discernimiento:** Es la condición natural que permite **comprender, valorar y razonar** el acto y sus posibles consecuencias. Se relaciona con la **madurez** y la **razón**.
-2. **Intención:** Es la comprensión del **acto concreto** que se realiza; es la aplicación del discernimiento al caso práctico.
-3. **Libertad:** Es la posibilidad de **decidir** por uno mismo; ser libre de realizar o no el acto.
+2. **Intención:** Es el deseo o voluntad de querer realizar el acto concreto; es la aplicación del discernimiento al caso práctico.
+3. **Libertad:** Es la posibilidad de **decidir** por uno mismo; ser libre de realizar o no el acto. Sin coacciones externas.
 
 #### B. Elemento Externo (Manifestación)
 
@@ -64,7 +64,7 @@ Sirve para **exteriorizar** la voluntad interna. Las formas citadas son:
 
 ### III. DIFERENCIAS: DISCERNIMIENTO, INTENCIÓN Y LIBERTAD
 
-- **Discernimiento vs. Intención:** El discernimiento es algo **general y abstracto** (capacidad de razonar consecuencias); la intención es la **comprensión específica** del negocio jurídico que se está firmando en ese momento.
+- **Discernimiento vs. Intención:** El discernimiento es algo **general y abstracto** (capacidad de razonar consecuencias); la intención es **es específica y concreta:** Es la **aplicación del discernimiento a un caso práctico**; es querer el resultado de ese acto particular que se está ejecutando
 - **Libertad:** A diferencia de los anteriores, que son cognitivos (razonamiento), la libertad es la ausencia de coacción externa, permitiendo la elección voluntaria.
 
 ---
