@@ -8,65 +8,122 @@
         "type": "tabs",
         "children": [
           {
-            "id": "05cb56bce0f1aea6",
+            "id": "93a7919fcf1eb0bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v4.md",
+                "file": "LEGISLACION/UNIDAD 9 contratos comerciales y titulos circulatorios.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "PRIMER PARCIAL v4"
+              "title": "UNIDAD 9 contratos comerciales y titulos circulatorios"
             }
           },
           {
-            "id": "c1f1c7df4ef9fe1c",
+            "id": "674d1c3e0114feda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
-                "mode": "source",
+                "file": "LEGISLACION/Derechos Reales. Capítulo VII. Parte 4-4.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto"
+              "title": "Derechos Reales. Capítulo VII. Parte 4-4"
+            }
+          },
+          {
+            "id": "60f0d9aceeaf7c4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LEGISLACION/FINAL tema 3.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FINAL tema 3"
+            }
+          },
+          {
+            "id": "52a85ec88352fd26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/componentes arquitectonicos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "componentes arquitectonicos"
+            }
+          },
+          {
+            "id": "535abfe52908322b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECO/eco politicas de gobierno.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "eco politicas de gobierno"
+            }
+          },
+          {
+            "id": "27b7985a8baa9410",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/FINAL posible enunciado 3.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FINAL posible enunciado 3"
+            }
+          },
+          {
+            "id": "72e88c2aefec0ea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/FINAL posible enunciado 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FINAL posible enunciado 1"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
-        "id": "643f34326732e313",
+        "id": "10af9e78d8cc2429",
         "type": "tabs",
         "children": [
           {
-            "id": "61cd9e9bcfd63863",
+            "id": "eafe15fc965c2d57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr  corregido.md",
+                "file": "DDS-Notas/FINAL posible enunciado 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Findr  corregido"
-            }
-          },
-          {
-            "id": "0e7ec1f9daf6aab6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr enunciado.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Findr enunciado"
+              "title": "FINAL posible enunciado 2"
             }
           }
         ]
@@ -128,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.1685371398926,
+    "width": 307.50499725341797,
     "collapsed": true
   },
   "right": {
@@ -222,35 +279,34 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "61cd9e9bcfd63863",
+  "active": "72e88c2aefec0ea2",
   "lastOpenFiles": [
-    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.pdf",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr  corregido.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr enunciado.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v4.md",
-    "DDS-Notas/DDS FRANCO/patron adapter recomendaciones.md",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Primera Parte.md",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v3.md",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/ok Findr.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 5.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 4.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 2.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 3.md",
-    "DDS-Notas/DDS FRANCO/CODE SMELLS.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr",
-    "DDS-Notas/DDS FRANCO/Diagrama de clases Noodle.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/PRIMER PARCIAL.md",
-    "DDS-Notas/DDS FRANCO/diagrama Noodle - Primer Parcial.md",
+    "DDS-Notas/FINAL posible enunciado 3.md",
+    "DDS-Notas/FINAL posible enunciado 1.md",
     "DDS-Notas/FINAL posible enunciado 2.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v2.md",
-    "DDS-Notas/PLANTILLA MERMAID diagrama de clases.md",
-    "DDS-Notas/Archivos hacia S3.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v1.md",
     "ok cinnamon, autologin login automatico.md",
-    "DDS-Notas/DDS FRANCO/DDS FRANCO.md",
+    "ECO/eco politicas de gobierno.md",
+    "DDS-Notas/componentes arquitectonicos.md",
+    "PROMPT promt.md",
+    "LEGISLACION/FINAL tema 3.md",
+    "LEGISLACION/ok capitulo 5 - hechos y actos jurídicos PARTE 1.md",
+    "LEGISLACION/vicios de voluntad, vicios de los elementos de la voluntad.md",
+    "LEGISLACION/FINAL tema 5.md",
+    "LEGISLACION/FINAL ORAL tema 1.md",
+    "LEGISLACION/teoria de la imprevision.md",
+    "LEGISLACION/obligaciones y la responsabilidad civil - Atribución y Eximentes.md",
+    "LEGISLACION/lucro cesante.md",
+    "LEGISLACION/FINAL tema 4 contratos a sociedades.md",
+    "LEGISLACION/FINAL tema 2 PERSONA.md",
+    "LEGISLACION/inconstitucionalidad de una ley.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 4-4.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 3-4.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 2-4 ok.md",
+    "LEGISLACION/Derechos Reales. Capítulo VII. Parte 1-4 ok.md",
+    "README.md.md",
+    "LEGISLACION/UNIDAD 9 contratos comerciales y titulos circulatorios.md",
+    "LEGISLACION/UNIDAD 8.md",
+    "LEGISLACION/UNIDAD 6 obligaciones.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL",
     "DDS-Notas/DDS FRANCO",
     "ECO/factores de la produccion",
@@ -259,6 +315,8 @@
     "ECO/CONTABILIDAD",
     "INTELIGENCIA DE NEGOCIOS/POWER BI",
     "INTELIGENCIA DE NEGOCIOS/Sin nombre",
+    "Seminario Integrador HABILITACION PROEFSIONAL/speech",
+    "OTROS YA APROBADOS",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"
