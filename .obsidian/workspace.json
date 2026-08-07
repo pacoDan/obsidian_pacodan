@@ -6,6 +6,7 @@
       {
         "id": "7942cf31c5f73381",
         "type": "tabs",
+        "dimension": 39.71119133574007,
         "children": [
           {
             "id": "05cb56bce0f1aea6",
@@ -22,51 +23,67 @@
             }
           },
           {
-            "id": "c1f1c7df4ef9fe1c",
+            "id": "62df66dabbac992f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto"
             }
-          }
-        ]
-      },
-      {
-        "id": "643f34326732e313",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "61cd9e9bcfd63863",
+            "id": "c8fbd24cac7f8666",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr  corregido.md",
-                "mode": "preview",
+                "file": "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Findr  corregido"
+              "title": "[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución"
             }
           },
           {
-            "id": "0e7ec1f9daf6aab6",
+            "id": "21eb5f345bf08157",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr enunciado.md",
+                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v5.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "PRIMER PARCIAL v5"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "eae7420188facdb6",
+        "type": "tabs",
+        "dimension": 60.28880866425993,
+        "children": [
+          {
+            "id": "ebd2d58c3155d397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Findr enunciado"
+              "title": "PRIMER PARCIAL v6"
             }
           }
         ]
@@ -222,18 +239,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "61cd9e9bcfd63863",
+  "active": "62df66dabbac992f",
   "lastOpenFiles": [
-    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.pdf",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr  corregido.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr enunciado.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v6.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v4.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v5.md",
+    "DDS-Notas/DDS FRANCO/ok PRIMER PARCIAL v5.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr  corregido.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.pdf",
+    "DDS-Notas/DDS FRANCO/pseudocódigo DDSi 2026 Primer Parcial - Código a Voluntad - Contexto.md",
+    "DDS-Notas/DDS FRANCO/cosificacion.md",
+    "DDS-Notas/DDS FRANCO/Noodle - Posible solucion.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr enunciado.md",
     "DDS-Notas/DDS FRANCO/patron adapter recomendaciones.md",
     "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Primera Parte.md",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
     "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v3.md",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/ok Findr.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 5.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 4.md",
@@ -246,11 +269,6 @@
     "DDS-Notas/DDS FRANCO/diagrama Noodle - Primer Parcial.md",
     "DDS-Notas/FINAL posible enunciado 2.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v2.md",
-    "DDS-Notas/PLANTILLA MERMAID diagrama de clases.md",
-    "DDS-Notas/Archivos hacia S3.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v1.md",
-    "ok cinnamon, autologin login automatico.md",
-    "DDS-Notas/DDS FRANCO/DDS FRANCO.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL",
     "DDS-Notas/DDS FRANCO",
     "ECO/factores de la produccion",
