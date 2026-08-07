@@ -232,3 +232,201 @@ A continuación, se presenta un **Top 10 de requerimientos tentativos de diseño
 ---
 
 💬 ¿Qué te parece si tomamos uno de estos escenarios avanzados —por ejemplo, el de **Tareas Secundarias Configurables Dinámicamente (Observer)** o el de **Fórmulas de Compatibilidad con Coeficientes (Strategy/Composite)**— y elaboramos su diagrama de clases con pseudocódigo detallado para practicar el modelado?
+
+
+
+
+----
+
+Para integrar la lógica del ejercicio de **Calendarios** con el contexto de **Código a Voluntad**, enfocándonos en el control de topes horarios (mensuales o semanales) de los colaboradores, es necesario tratar las horas de colaboración como **eventos con intervalos de tiempo** [1].
+
+A continuación, se presentan los requerimientos detallados que aplican los conceptos de **solapamiento, recurrencia y recordatorios** del sistema de calendarios para gestionar la disponibilidad de los colaboradores en los proyectos de los colectivos:
+
+### 1. Definición de Disponibilidad Máxima (Tope Horario)
+Cada persona colaboradora debe poder configurar en su perfil su **capacidad máxima de contribución**, expresada en una cantidad de horas (N) por semana o por mes [1, 2]. El sistema debe validar que la suma de las horas de los proyectos en los que se "anota" no supere este tope, actuando de forma similar a los planes de facturación de *Firmadocs* que limitan procesos mensuales [2].
+
+### 2. Registro de Jornadas como Eventos de Calendario
+Cada vez que un colaborador registra horas trabajadas o planificadas para un proyecto, estas deben tratarse como un **Evento** que maneja: nombre (del proyecto), fecha, hora de inicio y hora de fin [1, 3]. Esto permite utilizar la biblioteca de fechas para calcular automáticamente la duración del intervalo y restarlo de la bolsa de horas disponible del colaborador [4].
+
+### 3. Validación de Solapamiento de Tareas
+Antes de que una colaboradora pueda anotarse en un bloque horario de un proyecto, el sistema debe **saber si el evento está solapado** con otras colaboraciones preexistentes o con eventos personales en su calendario [1, 5]. Si existe un solapamiento, el sistema debe informar con qué otros proyectos o tareas coincide para que el colaborador reajuste su agenda [1].
+
+### 4. Proyectos con Compromiso Recurrente
+Cuando un proyecto de un colectivo requiere un compromiso de "X horas semanales", el sistema debe permitir **agendar eventos con repeticiones** (por ejemplo, "cada N semanas" o "ciertos días de la semana") hasta la fecha de finalización del proyecto [1, 5]. Estas repeticiones no deben precalcularse como eventos separados, sino evaluarse dinámicamente para no bloquear la base de datos [1].
+
+### 5. Control de Cupo en la Postulación
+Al momento en que una colaboradora ve un proyecto de su interés y decide "anotarse", el sistema debe verificar si el **compromiso esperado** del proyecto (ej. 10 horas mensuales) cabe dentro del margen restante de su tope mensual [2]. Si el compromiso del proyecto más las colaboraciones actuales exceden su límite, el sistema debe impedir la inscripción o sugerir una reducción de horas.
+
+### 6. Alertas de Proximidad al Tope (Recordatorios)
+Utilizando la lógica de **recordatorios no prioritarios** de Calendarios, el sistema debe enviar un mail o notificación cuando el colaborador haya alcanzado el 80% o 90% de su tope semanal/mensual [4, 6]. Esto ayuda a prevenir el *burnout* del voluntario y permite al colectivo buscar refuerzos con antelación.
+
+### 7. Cálculo de Tiempo de Traslado a Sedes de Colectivos
+Si la modalidad de colaboración requiere presencialidad, el sistema debe integrar un componente como *GugleMapas* para **saber si el colaborador llega a tiempo** al bloque horario del colectivo, considerando su ubicación actual (proporcionada por un *PositionService*) y el tráfico estimado [4, 7].
+
+### 8. Visualización de "Próximos Hitos" de Colaboración
+El colaborador debe poder **listar los próximos eventos** de colaboración entre dos fechas para visualizar su carga de trabajo semanal [1, 3]. El sistema debe resaltar visualmente aquellos días donde la carga horaria acumulada esté cerca de superar el límite diario o semanal configurado.
+
+### 9. Historial de Horas y Auditoría de Impacto
+Al finalizar un mes, el sistema debe consolidar todos los eventos de colaboración para generar un registro de **historial en la plataforma** [8]. Esto permite verificar si el colaborador cumplió con el compromiso esperado o si superó su tope, lo cual es útil para que los colectivos otorguen menciones o certificados de horas de voluntariado.
+
+### 10. Gestión de Excepciones al Tope
+En casos de emergencia reportados por un colectivo (ej. caída de un servidor de una ONG), el sistema puede permitir que un colaborador **ignore temporalmente su tamaño ideal o tope de horas** [9]. Sin embargo, al igual que en *Noodle*, esta acción de "exceso de horas" debería ser aprobada o notificada a un administrador de la plataforma para asegurar que el colaborador no sea explotado [9].
+
+***
+
+**Acción sugerida:** Si deseas avanzar en la implementación, podemos diseñar el **Diagrama de Clases** que muestre cómo la clase `Colaborador` se relaciona con su `Calendario` y cómo los `ParametrosDeTope` (Estrategia) validan la creación de nuevos `EventosDeColaboracion` [1, 10].
+
+
+----
+
+
+
+### 3. Tareas Secundarias Configurables Dinámicamente (Patrón Observer)
+
+Para lograr un modelado guiado por eventos, el `Proyecto` actúa como el **Sujeto Observable** y notifica a una colección polimórfica de observadores. Esto evita acoplar el dominio del proyecto con la infraestructura de envío de correos, Discord o aprovisionamiento. Todas las notificaciones retornan `void` para garantizar un flujo asincrónico lógico del estilo *fire and forget*.
+
+#### `InteresadoNuevaColaboracion.java` (Interfaz del Observador)
+```java
+public interface InteresadoNuevaColaboracion {
+    void notificarColaboracionIniciada(Colaboracion colaboracion);
+}
+```
+
+#### Observadores Concretos
+```java
+// Observador para enviar Correo Electrónico
+public class NotificadorMailColectivo implements InteresadoNuevaColaboracion {
+    private ServicioDeMail mailService; // Interfaz limpia de dominio
+
+    public NotificadorMailColectivo(ServicioDeMail mailService) {
+        this.mailService = mailService;
+    }
+
+    @Override
+    public void notificarColaboracionIniciada(Colaboracion colaboracion) {
+        Colectivo colectivo = colaboracion.getProyecto().getColectivo();
+        String mensaje = "Se ha registrado una nueva colaboradora para su proyecto: " + colaboracion.getProyecto().getTitulo();
+        this.mailService.enviar(colectivo.getMailContacto(), "Nueva Colaboración", mensaje);
+    }
+}
+
+// Observador para Enviar Mensajes a Discord
+public class NotificadorDiscord implements InteresadoNuevaColaboracion {
+    @Override
+    public void notificarColaboracionIniciada(Colaboracion colaboracion) {
+        // Lógica para enviar alertas a través de un webhook de Discord
+    }
+}
+```
+
+#### `Proyecto.java` (Sujeto de Notificación Actualizado)
+```java
+public class Proyecto {
+    // ... Atributos anteriores ...
+    private List<InteresadoNuevaColaboracion> interesados = new ArrayList<>();
+
+    // Métodos para suscribir/desuscribir interesados dinámicamente en tiempo de ejecución
+    public void registrarInteresado(InteresadoNuevaColaboracion interesado) {
+        this.interesados.add(interesado);
+    }
+
+    public void removerInteresado(InteresadoNuevaColaboracion interesado) {
+        this.interesados.remove(interesado);
+    }
+
+    public void agregarColaboracion(Colaboracion colaboracion) {
+        this.colaboraciones.add(colaboracion);
+        this.notificarNuevaColaboracion(colaboracion);
+    }
+
+    private void notificarNuevaColaboracion(Colaboracion colaboracion) {
+        // Iteración polimórfica para disparar los efectos secundarios de manera desacoplada
+        this.interesados.forEach(i -> i.notificarColaboracionIniciada(colaboracion));
+    }
+}
+```
+
+---
+
+### 4. Asignación de Permisos y Repositorio de Código (Patrón Adapter)
+
+Dado que las bibliotecas SDK de terceros (como el SDK oficial de GitHub o GitLab) son inestables, complejas y propensas a cambios, definimos una interfaz en nuestro propio dominio (`ProveedorControlVersiones`) para aislar el negocio. Luego, construimos clases **Adapter** que implementan nuestra interfaz y traducen las firmas a los métodos crudos de los SDKs.
+
+#### `ProveedorControlVersiones.java` (Interfaz del Puerto de Salida)
+```java
+public interface ProveedorControlVersiones {
+    void crearRepositorio(String nombreRepo);
+    void asignarPermisosEscritura(String nombreRepo, String usernameGit);
+}
+```
+
+#### Adaptadores Concretos (Adapter)
+```java
+// Adaptador para la API de GitHub usando su SDK oficial
+public class GitHubAdapter implements ProveedorControlVersiones {
+    private GitHubSDK githubSDK; // Dependencia externa (Adaptee)
+
+    public GitHubAdapter(GitHubSDK githubSDK) {
+        this.githubSDK = githubSDK;
+    }
+
+    @Override
+    public void crearRepositorio(String nombreRepo) {
+        // Traduce la llamada de dominio a la API específica del SDK externo
+        this.githubSDK.createNewRepository(nombreRepo, "Private", true);
+    }
+
+    @Override
+    public void asignarPermisosEscritura(String nombreRepo, String usernameGit) {
+        this.githubSDK.addCollaborator(nombreRepo, usernameGit, "PushPermission");
+    }
+}
+
+// Adaptador para la API de GitLab
+public class GitLabAdapter implements ProveedorControlVersiones {
+    private GitLabClient gitlabClient; // Adaptee de GitLab
+
+    @Override
+    public void crearRepositorio(String nombreRepo) {
+        this.gitlabClient.createProject(nombreRepo);
+    }
+
+    @Override
+    public void asignarPermisosEscritura(String nombreRepo, String usernameGit) {
+        this.gitlabClient.addUserToProject(nombreRepo, usernameGit, GitLabClient.DEVELOPER_ROLE);
+    }
+}
+```
+
+#### Integración de los Patrones: `AprovisionadorRepositorio.java` (Observador y Cliente del Adapter)
+
+Para coordinar estas dos responsabilidades sin mezclar lógica, implementamos un observador especializado (`AprovisionadorRepositorio`) que reaccione al evento de colaboración disparando la creación del repositorio mediante la inyección del adaptador.
+
+```java
+public class AprovisionadorRepositorio implements InteresadoNuevaColaboracion {
+    private ProveedorControlVersiones proveedorControlVersiones; // Inyectamos la interfaz del Adapter
+
+    public AprovisionadorRepositorio(ProveedorControlVersiones proveedor) {
+        this.proveedorControlVersiones = proveedor;
+    }
+
+    @Override
+    public void notificarColaboracionIniciada(Colaboracion colaboracion) {
+        Proyecto proyecto = colaboracion.getProyecto();
+        Colaboradora colaboradora = colaboracion.getColaboradora();
+
+        // Validamos si el proyecto ya se encuentra en desarrollo y requiere aprovisionamiento
+        if (proyecto.getEstado() instanceof EnDesarrollo) {
+            String repoName = "proyecto-voluntad-" + proyecto.getId();
+            
+            // Acciones traducidas a través de la interfaz desacoplada de infraestructura
+            this.proveedorControlVersiones.crearRepositorio(repoName);
+            this.proveedorControlVersiones.asignarPermisosEscritura(repoName, colaboradora.getGitUsername());
+        }
+    }
+}
+```
+
+
+
+
