@@ -78,15 +78,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "DDS-Notas/patron comand franco.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "patron comand franco"
+            }
+          },
+          {
+            "id": "db5437a8d093e8da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v6.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "PRIMER PARCIAL v6"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,6 +257,7 @@
   "active": "62df66dabbac992f",
   "lastOpenFiles": [
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v6.md",
+    "DDS-Notas/patron comand franco.md",
     "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v4.md",
     "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
@@ -268,7 +284,6 @@
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/PRIMER PARCIAL.md",
     "DDS-Notas/DDS FRANCO/diagrama Noodle - Primer Parcial.md",
     "DDS-Notas/FINAL posible enunciado 2.md",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v2.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL",
     "DDS-Notas/DDS FRANCO",
     "ECO/factores de la produccion",
