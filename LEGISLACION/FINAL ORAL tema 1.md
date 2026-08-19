@@ -74,7 +74,6 @@ Son las protecciones de la Constitución para asegurar nuestros derechos. Se des
 
 ### Recopilación de Preguntas y Respuestas para Exámenes (EPI)
 
-A lo largo de las transcripciones, los profesores señalan varias "trampas" o conceptos de examen ("EPI"):
 
 1. **PREGUNTA CLAVE:** _¿Cuál es un ejemplo de obligación de no hacer?_
     - **Respuesta (anotada explícitamente para el examen):** Firmar un contrato y tener la obligación de **no divulgar información confidencial** de la empresa (secreto profesional).

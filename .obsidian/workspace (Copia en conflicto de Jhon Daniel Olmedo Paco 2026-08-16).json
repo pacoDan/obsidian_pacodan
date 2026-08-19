@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "67c8ae20900869c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "da8ed3833f6f92c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aed7b080584981f0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6edf5646ca276ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3307559951f114d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ec252ca031e4f53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "7061210ff4f6784b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "f797ac4647fb42e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f16ba7a236e7ae5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "23215382cbd8866c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1844d44a10882865",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "a0e811282978f5d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "69dc9cc73a9709cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "e8afffde4f12bd73",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "aed7b080584981f0",
+  "lastOpenFiles": [
+    "OTROS YA APROBADOS/COMU/ok tp 6 errores/BER.md",
+    "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/clase 10 pub sub.md",
+    "_COSILLAS/android/alternativas a Android-x86 para emular android.md",
+    "ECO/2da parte del Plan de Negocio - la misma corresponde al análisis económico-financiero del Plan de Negocio.md",
+    "_COSILLAS/JAVA con spring/scaffolding v2 SPRING CLI.md",
+    "ADMIN GERENCIAL/2DO PARCIAL/crono 2do parcial.md",
+    "INTELIGENCIA DE NEGOCIOS/GDD/_ algunos temas de parcial.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/tasa de asignacion de los CIF (revisar).md",
+    "INTELIGENCIA DE NEGOCIOS/examen/area de stagging.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/SCD tipo 2.md",
+    "DDS-Notas/OTROS/mis notas/mis-md.md",
+    "OTROS YA APROBADOS/COMU/ok modulacion/modulacion FSK.md",
+    "_COSILLAS/ESP 32/sdkconfig ok.md",
+    "INTELIGENCIA DE NEGOCIOS/tips power bi al promedio de sueldos.md",
+    "OTROS YA APROBADOS/COMU/TP4 codigo de linea/AMI vs Bipolar RZ.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ejercicio 19 enunciado.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/dimensión  de cambio lento.md",
+    "LEGISLACION/inconstitucionalidad de una ley.md",
+    "_COSILLAS/ESP 32/notas.md",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/EXAMEN COSTOS/contrato laboral, condiciones esenciales de contrato laboral.md",
+    "OTROS YA APROBADOS/COMU/TP4 codigo de linea/fuente con un solo simbolo.md",
+    "_COSILLAS/linkedin fotos consejos fotos linkedin.md",
+    "TERMINADAS/AECH/CRONO.md",
+    "_COSILLAS/PS2 correspondencia e isomorfirmo.md",
+    "_COSILLAS/android/instalacion por commander.md",
+    "INTELIGENCIA DE NEGOCIOS/examen/data quality.md"
+  ]
+}

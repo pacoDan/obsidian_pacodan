@@ -1,4 +1,3 @@
-Con base en los archivos proporcionados (transcripciones de clases sobre Economía y Proyectos de Inversión), he estructurado la información solicitada en las siguientes secciones:
 
 ### 1. Estructuración del Contenido
 

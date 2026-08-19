@@ -1,9 +1,17 @@
 https://hub.docker.com/r/ollama/ollama#:~:text=language%20models%20locally.-,CPU%20only,-docker%20run%20%2Dd
+## para usar la RTX ir a paso 3 la opcional ligera: sino el paso 1 para solo CPU
+https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image#:~:text=ollama%20ollama/ollama-,Nvidia%20GPU,-Install%20the%20Nvidia
+```sh
+sudo pacman -S nvidia-container-toolkit # 1. Install the NVIDIA Container Toolkit packages
+sudo nvidia-ctk runtime configure --runtime=docker # Configure Docker to use Nvidia driver
+sudo systemctl restart docker
+docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+```
 ## 🧱 1. Crear y levantar el contenedor de Ollama
 
 Este va primero (porque si no, no hay servidor corriendo):
 
-```bash
+```sh
 docker run -d \
   -v ollama:/root/.ollama \
   -p 11434:11434 \
@@ -11,16 +19,11 @@ docker run -d \
   ollama/ollama
 ```
 
-👉 Esto:
-
 - crea el contenedor  
     
 - guarda modelos en el volumen `ollama`  
     
 - expone la API en `localhost:11434`  
-    
-
----
 
 ## ⏳ 2. Esperar a que arranque
 
@@ -32,8 +35,6 @@ docker logs -f ollama
 
 Cuando veas que ya está listo, seguís.
 
----
-
 ## 📥 3. Descargar y ejecutar DeepSeek R1
 
 Ahora sí, corrés el modelo dentro del contenedor:
@@ -41,15 +42,9 @@ Ahora sí, corrés el modelo dentro del contenedor:
 ```bash
 docker exec -it ollama ollama run deepseek-r1
 ```
-
-👉 Esto:
-
 - descarga el modelo (la primera vez)  
     
 - lo ejecuta en modo interactivo  
-    
-
----
 
 ## ⚡ Opcional: elegir versión liviana
 

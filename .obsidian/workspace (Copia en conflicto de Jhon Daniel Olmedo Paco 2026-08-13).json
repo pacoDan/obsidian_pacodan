@@ -6,98 +6,98 @@
       {
         "id": "7942cf31c5f73381",
         "type": "tabs",
-        "dimension": 48.65919063871283,
+        "dimension": 39.71119133574007,
         "children": [
           {
-            "id": "d8fb84d6c4b5408d",
+            "id": "05cb56bce0f1aea6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comandos linux.md",
+                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "comandos linux"
+              "title": "PRIMER PARCIAL v4"
             }
           },
           {
-            "id": "23bede88d680f2dc",
+            "id": "62df66dabbac992f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_COSILLAS/ok ia local docker deepseek OLLAMA.md",
+                "file": "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ok ia local docker deepseek OLLAMA"
+              "title": "[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto"
             }
           },
           {
-            "id": "97aa7336ea7b2463",
+            "id": "c8fbd24cac7f8666",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV ATS filtros/dev ops.md",
-                "mode": "preview",
+                "file": "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "dev ops"
+              "title": "[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución"
             }
           },
           {
-            "id": "a7fa9f065a7bfd69",
+            "id": "21eb5f345bf08157",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REDES AVANZADAS/recopilados utnianos.md",
-                "mode": "preview",
+                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v5.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "recopilados utnianos"
+              "title": "PRIMER PARCIAL v5"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
-        "id": "a3180a079f4e285b",
+        "id": "eae7420188facdb6",
         "type": "tabs",
-        "dimension": 51.34080936128717,
+        "dimension": 60.28880866425993,
         "children": [
           {
-            "id": "842227aaafdf2841",
+            "id": "ebd2d58c3155d397",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_COSILLAS/ok transcripcion whisper.md",
+                "file": "DDS-Notas/patron comand franco.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ok transcripcion whisper"
+              "title": "patron comand franco"
             }
           },
           {
-            "id": "f2b6cfc8c45f762e",
+            "id": "db5437a8d093e8da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aux 19 13950HX.md",
+                "file": "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v6.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "aux 19 13950HX"
+              "title": "PRIMER PARCIAL v6"
             }
           }
         ],
@@ -135,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "transcripcion",
+                "query": "path:\"NEUROCIENCIA/\" reso",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.23579025268555
+    "width": 443.1685371398926,
+    "collapsed": true
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -253,45 +254,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f2b6cfc8c45f762e",
+  "active": "62df66dabbac992f",
   "lastOpenFiles": [
-    "_COSILLAS/ok transcripcion whisper.md",
-    "aux 19 13950HX.md",
-    "ing de req/TP 1.md",
-    "REDES AVANZADAS/recopilados utnianos.md",
-    "REDES AVANZADAS/Resumen_TAR.pdf",
-    "REDES AVANZADAS/examen 2do parcial.md",
-    "REDES AVANZADAS/parciales.md",
-    "ing de req/TP_TV_IR_2026.pdf",
-    "REDES AVANZADAS/REDES AVANZADAS.md",
-    "REDES AVANZADAS",
-    "ing de req/TP 1-2026-08-19-17-39-22.png",
-    "DDS-Notas/DDS FRANCO/Diagrama de clases Noodle.md",
-    "CV ATS filtros/listado empresas.md",
-    "ing de req",
-    "CV ATS filtros/dev ops.md",
-    "CV ATS filtros/ATS perfiles.md",
-    "_COSILLAS/ok ia local docker deepseek OLLAMA.md",
-    "entrenamiento de voz, entrenamiento ia voz ia.md",
-    "comandos linux.md",
-    "_COSILLAS/whisper/OK transcripcion ok en español con whisper.md",
-    "TERMINADAS/AECH/notas AECH clase 10 2025-10-24 ok.md",
-    "LEGISLACION/FINAL ORAL tema 1.md",
-    "ECO/clase proyectos de inversion teoria 2026.md",
-    "automatizacion flujo de links.md",
-    "_COSILLAS/PS2 PCSx2 aumetra fps en emulador ps2 play dos play 2.md",
-    "_COSILLAS/ok virtualbox kernel solucionado.md",
-    "ok cinnamon, autologin login automatico.md",
-    "CV ATS filtros/_pendiente.md",
-    "CV ATS filtros/filtros.md",
-    "OTROS YA APROBADOS/COMU/filtros.md",
-    "OTROS YA APROBADOS/COMU/ok filtro pasa bajos y PCM.md",
-    "_COSILLAS/whisper",
-    "CV ATS filtros",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v6.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.md",
+    "DDS-Notas/patron comand franco.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v4.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v5.md",
+    "DDS-Notas/DDS FRANCO/ok PRIMER PARCIAL v5.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr  corregido.md",
     "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.pdf",
+    "DDS-Notas/DDS FRANCO/pseudocódigo DDSi 2026 Primer Parcial - Código a Voluntad - Contexto.md",
+    "DDS-Notas/DDS FRANCO/cosificacion.md",
+    "DDS-Notas/DDS FRANCO/Noodle - Posible solucion.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/Findr enunciado.md",
+    "DDS-Notas/DDS FRANCO/patron adapter recomendaciones.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Primera Parte.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL v3.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr/ok Findr.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 5.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 4.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 2.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/Findr/pag 3.md",
+    "DDS-Notas/DDS FRANCO/CODE SMELLS.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr",
+    "DDS-Notas/DDS FRANCO/Diagrama de clases Noodle.md",
+    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/PRIMER PARCIAL.md",
+    "DDS-Notas/DDS FRANCO/diagrama Noodle - Primer Parcial.md",
+    "DDS-Notas/FINAL posible enunciado 2.md",
     "DDS-Notas/DDS FRANCO/PRIMER PARCIAL",
     "DDS-Notas/DDS FRANCO",
+    "ECO/factores de la produccion",
+    "SISTEMAS DE COSTOS Y PRESUPUESTOS/factores de la produccion",
+    "ECO/RENTA NACIONAL moneda credito y bancos",
+    "ECO/CONTABILIDAD",
+    "INTELIGENCIA DE NEGOCIOS/POWER BI",
+    "INTELIGENCIA DE NEGOCIOS/Sin nombre",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"

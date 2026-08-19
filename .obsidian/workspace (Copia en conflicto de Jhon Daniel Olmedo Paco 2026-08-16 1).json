@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "1fd77ecefe5e0baf",
+    "type": "split",
+    "children": [
+      {
+        "id": "e91fb24fe3db03c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2a4d67e0988dfb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README.md"
+            }
+          },
+          {
+            "id": "360b659bbfc6aca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROMPT promt.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "PROMPT promt"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd2b9c078bad3c47",
+    "type": "split",
+    "children": [
+      {
+        "id": "8098cdf79cfbdcff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06c909a14e2bf925",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "29a9f305f812ce8c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "18879feaf17e2b9d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0f4ecc222e8acb12",
+    "type": "split",
+    "children": [
+      {
+        "id": "c11836fe1ea32a8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66cb731e195def47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PROMPT promt.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "d70d7b1c0a792c0a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PROMPT promt.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "bc55f5652abad601",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "d92c7a066f216a77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PROMPT promt.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "360b659bbfc6aca1",
+  "lastOpenFiles": [
+    "DDS-Notas/DDS Finales/EducAR Final DDS 20251220.pdf",
+    "_COSILLAS/Arduino/Pasted image 20241224180215.png",
+    "OTROS YA APROBADOS/IAA/deep learning/Pasted image 20250710181607.png",
+    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/[DDS -  UTN BA Martes] Consideraciones - Segundo Parcial - 2023.pdf",
+    "DDS-Notas/Parciales resueltos/2dos parciales/Ride Me/capturas/Pasted image 20241219201936.png",
+    "_COSILLAS/MANTADARIO - GESTOR AUTOMOTOR/ilide.info-trabajo-practico-curso-mandatario-pr_21a43801eb25b13471c24dc109a5e8e1.pdf",
+    "DDS-Notas/Patrones de diseño/Factory/explicacion diagrama factory.png",
+    "DDS-Notas/Parciales resueltos/primer parcial/Gametrack/DDS UTN - 2023 - 1p Martes.pdf",
+    "DDS-Notas/Parciales resueltos/primer parcial/GTV/DDS UTN - 2023 - 1p Miércoles.pdf",
+    "ADMIN GERENCIAL/capturas admin gerencial poder autoridad poder fuentes del poder delegacion 2025 05 14 19 07 57/Pasted image 20250622160651.png",
+    "_COSILLAS/MANTADARIO - GESTOR AUTOMOTOR/ilide.info-gestoria-automotor-modulo-1-pr_40f4642fbccf80864ed2e5cd1e47b6e8.pdf",
+    "_COSILLAS/catalogoopengalicia.pdf",
+    "_COSILLAS/MANTADARIO - GESTOR AUTOMOTOR/ilide.info-unidad-viii-2-pr_85856c166cc80f5e160708f799579231.pdf",
+    "DDS-Notas/OTROS/curso de arquitecturas limpias/capturas/Pasted image 20250203183408.png",
+    "DDS-Notas/DDS Finales/dds final datacat 20241207.pdf",
+    "DDS-Notas/arquitectura de software/dds final DataCat 20241207.pdf",
+    "DDS-Notas/OTROS/spring instructor/capturas/Pasted image 20250312182936.png",
+    "DDS-Notas/Parciales resueltos/2dos parciales/SeguriPoint/[DDS UTN] Martes - Segundo Parcial - 2024.pdf",
+    "DDS-Notas/OTROS/NODE js IoT pub-sub con MQTT, testing y web sockets/capturas/Pasted image 20250106181544.png",
+    "ADMIN GERENCIAL/notas liderazgo teoria de los rasgos teorias emergentes 2025 04 23 ok ok/Pasted image 20250628174148.png",
+    "Pasted image 20251220182714.png",
+    "GTH/Libro en md ok.md",
+    "DDS-Notas/TPS 2026/DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #1.md",
+    "SDG/sdg ejercicios de la Guía de Ejercicios con respuestas.V.1.6 R032025.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
+    "LEGISLACION/2026/EXAMEN/ok preguntas MUCHAS.md",
+    "DDS-Notas/aux requerimientos posibles.md",
+    "OTROS YA APROBADOS/IAA/deep learning 3ra parte 2025 04 22.md",
+    "SDG/prototipo/aux_Informe de avances - Grupo 2.md",
+    "OTROS YA APROBADOS/COMU/TP preguntas.md",
+    "DDS-Notas/DDS FRANCO/Noodle - Posible solucion.md",
+    "TERMINADAS/CICLO financiacion/3 ciclo gestion/2 aspectos legales de tu emprendimiento.md",
+    "TERMINADAS/GESTION DE LA TRANSFORMACION ORGANIZACIONAL/2do parcial/_listo_ GTO cultura digital tipos de cambio 2025 10 06 ok.md",
+    "LEGISLACION/2026/APE UTN Z4034 2026.md",
+    "OTROS YA APROBADOS/ARQ pendientes a gdrive/R. TP Unidad 9 Cap 17 Repertorio de Instrucciones ok.md",
+    "OTROS YA APROBADOS/SO-sistemas operativos/memoria virtual 2-2.md",
+    "_COSILLAS/DOTNET BLAZOR  o RAZOR tipos de pruebas tecnicas ejemplos.md",
+    "OTROS YA APROBADOS/ARQ pendientes a gdrive/clase 13.md",
+    "_COSILLAS/ELIXIR/SDG comentarios recuperatorio.md",
+    "TERMINADAS/AECH/notas AECH clase 8 y 9 2025-10-17.md",
+    "DDS-Notas/OTROS/curso de arquitecturas limpias/clases.md",
+    "TERMINADAS/NO SQL/clase 1 ok.md",
+    "SDG/_ aux RTAS.md",
+    "OTROS YA APROBADOS/SO-sistemas operativos/clase 2 - Procesos e Hilos.md",
+    "SDG/sdg parque de impresoras.md",
+    "TERMINADAS/GESTION DE LA TRANSFORMACION ORGANIZACIONAL/preguntas apunte.md"
+  ]
+}

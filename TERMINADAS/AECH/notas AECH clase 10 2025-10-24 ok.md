@@ -137,7 +137,6 @@ Las leyes laborales (legislación laboral) son factores externos que influyen en
 
 ## Lecciones Aprendidas (Insights Clave)
 
-Basado en las transcripciones, las siguientes son las lecciones clave:
 
 - **La Equidad Salarial es un Sentimiento:** Un buen análisis y sistema de evaluación de puestos ayuda a generar un **sentimiento de equidad** entre los trabajadores sobre lo que cobran.
 - **El Costo Oculto de la Contratación:** El costo para la organización por tener un trabajador en blanco es significativamente mayor que el sueldo bruto. Por cada $1,000,000 brutos, la organización paga aproximadamente $302,000 adicionales en contribuciones patronales (30.2%).
