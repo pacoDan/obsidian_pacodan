@@ -6,7 +6,7 @@
       {
         "id": "7942cf31c5f73381",
         "type": "tabs",
-        "dimension": 48.65919063871283,
+        "dimension": 51.770138532580816,
         "children": [
           {
             "id": "d8fb84d6c4b5408d",
@@ -51,26 +51,40 @@
             }
           },
           {
-            "id": "a7fa9f065a7bfd69",
+            "id": "6dd393fa15a1006f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REDES AVANZADAS/recopilados utnianos.md",
+                "file": "entrenamiento de voz, entrenamiento ia voz ia.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "entrenamiento de voz, entrenamiento ia voz ia"
+            }
+          },
+          {
+            "id": "b82842ecfb5c8784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "borrado de duplicados fdupes fdupes alternativa con revision de archivos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "recopilados utnianos"
+              "title": "borrado de duplicados fdupes fdupes alternativa con revision de archivos"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "a3180a079f4e285b",
         "type": "tabs",
-        "dimension": 51.34080936128717,
+        "dimension": 48.229861467419184,
         "children": [
           {
             "id": "842227aaafdf2841",
@@ -92,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aux 19 13950HX.md",
+                "file": "DDS-Notas/TP ORM/Resolucion Ejercicio Biblioteca Digital.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "aux 19 13950HX"
+              "title": "Resolucion Ejercicio Biblioteca Digital"
             }
           }
         ],
@@ -135,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "transcripcion",
+                "query": "rmlint",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.23579025268555
+    "width": 301.76458740234375
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -248,50 +262,48 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "edge-tts:Read note aloud": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "bases:Crear nueva base": false
     }
   },
-  "active": "f2b6cfc8c45f762e",
+  "active": "b82842ecfb5c8784",
   "lastOpenFiles": [
-    "_COSILLAS/ok transcripcion whisper.md",
-    "aux 19 13950HX.md",
-    "ing de req/TP 1.md",
+    "entrenamiento de voz, entrenamiento ia voz ia.md",
+    "borrado de duplicados fdupes fdupes alternativa con revision de archivos.md",
+    "comandos linux.md",
+    "DDS-Notas/TPS 2026/DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #1.md",
+    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
+    "DDS-Notas/TP ORM/Ejercicio ORM - Biblioteca Digital.pdf",
+    "DDS-Notas/TP ORM/Resolucion Ejercicio Biblioteca Digital.md",
+    "auxç_.md",
+    "CV ATS filtros/dev .net para dev ops y ciberseguridad.md",
+    "DDS-Notas/TP ORM.md",
+    "DDS-Notas/TP ORM/TP ORM.md",
+    "DDS-Notas/TP ORM",
+    "aux i9 13950HX.md",
+    "CV ATS filtros/dev ops para seguridad.md",
+    "CV ATS filtros/perfil analista JR en GRC, GRC es Governance, Risk and Complience.md",
+    "_COSILLAS/NAVEGADOR QUTEBROWSER/ok ok navegador qutebrowser config autoguardado de sesion y zoom.md",
+    "DDS-Notas/gRPC.md",
+    "CV ATS filtros/dev ops.md",
+    "IA/evaluacion de modelos.md",
+    "IA/uso de CUDA.md",
+    "IA/embbedinngs/stanford google.md",
+    "IA/embbedinngs/stanford playlist CS224N.md",
+    "IA/embbedinngs/youtube 1.md",
+    "IA/embbedinngs/embbedinngs.md",
+    "IA/IA.md",
+    "IA/embbedinngs",
     "REDES AVANZADAS/recopilados utnianos.md",
+    "_COSILLAS/ok transcripcion whisper.md",
+    "ing de req/TP 1.md",
     "REDES AVANZADAS/Resumen_TAR.pdf",
-    "REDES AVANZADAS/examen 2do parcial.md",
-    "REDES AVANZADAS/parciales.md",
     "ing de req/TP_TV_IR_2026.pdf",
-    "REDES AVANZADAS/REDES AVANZADAS.md",
     "REDES AVANZADAS",
     "ing de req/TP 1-2026-08-19-17-39-22.png",
-    "DDS-Notas/DDS FRANCO/Diagrama de clases Noodle.md",
-    "CV ATS filtros/listado empresas.md",
     "ing de req",
-    "CV ATS filtros/dev ops.md",
-    "CV ATS filtros/ATS perfiles.md",
-    "_COSILLAS/ok ia local docker deepseek OLLAMA.md",
-    "entrenamiento de voz, entrenamiento ia voz ia.md",
-    "comandos linux.md",
-    "_COSILLAS/whisper/OK transcripcion ok en español con whisper.md",
-    "TERMINADAS/AECH/notas AECH clase 10 2025-10-24 ok.md",
-    "LEGISLACION/FINAL ORAL tema 1.md",
-    "ECO/clase proyectos de inversion teoria 2026.md",
-    "automatizacion flujo de links.md",
-    "_COSILLAS/PS2 PCSx2 aumetra fps en emulador ps2 play dos play 2.md",
-    "_COSILLAS/ok virtualbox kernel solucionado.md",
-    "ok cinnamon, autologin login automatico.md",
-    "CV ATS filtros/_pendiente.md",
-    "CV ATS filtros/filtros.md",
-    "OTROS YA APROBADOS/COMU/filtros.md",
-    "OTROS YA APROBADOS/COMU/ok filtro pasa bajos y PCM.md",
     "_COSILLAS/whisper",
     "CV ATS filtros",
     "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.pdf",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL/ok Findr",
-    "DDS-Notas/DDS FRANCO/PRIMER PARCIAL",
-    "DDS-Notas/DDS FRANCO",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
     "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"
