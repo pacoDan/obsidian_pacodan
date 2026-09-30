@@ -1,0 +1,2378 @@
+emente de la realidad del Software o del
+sector de ti eh Como para hacer una
+analogía no hablábamos de arquitectura
+de software bueno dimos un ejemplo eh
+analógico con eh lo que tiene que ver un
+arquitecto de de de una casa o de un
+edificio Simplemente porque hay gente
+que todavía no está inmersa dentro del
+mercado laboral y por ahí un ejemplo de
+la vida cotidiana le da este una una
+mayor eh visión o o una gráfica digamos
+mental de lo que se está hablando pero
+están todos Bienvenidos a participar sí
+Esto no es ni un monólogo de Rubén ni
+una charla entre nosotros dos digo están
+todos Bienvenidos a participar pueden
+encender su cámara y contarnos un
+ejemplo que les esté pasando en su vida
+laboral eh que haga relación al tema eh
+pueden hacer consultas las que necesiten
+eh Y siempre vamos a estar abiertos a
+tomar estos conceptos dentro de la
+medida de lo posible eh presentarles más
+ejemplos presentarles más videos eh
+luego les voy a recomendar un videoo que
+habla en muy sencillos en muy poquitos
+minutos y muy Sencillamente la
+diferencia entre un arquitecto de
+software y un diseñador Sí porque muchos
+han tenido por ahí esa esa confusión o o
+han
+eh interconectado estos dos eh conceptos
+que que a veces está bueno eh delimitar
+losos Y diferenciarlos sí entonces
+después les voy a compartir partir un
+video muy cortito eh para el que tenga
+ganas de verlo lo lo pueda lo pueda ver
+eso en cuanto a la devolución de de lo
+que ustedes nos han aportado eh como
+como observación de la clase pasada
+respecto de los trabajos prácticos
+chicos ustedes tengan en cuenta que el
+martes que viene se va a estar haciendo
+la primer entrega del trabajo práctico
+sí Recuerden que la aprobación del
+trabajo práctico es una consideración
+para la promoción
+Eh entonces hago hago este Warning a
+esta hora porque de todos los grupos por
+ejemplo que a mí me han tocado corregir
+en este en en este aula eh En este curso
+solamente uno me ha solicitado una
+entrevista
+eh con análista funcional Sí en las
+condiciones en las que se encuentra el
+enunciado ustedes no van a poder hacer
+ni un documento de especificación de
+requerimientos mucho menos una dt Sí hay
+cosas que pueden inferir que pueden
+asumir y hay cosas que no las van a
+necesitar consultar únicamente si
+ustedes trabajan en el área de salud o
+si les ha tocado vivir alguna situación
+particular que los haya hecho Investigar
+sobre Cómo tener una teleconsulta Sí
+digo es un caso bastante general eh Y
+dentro de la vida cotidiana de todos
+Ahora que estamos en un en un periodo
+pandémico eh pero yo no sé si la mayoría
+de ustedes el año pasado hizo una
+teleconsulta con un médico aunque sea
+para pedir una receta o no Si han tenido
+la picardía o no de este entrar a una
+página de una medicina prepaga y y
+fijarse cuáles son los módulos y fijarse
+desde el módulo de usuario si tienen la
+posibilidad de pedir un turno y pensar
+cómo conectaría eso con el módulo de
+telemedicina que es el que tienen que
+desarrollar eh digo levanto la mano yo
+porque hasta ahora no tengo muchas
+personas que me hayan venido a consultar
+sobre I alidades que deban relevar para
+presentar el martes que viene Entonces
+es simplemente un llamado de atención
+para que tengan en cuenta de que el
+deadline es la semana que viene que
+tienen que entregar un documento formal
+que nosotros no hemos puesto ningún
+lineamiento respecto de cómo tiene que
+ser ese documento porque entendemos que
+pueden obtenerlo de de distintos
+formularios que tengan en sus trabajos y
+que el esqueleto digamos de de la
+documentación eh saben que tiene que ser
+formal que tiene que tener una carátula
+un historial de cambios los integrantes
+del grupo el número del grupo eh digo
+saben todas las formalidades eh han
+hecho seguramente en análisis de
+sistemas algún documento de
+especificación de requerimientos
+entonces a esta altura de la vida
+deberían poder delimitar Cuáles son los
+requerimientos funcionales de los no
+funcionales y saber cómo plantearlos en
+un documento pero si no tienen
+muchísimas herramientas para averiguar
+Cómo se presenta un documento en en este
+caso de especificación de requerimientos
+no se olviden que también tienen que
+analizar los riesgos entonces digo eh
+fueron preguntas aisladas que tuve sin
+sin necesidad de mencionar a un grupo en
+particular o a un curso en particular
+pero de los riesgos a ver si nos ponemos
+a charlar podemos estar todo el día
+hablando de riesgos eh lo que yo
+necesito es que identifiquen los cinco
+más importantes y cuáles son los cinco
+más severos bueno los que en su
+multiplicidad entre la probabilidad de
+ocurrencia y el impacto les den el mayor
+valor sí de esa severidad ustedes
+deberán elegir el
+top y presentar un plan de contingencia
+también hay documentación disponible en
+internet y o mismo en sus trabajos sobre
+cómo se presenta un documento de plan de
+riesgo sobre cómo se presenta un edt Más
+allá del ejemplo que nosotros dimos en
+la presentación que hicimos en la clase
+correspondiente entonces tengan en
+cuenta todas estas herramientas que
+pueden utilizar tengan en cuenta que la
+disponibilidad para hablar con el con el
+analista está presente en todas las
+entregas y en todas las instancias y
+aprovechen a terminar esta semana para
+para digamos terminar de confeccionar
+esta primera entrega porque sería
+importante que no la que no tengan que
+reentrega la sí Para poder continuar con
+su un su esquema de promoción este que
+está así planteado desde el inicio de de
+la cursada Sí la verdad que vale la pena
+hacer el esfuerzo antes de entregar y no
+contra la reentrega sí eh porque les
+quita posibilidades de promoción
+entonces Eh mi idea no es este ni
+retarlos ni ponerme acá como un Sargento
+ni pedirles que me que sí o sí me pidan
+una entrevista no ustedes manejarán sus
+tiempos sus formas de hacer el trabajo
+simplemente es un llamado de atención
+para que no eh llegue el martes que
+viene y se den cuenta que hay un montón
+de cosas que por ahí les estaban
+faltando relevar sí
+Eh Esto lo digo también porque ayer un
+grupo de de de otro de otro curso este
+me dijo no sabíamos si pedirle la
+entrevista no porque a lo mejor no
+estaba bien pedirlo ahora y teníamos que
+hacerlo luego digo en eh Así como está
+el enunciado si ustedes lo leen no van a
+poder hacer una especificación de
+requerimientos Sí entonces o van a caer
+en hacer supuesto todo supuesto y alguna
+de las cosas las van a suponer mal
+Porque no saben lo que el cliente está
+esperando o van a pedirnos una
+entrevista a nosotros y nosotros desde
+la visión de la interpretación del
+cliente le vamos a poder responder esas
+dudas que no
+están escritas en el enunciado del tp sí
+dicho esto Rubén te cedo la palabra Y
+empezamos entonces con la clase de
+microservicios de acuerdo
+bien voy a compartir entonces pantalla
+[Música]
+bien
+eh quiero e recordarles que
+en en el aula virtual hay eh puestos
+algunos eh links a videos que explican
+brevemente algunos conceptos de
+microservicios que pueden ser
+complementarios de de lo que digamos acá
+en el sentido de una definición general
+no este un trabajo detallado de ninguna
+manera esto reemplaza a lo de la clase
+pero respecto del concepto general eh
+pueden ayudar
+bien vamos a empezar
+entonces arquitectura de microservicios
+eh vamos a a
+primero intentar algún tipo de
+definición general que luego este iremos
+profundizando
+eh podríamos decir que eh la
+arquitectura de microservicios es un
+enfoque para desarrollar una aplicación
+es decir ahora salimos del concepto de
+arquitectura de software organizacional
+que vimos la semana pasada donde
+estábamos mirando todas las aplicaciones
+Entonces ahora nos paramos en una
+entonces para una solución determinada
+eh un enfoque posible es el de
+microservicios que plantea desarrollar
+la
+como un conjunto de Pequeños servicios
+de ahí lo de microservicios y cada uno
+de ellos se ejecuta en su propio proceso
+como dice el primer Bullet y esto
+establece una diferencia importante
+porque el microservicio En
+definitiva se está ejecutando como si
+fuera una aplicación tiene su propio
+proceso entonces las comunicaciones que
+haya con otro servicios serán
+comunicaciones entre procesos y no intra
+procesos por otro lado
+e entonces
+las esas comunicaciones entre procesos
+intentarán utilizar mecanismos más bien
+livianos
+las definiciones de qué hace cada
+microservicio se van a estar elaborando
+de acuerdo a capacidades del negocio hay
+una visión muy fuerte centrada en el
+negocio
+eh
+Y esta eh división de la aplicación en
+pequeños servicios eh arrastra
+al despliegue de la solución es decir
+cada
+microservicio tiene que ser posible
+supuesta en producción en forma
+independiente sí y en general a través
+de mecanismos automatizados vamos a
+profundizar un poco por qué vinculamos
+esto de despliegue independiente y
+proceso
+automatizado el hecho de que partamos la
+la aplicación en en un conjunto de
+pequeños servicios nos lleva a que vamos
+a tener que gestionar eso vamos a tratar
+de que tenga un costo bajo pero es un
+agregado si yo antes tenía una sola cosa
+y ahora la divido en partes Tengo que
+gestionar digamos esas partes porque
+constituyen un un todo es decir los
+microservicios en sí mismos eh tienen
+que ser articulados para
+eh que la aplicación haga lo que se
+espera
+que lo que se ha establecido que
+haga y por otro lado como los
+microservicios constituyen un esquema
+como de pequeñas aplicaciones con un
+alto grado de Independencia
+entonces consecuencia de eso pueden
+construirse con diferentes lenguajes de
+programación Y utilizando también
+diferentes a la hora de almacenar los
+datos decir esta Independencia no es
+solamente que lo puedo escribir con otro
+lenguaje sino que también el
+almacenamiento de datos va a tener un
+alto grado de
+Independencia vamos a profundizar por
+supuesto en todas estas definiciones
+generales que todavía no estamos
+explicando
+cómo Entonces nosotros decimos hablamos
+de dividir una aplicación en en un
+conjunto de Pequeños servicios
+entonces uno puede inferir de esto de
+que antes eso no se hacía s es decir
+antes las aplicaciones no estaban
+divididas en pequeños
+servicios eso llevó a que con la
+aparición de los microservicios al
+esquema anterior se lo llamó
+arquitectura monolítica o un esquema
+monolítico de de construcción de
+aplicaciones el término monolito la la
+etimología de la palabra un monolito es
+una piedra constituida por una sola
+pieza Esa es la idea de de algo
+monolítico es una unidad indivisible
+digamos entonces en el estilo
+arquitectónico monolítico la aplicación
+es un todo
+e veamos algunos ejemplos porque esto de
+que sea un todo no significa que
+conceptualmente no pueda tener partes no
+eh estamos llenos de aplicaciones que
+tienen por ejemplo tres partes
+principales una interfaz de usuario del
+lado del cliente con páginas html y
+javascript que se ejecuta en el
+navegador de la de la máquina del
+usuario en el otro extremo una base de
+datos donde tenemos una serie de tablas
+eh donde se almacena la información
+Generalmente con un esquema relacional
+pero podría no serlo y por otro lado una
+aplicación del lado del servidor que
+tiene toda la lógica del negocio y la
+forma de recibir esas peticiones de la
+interfaz de usuario eh interactuar con
+los datos y dar respuestas
+eh la aplicación del lado del servidor
+entonces manejará Esas solicitudes http
+eh le aplicará una cierta lógica de
+negocio va a recuperar y va a actualizar
+datos en la base de datos y luego
+generará vistas html que enviará al
+navegador Ese es más o menos el el
+esquema
+y la la aplicación uno podría decir
+Bueno pero esto en realidad tiene tres
+partes donde básicamente se observa el
+monolito es
+en la aplicación que está del lado del
+servidor es un único ejecutable lógico
+eh Si nosotros queremos hacer un cambio
+sobre este sistema Tendremos
+que reconstruir la aplicación completa
+Aunque en realidad el cambio sea una
+pequeña parte y desplegar una nueva
+versión de la aplicación en el servidor
+eh las aplicaciones monolíticas pueden
+ser muy exitosas de hecho este lo han
+sido
+Pero ha aparecido un nivel de
+frustración importante Especialmente
+cuando se implementa aplicaciones
+Cloud de todas maneras Hagamos una
+aclaración importante respecto de los
+cambios conceptuales
+o tecnológicos en la industria en
+general cuando aparece un nuevo enfoque
+es una mejora sobre la situación
+anterior es decir resuelve mejor ciertos
+problemas resuelve nuevos
+problemas cuando después de un
+tiempo eso empieza a
+crujir no es porque la solución se haya
+deteriorado con el tiempo en general la
+principal causa es la realidad cambió
+entonces este esquema que hoy hace ruido
+cuando apareció no hacía ruido
+fundamentalmente porque la realidad era
+distinta entonces leemos corrido el arco
+la el enfoque ha tratado de adaptarse ha
+amortiguado en parte a esos cambios pero
+no todos entonces hay un punto en el
+cual resulta insatisfactorio Y ahí
+aparece un nuevo enfoque digo esto
+porque a veces cuando se mira una
+solución de la industria que es
+reemplazada por otra eh y se la
+considera obsoleta que no da respuestas
+etcétera es importante entender que
+cuando eso apareció no estaba pasando
+esto es que ahora le estamos pidiendo
+más no es que éramos tontos o o o fueron
+tontos en su momento los que se le
+ocurrió hacer eso nadie les dijo nada y
+nos convencieron a todos de que esto era
+lo mejor no Simplemente la realidad
+cambió y precisamente
+el la arquitectura monolítica en uno de
+los lugares donde empieza a hacer ruido
+es en la necesidad de un escalado muy
+rápido eh situación que antes era
+extremadamente rara era necesario
+escalar sí siempre fue necesario pero eh
+nunca eh en forma tan perentoria como lo
+es
+actualmente Entonces ese tal vez es uno
+de eh una de las
+restricciones más grandes digamos que
+tiene hay otras que vamos a ir eh
+detallando esto lo vamos a a saltear
+eh vamos
+a destacar o recuperar algunos de los eh
+de las ventajas que tiene el esquema eh
+monolítico que es básicamente la
+simplicidad siempre tener menos
+cosas es más sencillo más simple de
+manejar que tener muchas esto también se
+traduce en el desarrollo donde
+eh todos tienen un mismo enfoque lo
+mismo que para testear lo mismo que para
+desplegar igual Hagamos una aclaración
+Que el despliegue sea
+sencillo Eh no significa que sea rápido
+y que no genere ruido lo que estamos
+diciendo es si decidimos que hoy vamos a
+poner en producción algo eso no es una
+tarea complicada puede que nos lleve
+tiempo sí pero no es una tarea
+complicada H eh
+es una aclaración importante esta Porque
+después nosotros nos vamos a quejar
+bastante de problemas en los despliegues
+y uno podría decir pero cómo si en algún
+momento dijimos que era fácil Eso
+dijimos que era fácil No que no traía
+otro tipo de
+problemas es decir si nosotros nos
+ponemos en la situación de alguien cuya
+tarea es realizar el despliegue esa
+persona podría decir esto es fácil No es
+rápido pero es fácil no me resulta
+complicado el tema es que cuando vemos
+la película completa desde que
+eh el negocio pide algo hasta que eso
+está desplegado en
+producción Entonces ese ciclo
+completo no se lleva bien con eh la
+facilidad del despliegue
+eh facilidad en la operación es decir
+una vez que se pleg para la la gente que
+es responsable que esa solución siga
+funcionando
+eh el esquema monolítico es más sencillo
+de operar que otros
+Sí nosotros manifestamos algunas
+críticas al tema del escalado pero de
+todas maneras hay que reconocer que el
+esquema monolítico tiene capacidad de
+escalado de un escalado horizontal
+básicamente
+replicando la aplicación es decir
+nosotros tenemos nuestra aplicación
+monolítica montada en un servidor bueno
+ponemos otro servidor adicional ponemos
+un balanceador de carga y hemos
+duplicado la capacidad de atención de
+nuestra solución y eso lo podríamos
+digamos seguir haciendo O sea el esquema
+monolítico decididamente que tiene
+capacidad escalado después Vamos a
+entrar en el detalle fino para
+ver por qué ese
+escalado fácil no siempre es lo mejor no
+siempre es lo que
+queremos Pero tenemos que decirlo no es
+que el esquema monolítico no escala a
+través
+de replicar servidores escala
+[Música]
+bien como toda solución tiene aspectos
+positivos y
+negativos hablemos tenemos que mencionar
+los
+negativos los ciclos de cambio están muy
+muy acoplados es
+decir no es
+[Música]
+o mejor dicho debido a
+que la puesta en producción es en bloque
+es todo junto hay una tendencia a no
+quiero hacer un gran trabajo de puesta
+en producción porque es un gran trabajo
+el de las aplicaciones monolíticas lleva
+bastante tiempo lleva mucha preparación
+Entonces no quiero hacerlo solo por un
+pequeño cambio
+entonces trato de agrupar de izar
+cambios es decir ya que voy a hacer una
+movida grande esa movida tiene el mismo
+costo la haga por un pequeño cambio o
+por docenas de cambios el costo es el
+mismo entonces prefiero hacerla por
+docenas de
+cambios Entonces esto que hace y que
+algunos
+cambios se se construyen se testean pero
+no se ponen en producción y quedan ahí a
+la espera desde el punto de vista del
+negocio la consecuencia es que algunas
+cosas que pidió tardan mucho en llegar
+sin embargo Ya están listas Pero le
+falta el último
+paso entonces hay un gran acoplamiento
+de cambios por la puesta en producción
+No desde el punto de vista lógico no es
+que porque cambié esto tengo que cambiar
+aquello no es que quiero juntar cambios
+para bajar el costo o mejor dicho para
+amortizar el costo grande que tiene una
+puesta en
+producción eh Por otro lado a medida que
+la aplicación crece como es un
+todo es un todo cada vez más
+complicado Eso hace que el esquema
+modular que seguramente se aplicó
+inicialmente sea tenga dificultad
+para
+mantenerse la incorporación de nuevas
+tecnologías en general es dificultoso
+porque el enfoque tecnológico afecta a
+toda la aplicación al monolito entonces
+en general
+los cambios tecnológicos suelen ser o
+cosméticos que realmente no cambian
+demasiado o los cambios más profundos
+enfrentan la dificultad de tener que
+armar muchísimas cosas
+nuevamente bien
+eh y respecto del escalado y acá sí
+vamos a hacer la aclaración dijimos que
+el escalado es fácil Sí pero es
+ineficiente en el sentido de que el
+escalado es del monolito o sea tengo un
+monolito puedo tener dos puedo tener
+tres puedo tener cuatro no puedo tener
+un monolito y un
+décimo la unidad de crecimiento es la
+aplicación misma escala toda la
+aplicación independientemente de que
+haya una parte de la aplicación que sea
+la más
+demandada esto que
+ahora nos llama la
+atención hace algunos años era tomado
+como natural es decir qué me estás
+diciendo yo digo que la aplicación no da
+basto entonces lo que tengo que hacer es
+e escalar la aplicación es la aplicación
+la que no da basto es decir no existía
+el concepto de El problema lo
+tengo de de
+de oferta de servicios en tal parte de
+la aplicación hay otras partes que están
+muy cómodas como están funcionando hoy
+ese concepto no no existía uno pensaba
+siempre con este esquema de monolito es
+la aplicación me queda
+corta bien Vamos a analizar un poquito
+más
+eh este esquema monolítico con un
+ejemplo Entonces vamos a pensar
+eh vamos a armar bien una aplicación
+nueva
+eh queremos armar una aplicación para eh
+un esquema de pedir servicios de de
+taxis o o de traslado que puedan
+competir con Uber o
+cabify
+eh tenemos algunas reuniones
+preliminares con el negocio recopilamos
+datos amamos requerimientos y
+eh generamos un eh nuevo proyecto con
+alguna tecnología
+eh vamos a armar Como se muestra ahí en
+el diagrama una
+arquitectura modular
+hexagonal el
+núcleo la la parte que está marcada en
+verde tiene la lógica del negocio que se
+implementa mediante módulos que definen
+servicios objetos de dominio
+eventos etcétera alrededor del núcleo
+hay tengo que dar entrada a alguien que
+se sube a la
+clase
+eh decía entonces que
+em alrededor entonces de de ese núcleo
+eh Hay una serie de módulos que
+eh No
+perdón eso es la parte interna vamos a
+lo que hay alrededor del núcleo eh
+alrededor del núcleo tenemos distintos
+adaptadores H que ustedes ven ahí como
+como cuadrados que
+e lo lo que permiten es la interacción
+con el mundo externo así tenemos
+adaptadores eh para el acceso a base de
+datos mensajería eh exponen una Api eh
+implementan una interfaz de
+usuario eh
+entonces a pesar de que
+tenemos una lógica modular a la hora de
+desplegar la aplicación todo esto
+constituye un solo paquete un bloque
+único si el formato que eso va a tener
+dependerá del lenguaje que se utilizó
+para desarrollarlo y y del
+framework Por ejemplo si fuera una
+aplicación Java podríamos tener archivos
+War eh o e archivos yar
+eh del mismo modo Se podrían armar
+aplicaciones eh rails eh Y nodejs que se
+empaquetan como una jerarquía de
+directorios siempre estamos hablando
+entonces de paquetes de una aplicación
+que des el punto de vista conceptual
+está formada por módulos pero a la hora
+del despliegue eh es un monolito h
+e bien no vamos a ahondar demasiado más
+en
+esto vamos a pasar a otro esquema
+posible
+para el mismo tipo de proyecto
+eh algunas organizaciones como Amazon
+Ebay y
+Netflix hace algunos años resolvieron
+este problema de otra forma a través de
+lo que hoy conocemos como arquitectura
+de
+microservicios entonces en vez de crear
+una sola aplicación monstruosa y
+monolítica digamos que esta gente
+enfrentaba el problema de que ya sabían
+de entrada que lo de ellos iba a ser muy
+grande sí no es algo pequeño que los
+años se transforma en un monstruo ya
+arranca en categoría monstruo y luego
+por supuesto va a crecer y muchísimo no
+entonces eh aplicaron este concepto de
+Definir la aplicación como un conjunto
+de servicios más pequeños
+interconectados
+eh un servicio esto lo mencionamos antes
+implementa un conjunto de
+características
+o o funciones de negocio como gestión de
+pedidos gestión de
+clientes es una mini aplicación que ahí
+hemos representado como un hexágono para
+seguir el esquema que teníamos antes
+antes el núcleo de aplicación era un
+hexágono Bueno ahora los hexágonos están
+a nivel de los
+microservicios algunos microservicios
+entonces exponen una Api que es
+consumida por otros microservicios o por
+los clientes de la aplicación otros
+microservicios pueden implementar una
+interfaz de usuario
+eh Y en tiempo de
+ejecución cada instancia suele ser una
+máquina virtual en la nube o un
+contenedor en docker en otra charla
+vamos a hablar tanto de la nube como de
+contenedores por ahora dejémoslo en
+suspenso Sí y más eh podemos para los
+que no eh han tenido contacto con el
+tema por ahora Digamos que cada
+microservicios eh corre en una máquina
+virtual bien entonces este es
+básicamente este el esquema
+vamos acá a poner un resumen que vamos a
+desarrollar a continuación estas son
+como los
+títulos que vamos a estar buceando en
+los próximos slides
+entonces
+la aplicación se arma a través de un
+conjunto de
+servicios está organizada alrededor de
+funcionalidades del negocio es decir
+cómo armamos los microservicios
+eh se resuelve a partir de tener en
+cuenta funcionalidad del negocio Aunque
+está claro que esto no es un proceso
+mecánico ni
+sencillo de decir qué va con cuántos
+microservicios Y qué va a hacer cada uno
+no es para nada una tarea eh sencilla ni
+por supuesto trivial
+e la cuestión de enfoque orientado a
+productos y no a proyectos nosotros
+hasta acá en la materia hemos hablado de
+lo que es un proyecto Bueno ahora vamos
+a hablar sobre la conveniencia de un
+enfoque orientado a productos
+eh después los Smart end points vamos a
+hablar de de de smart ends y pipes es
+algo así como
+e
+digamos nosotros tenemos una tubería que
+conecta dos extremos y lo que estamos
+diciendo acá es que la inteligencia está
+en los extremos y este la tubería que
+hay en el medio que hace que esos
+extremos Se comuniquen entre sí tiene
+poco grado de inteligencia no No
+necesariamente tonta pero digamos eh
+poco inteligente eh Por otro lado vamos
+a hablar de la descentralización del del
+gobierno de la aplicación la
+descentralización de la gestión de
+datos la importancia de la
+automatización de la
+infraestructura el diseño que contemple
+fallos estos propios de los sistemas
+distribuidos Y por último diseño
+evolutivo bien Vamos a meternos en
+detalle lo primero es que la
+eh arquitectura de eh microservicios
+eh
+e piensa la aplicación como eh un
+conjunto de servicios que interactúan
+digamos entre sí
+eh entonces eh
+eh eso es el sello digamos de de este
+enfoque y hacemos algunas aclaraciones
+respecto de
+eh de lo que son las bibliotecas y de
+los que son este componentes porque los
+servicios sí eh corren dentro de un
+proceso cada servicio entonces cuando un
+servicio se comunica eh con otro es una
+comunicación entre procesos en cambio la
+comunicación entre componentes
+perfectamente puede ser intrapreso lo
+mismo que La invocación a
+eh bibliotecas entonces esa es una
+diferenciación importante
+eh Esa Independencia es esa componenti a
+través de los microservicios llega
+digamos al al
+despliegue eh
+respecto de la
+organización en torno a funcionalidades
+del
+negocio
+acá Este es un concepto un poco duro el
+de la ley de conue vamos a tratar de
+aterrizar un
+poco lo que dice la ley de con es algo
+así como bueno en una
+organización los las distintas
+personas que la constituy
+y los distintos sectores o áreas de la
+misma tienen formas de comunicarse y en
+general eso esa forma de
+comunicarse afecta a la forma en la que
+las personas que forman parte de la
+organización Ven a la
+comunicación y esto se traduce en que
+cuando arman una
+solución suelen replicar
+bastante el esquema de comunicación de
+la organización es como si la forma en
+la que se comunican las aplicaciones se
+pareciera bastante a la forma en la que
+se comunican los sectores de la
+organización eso es lo que dice la ley
+de
+con bien
+Ahora
+esto de funcional
+digamos en torno al negocio en muchos
+casos lleva a que del lado de Haití la
+el
+agrupamiento de los equipos sea por
+tecnologías
+Sí y suele haber
+equipos orientados a lógica de negocio
+equipos orientados a interfaz de usuario
+eh eh equipos orientados a todo lo que
+son datos HM en sus distintas formas
+h en cambio el enfoque de microservicios
+eh es decididamente diferente H respecto
+de
+eh de quienes
+e están involucrados en el desarrollo de
+microservicios en el sentido de que los
+equipos son
+multifuncionales Por qué es esto bueno
+porque el concepto de aplicación se
+traslada a un microservicio entonces eh
+para el armado de un
+microservicio Necesito que el equipo que
+que lo va a tener a cargo sea
+multifuncional entonces las unidades de
+trabajo son multifuncionales
+Este es un
+cambio
+bastante importante digamos no no es
+e no
+es una trivialidad esto de que en el
+equipo tenemos todos los especialistas
+necesarios y no tenemos que hablar con
+otro sector que nos que como si fuera un
+área de servicios y que nos atiende a
+nosotros y a otros equipos de
+desarrollo
+esto organizacionalmente tiene una
+implicancia muy
+fuerte cambia la forma en la que un
+sector amplio de la organización lo que
+tiene que ver con ha se
+organiza bien
+eh productos no proyectos nosotros
+eh vimos el enfoque de proyecto no
+dijimos un proyecto es algo que tiene un
+objetivo determinado que tiene principio
+que tiene fin
+Eh entonces con este esquema tenemos un
+proyecto para armar una
+solución armar un producto determinado
+Bueno entonces eh el proyecto cuándo va
+a terminar cuando dejemos en el ambiente
+productivo funcionando de acuerdo a lo
+establecido a nuestra solución
+eh entregaremos Esa solución a un equipo
+de operaciones que lo mantendrá en
+funcionamiento y habrá del lado de haí
+un equipo de mantenimiento
+que corregirá errores que aparezcan a
+futuro y incorporará nuevas
+funcionalidades y nosotros que hemos
+armado ese producto
+entraremos en otro proyecto o nos
+separaremos
+y distinta distintos integrantes irán a
+diferentes
+proyectos Ese es el enfoque de
+proyecto el enfoque de producto
+es todo lo que dijimos recién pero No
+termina
+cuando lo ponemos en producción es decir
+La idea es si nosotros lo construimos
+nosotros seguimos a cargo después
+entonces la corrección posterior de bax
+El agregado de Nueva funcionalidad
+seguirá estando a cargo nuestro es decir
+hemos generado una criatura y somos
+responsables de ella mientras esta
+criatura esté viva es de nuevo Este es
+un enfoque muy diferente y que tiene un
+impacto en la forma de organizar un área
+de muy
+fuerte una de las grandes ventajas que
+tiene esto
+es ahora les voy a preguntar a
+ustedes alguno de ustedes trabaja en
+desarrollo de
+software prof
+Matías vos alguna vez Te topaste con la
+situación de
+cargaron que
+modificar algo una aplicación que está
+en
+producción de la cual no conocías
+demasiado y tal vez no había
+documentación suficiente te ha pasado
+alguna vez un clásico es un clásico
+exactamente lo que relata Matías es una
+experiencia muy muy
+común y por
+supuesto muy conflictiva para quien le
+toca protagonizar porque uno siempre
+quiere hacer un buen
+trabajo y a veces es muy difícil hacer
+un buen trabajo cuando uno está en un
+terreno desconocido porque no solamente
+tenemos dudas sobre cómo hacer lo que
+nos encargaron sino que tenemos un
+terrible temor de romper algo y no
+darnos cuenta mientras lo Estamos
+rompiendo y después que está y nos
+dian Cómo perdón no hay ambientes para
+probar además a veces agravado por
+ciertos aspectos organizacionales que
+esto que lo tenemos atado con alambr que
+no conocemos demasiado tampoco lo hemos
+podido probar como desearíamos y es
+también por supuesto un agravante muy
+serio
+bien entonces este esquema de pensar en
+producto minimiza la posibilidad de que
+eso ocurra Porque si bien las personas
+entran y salen de la organización pero
+el equipo se mantiene sí Entonces el
+equipo como tal es el que generó este
+monstruo y el que lo ha mantenido desde
+siempre Entonces ya no puede mirar y
+decir quién habrá sido el simpático que
+armó esto y se fue de la compañía porque
+en realidad es el equipo la persona
+puntual que hizo eso Tal vez no esté
+pero el equipo sí está y el equipo debe
+tener el conocimiento de eso entonces
+este esquema lleva a un conocimiento más
+profundo de la aplicación pero no
+solamente a la hora de que voy a meter
+mano sino a la hora de anterior a eso de
+pensar en un cambio antes de hacerlo lo
+pensamos y para pensarlo tenemos que
+evaluar el impacto de lo que queremos
+hacer entonces el conocimiento más
+profundo sobre la criatura es una
+ventaja enorme
+enorme no solo para lo básico de no
+romper nada sino para no generar una
+suerte de monstruo heterogéneo que
+muestra los estilos de los distintas
+personas que fueron participando
+entonces no es un ente homogéneo es una
+especie de Frankenstein sí que tiene un
+brazo verde una cabeza roja sí cinco
+patas tiene plumas un cuerno Y eso por
+qué es y bueno porque cada uno fue
+haciendo lo que podía y no hubo nunca
+una visión de
+producto una visión que estuviera
+mirando de que esto tenga un sentido
+tengo una identidad tengo una
+homogeneidad un error un error claro con
+el que a veces puede uno toparse es la
+mayoría va a tratar de ir a implementar
+la funcionalidad pequeña o el pedido de
+cambio pequeño que le realizaron y solo
+le agrega una pierna más al Frankenstein
+exact no
+más y no al no recibir ni siquiera el
+skill transfer no hay una preocupación
+por la calidad del producto final sino
+que es como como decía usted siempre
+está la preocupación de resolver el
+requerimiento de proyecto y no evaluar
+también la salud del producto porque
+después a futuro implementar un cambio
+nuevo puede hacer que los cambios
+anteriores también dejen de
+funcionar exacto y sumando a lo que vos
+decías por una actitud
+eh
+precavida de moverse en un terreno
+desconocido a veces se arman monstruos
+solo por precaución es decir tengo que
+agregar algo lo que debiera hacer es
+meterme en esta caja y hacer unos toques
+ahí pero esta
+caja
+es una cosa
+inentendible es tremenda Entonces qué
+hago me copio la caja
+completi solo para hacer un cambio en
+una parte y de toda esa rama que armé lo
+único que funciona es el pedacito que yo
+agregué
+Entonces desde el punto de vista del
+mantenimiento la estoy destruyendo a la
+aplicación pero he logrado lo que vos
+decías he logrado resolver el
+requerimiento planteado y hasta acá no
+rompí
+nada
+pero
+estoy
+destruyendo seguramente lo que en algún
+momento fue una buena idea por
+desconocimiento HM entonces fíjense có
+eh el desconocimiento a nosotros nos
+transforma en destructores de lo que
+pretendemos proteger y mejorar no pero
+que no nos queda otra porque decís qué
+hago le digo que no a todo eh Para no eh
+eh hacer un desastre o hago un desastre
+contenido
+digamos bien sigamos
+entonces este enfoque les decía
+de de producto
+eh tiene un impacto muy grande en los
+aspectos organizativos pero también
+tiene un impacto muy grande
+en
+la bajar el nivel de deterioro de el
+interno del producto en el
+tiempo somos nosotros no le
+podemos endosar la responsabilidad a
+nadie si esto se transformó en un
+Frankenstein fue exclusivamente por
+nosotros Porque tuvimos desde el día
+cero acá esta es nuestra
+criatura bien
+e el tema
+de los extremos inteligentes y las
+conexiones
+e básicas digamos no Las llamaría tontas
+pero básicas
+eh Déjenme decirles que
+eh durante mucho tiempo se impuso un
+esquema
+eh que tuvo su impacto también en la
+arquitectura organizacional que que
+mencionamos la semana pasada que es si
+hay que
+conectar dos o más
+cosas bueno Contamos con un sistema
+conexión muy
+inteligente metafóricamente como si
+fuera una zapatilla muy inteligente de
+conexión con muchos conectores distintos
+entonces
+eh simplemente vos querés Conectar a con
+j bueno enchufa en este extremo a
+enchufa allá a j y lo que hay en el
+medio se encarga de todo
+despreocupate
+Eh Esto se utiliz mucho en la
+Precisamente en esquemas
+de de arquitectura
+eh organizacional
+eh se lo llamó este algo así
+como un canal
+eh un canal de negocio empresarial Cómo
+Perdón una gran
+fachada no es no a ver el el el término
+e el el término Exacto que se utiliza es
+eh el
+de bus eh empresarial
+e de conexión no es decir es es un
+paquete de software son soluciones de
+software muy complejas sí eh Muy
+complejas por dentro digo que hacen un
+montón de cosas entonces tienen muchos
+mecanismos eh visuales en las en los
+cuales uno entra y gráficamente va
+definiendo Qué conecta con qué y qué
+cosas hay que hacer digamos en el medio
+Qué tipo de transformaciones digamos
+etcétera Eh Esto de ninguna manera lo
+digo como una crítica eh estos productos
+fueron exitosos eh resolvieron muchos
+problemas a a nivel de la arquitectura
+organizacional a nivel de eh tengo que
+lidiar con que las aplicaciones yo no
+las pensé para que se conectaran tanto
+entre sí Y ahora que quiero reacomodar
+algunas cosas que quiero hacer que los
+datos de los clientes eh estén
+eh En manos de una sola aplicación y
+todos los que los que lo necesiten los
+consuman de ella a la hora de tener que
+hacer ese tipo de cosas eh Y no tener
+que armar todo de nuevo este este tipo
+de productos eh realmente eh Vino muy
+bien
+[Música]
+eh entonces eh acá con los
+microservicios se aplica un concepto
+distinto Qué es un concepto que viene de
+unix qu es
+lo que utilizamos para
+conectar conecta no hace otra cosa
+entonces la inteligencia está en los
+extremos y la conexión se encarga
+digamos del ruteo de la información de
+lo que es netamente llevar cosas ser un
+transportador de información entre dos
+extremos la inteligencia que tiene es
+para eso para lo que es el
+transporte no cero cuestiones de negocio
+tiene cero
+transformaciones mueve cosas digamos de
+lugar entonces este es
+el el enfoque que se
+utiliza que por qué no se hacía antes
+Bueno en realidad lo que ocurría era que
+cuando se armaban las aplicaciones no
+había requerimientos muy fuertes de
+conectividad con otras sí después cuando
+aparecieron esos requerimientos se
+fueron resolviendo de
+más o menos bien pero cuando apareció
+esta cuestión de queremos que el dueño
+de tal tipo de datos sea uno solo y
+todos los demás lo consuman a través de
+servicio ahí sí se complicó digamos
+bastante en cambio el enfoque de
+microservicios ya de entrada plantea eso
+plantea de que la comunicación va a ser
+central lo estamos diciendo de que la
+aplicación misma ya no otras
+aplicaciones la aplicación misma vive en
+base a comunicación entre servicios
+Entonces los aspectos de comunicación
+son absolutamente centrales aún dentro y
+pongámosle comillas dentro de la
+aplicación porque las partes que la
+componen los microservicios hablan entre
+sí si no la aplicación directamente no
+funciona
+eh bien
+gobierno descentralizado
+eh esta esta idea de que eh uno lo
+construye y uno se hace cargo de ese
+producto de por vida de por vida del
+producto el equipo queda pegado digamos
+a eso a esa criatura digamos que ha este
+generado y esto incluye decisiones de
+las tecnologías utilizadas la forma de
+almacenamiento de los datos sí
+eh entonces la aplicación está partida
+en
+microservicios pero este todo está
+partido en microservicios Entonces no
+existe el concepto de esta es una
+aplicación
+netet no Esta es una aplicación con una
+arquitectura de
+microservicios y la tecnología utilizada
+en los microservicios será la que se
+haya decidido en cada caso
+eh una cosa que tiene mucho pero mucho
+impacto y no es una cuestión menor es
+algo que también a veces genera ruido es
+la gestión de datos
+descentralizados Pero esto parte de un
+concepto más amplio que está mencionado
+ahí en en el primer ítem que es
+descentralización del modelo conceptual
+vamos a dar un ejemplo pensemos
+conceptualmente
+en un cliente que tiene un conjunto de
+datos ahora si yo lo miro desde el lado
+del
+negocio el negocio tampoco es una
+unidad hay distintas áreas de negocio
+Entonces al
+cliente el área de marketing
+posiblemente lo ve distinto que
+el área de marketing que se encarga de
+definir los productos de explorar el
+mercado etcétera lo ve distinto que el
+área comercial lo ve distinto que el
+área de facturación lo ve distinto que
+el área de cobranzas distinto en el
+sentido de que no es Exactamente igual
+hay cierta información compartida por
+estos distintos sectores pero también
+hay
+eh Hay conceptos que son propios de ese
+sector hay conceptos que hay que manejar
+a nivel de cobranzas del cliente que
+para marketing no tiene
+sentido Entonces si uno dice eh el
+modelo conceptual de nuestro cliente lo
+vamos a
+segmentar en varios dominios y vamos a
+establecer relaciones entre ellos eso a
+la hora de volcarlo digamos amos en un
+almacenamiento lleva a que también los
+datos del cliente están
+segmentados Y esto es en el modelo
+conceptual ahora vamos a cuando
+aterrizamos los datos en la base de
+datos cuando los datos persisten también
+se
+descentraliza entonces uno podría decir
+que cada servicio tiene sus propios
+datos puede ser su propia base
+estrictamente como dice ahí puede ser
+una base que comparta pero tiene sus
+propios datos sí eh Y por supuesto algo
+que vamos a ver más adelante en la
+materia que es la persistencia políglota
+que ya les tiro un anticipo básicamente
+La idea es los datos los almacenamos eh
+según la forma que nos convenga Entonces
+esto puede ser que para
+eh un carrito de compras eh o para un
+catálogo de productos tengamos una
+determinada base no sql Y para datos de
+facturación tengamos una base relacional
+y así siguiendo sí Entonces esto no
+significa que tengamos un esquema de
+almacenamiento para cada solución pero
+sí que haya más de un esquema de
+almacenamiento que los datos no se
+almacenen todos en un esquema relacional
+o en un esquema no relacional sino que
+hay más de uno y que tiene que ver con
+la conveniencia de Para qué se utilizan
+digamos esos datos No no es lo mismo a
+nivel de
+conveniencia eh para su manejo datos que
+tengan que ver con facturación con
+transacciones que datos que tengan que
+ver con eh el log de eh las actividades
+que hizo usuario en el uso de la
+aplicación por
+ejemplo o eh con eh cuestiones de
+definición de un catálogo de productos
+donde me planteo que es deseable que las
+características de los productos no sean
+las mismas para todos los
+productos sí es decir la forma en la
+cual describo una bicicleta eh No
+necesariamente Tiene los mismos ítems
+que para
+describir un servicio de
+parquización Entonces es
+conveniente tener un esquema flexible de
+definiciones ya no de los datos que le
+voy a poner adentro sino del molde que
+voy a utilizar para los datos que no
+todos es decir es como si uno dijera
+tenga un catálogo de productos que
+cuanto a su definición es heterogéneo
+los productos no se definen todos de la
+misma manera Bueno
+hay bases no sql que manejan mucho mejor
+esto que un esquema relacional Entonces
+por un tema de
+conveniencia voy a ese esquema
+heterogéneo de persistencia de datos lo
+que se lo suele Llamar persistencia
+polot bien hecha esta introducción
+Entonces si y
+cada servicio administra sus propios
+datos entonces decimos que los datos
+están repartidos
+y los
+datos de un servicio son complementarios
+de los de otro servicio pero no están
+dentro de una transacción
+distribuida no son los datos digamos de
+este servicio eso
+puede traer algunas inconsistencias que
+vamos a explicar en un
+ratito vamos a introducirnos en el
+teorema de
+cap
+e quería preguntarles si alguno de
+ustedes ha tenido algún acercamiento al
+teorema de
+cap Aunque más no sea conceptual haber
+leído algo al respecto
+e
+sí
+Matías Okay quieres contarnos algo sobre
+tu
+acercamiento
+sí lo he aplicado en el ámbito laboral
+pero también tuve la oportunidad de
+cursar no squel quinto año Ajá como
+lectiva básicamente la idea del teorema
+es que hay tres aspectos en el cual se
+pueden evaluar un modelo de persistencia
+eh que no son los tres necesariamente
+aplicables al mismo tiempo sino que por
+lo general un elige dos Dad las
+condiciones en las cuales se está
+aplicando entonces consistencia
+disponibilidad y tolerancia
+particionamiento no puedo tener las tres
+pero puedo asegurarme que una base de
+datos pueda garantizar consistencia y
+disponibilidad y no tencia partición
+particionamiento o puede ser que
+garantice consistencia y tolerancia
+particionamiento y un acercamiento a una
+disponibilidad eventual que puede llegar
+en el largo en largo plazo a ser total
+pero por lo general no va a ser tal va a
+ser más eventual entonces nunca voy a
+garantizar los tres aspectos pero puedo
+garantizar al menos
+dos eh Gracias Matías eh alguien más
+quiere hacer algún comentario antes que
+nos zambu en el teorema de
+cap bien Vamos a zambullirnos Entonces
+lo es correcto todo lo que mencionó
+Matías Aunque por ahí para quien no está
+en tema no es fácil de digerir eh
+digamos que el teorema de cap eh se
+ocupa
+de sistemas distribuidos H
+específicamente el tema de los datos los
+datos de sistemas distribuidos es
+decir los datos no están en un solo
+lugar imaginemos eh un que ustedes
+tienen una aplicación de eh
+eh sueldos liquidación de
+sueldos Y en vez de tener
+eh todos los datos en una determinada
+base en un determinado servidor los
+datos están repartidos y hay una parte
+acá y ha por lo menos una parte más que
+está en otro lugar es decir a la hora de
+tener que recuperar eh datos Sí
+necesitamos comunicarnos eh con dos
+lugares distintos Sí hay un tema digamos
+de comunicación cuando los datos están
+todos en un solo lugar
+eh o bien accedemos a todos los datos o
+no podemos acceder a ninguno no hay otra
+posibilidad sí es decir la conexión con
+la base de
+datos se puede cortar Bueno okay hay
+datos no podemos llegar a la base Ahora
+cuando es un esquema
+distribuido bueno Eh puede ser que eh
+podamos llegar a algunos y otros no es
+más Se los voy a plantear otro punto de
+vista imagínense que de lo que estamos
+hablando es que supongan ustedes eh
+un determinado almacenamiento que tiene
+un software como existe en las bases
+relacionales un motor es decir hay un
+software que administra eso Y entonces
+el problema de la distribución de los
+datos es para ese
+software Entonces los datos de la
+liquidación de sueldos están en dos
+lugares pero ustedes siempre las
+peticiones las
+hacen contra el Software que administra
+los datos Entonces cuando ustedes les
+piden algo el software tiene que poder
+comunicarse con los distintos lugares
+donde tiene los datos almacenados
+bueno
+eh
+quienes han lidiado con las redes saben
+que las redes no son 100% confiables las
+redes siempre pueden fallar entonces
+puede ser que algún dato no podamos
+acceder
+Entonces se plantea la cuestión de cómo
+lo podemos resolver digamos a eso no de
+entrada uno podría decir Bueno pero
+entonces eh si yo tengo datos
+almacenados en distintos lugares y parto
+de la base que a lo mejor
+eh algunos datos
+eh que están en un lugar momentáneamente
+puedan no ser accesibles si los datos
+que están en ese lugar estuvieran
+replicados en otro que sí está accesible
+eh podría
+zafar Sí por supuesto podría zafar Y eso
+es lo que utilizan muchos sistemas que
+es la redundancia pensando en que
+algunos lugares pueden no estar
+accesibles si la información Esa está
+además en otro lugar y ese otro lugar
+está accesible entonces sí resolveremos
+el problema pero de nuevo estoy
+suponiendo de que hay otro lugar que sí
+está accesible es decir por más que tome
+eh previsiones siempre algo puede fallar
+qué nos dice Entonces el teorema de
+cap independientemente de la tecnología
+que utilicemos el teorema no habla de
+cuestiones tecnológicas simplemente
+habla de sistemas con datos
+distribuidos entonces analiza tres
+aspectos la consistencia la
+disponibilidad y la tolerancia al
+particionamiento la consistencia Bueno
+es lo que ustedes conocen no Entonces si
+uno dice si este sistema está
+distribuido si hay datos que están
+replicados en más de un lugar digamos
+etcétera Bueno lo importante es que
+cuando yo pida algo no importa de dónde
+lo traigan
+eh siempre de la misma respuesta sí es
+decir no no haya dos visiones diferentes
+de la misma información porque eso
+implicaría una
+inconsistencia la
+disponibilidad en un sistema que ya de
+entrada me estoy atajando y Digo e pero
+como he distribuido se puede
+caer lo importante sería que uno pueda
+garantizar una respuesta es decir si hay
+una parte que no anda que haya otra
+parte que me esté
+respondiendo la disponibilidad es en el
+sentido de que ustedes lo conocen es
+decir que cuando uno pide
+algo recibe eh una
+respuesta y en la tolerancia al
+particionamiento que es un es un
+concepto más complicado podríamos en una
+primera aproximación decir que se parece
+a la disponibilidad pero en una en un
+ámbito más extendido es como si uno
+dijera tengo un Data Center
+y tengo varios servidores y tengo datos
+repartidos entre esos servidores
+sí bien Y entonces si se cae uno Este
+aseguro la disponibilidad a través de
+otro que está disponible con datos
+redundantes bien
+Ahora qué pasa si eh el Data Center se
+inunda me quedo sin nada bueno entonces
+para evitar eso voy a tener un segundo
+Data
+Center entonces
+tengo Data Center acá y tengo el otro el
+Data Center en el otro lugar Ahora qué
+pasa si la conexión entre los dos Data
+Center se rompe es decir los Data Center
+no se inundaron están funcionando pero
+no pueden hablar entre sí y Siguen
+trabajando Entonces eso con el tiempo lo
+que va a generar es precisamente
+inconsistencias porque dos cosas que que
+iguales que iguales en un momento dado
+que evolucionan en forma independiente a
+la larga o a la corta van a generar
+diferencias es imposible que eso no
+ocurra bien entonces la tolerancia al
+particionamiento habla de que uno puede
+resolver ese problema puede asegurar que
+aunque pierda la conexión en nuestro
+ejemplo con el otro Data Center
+las
+cosas sigan
+funcionando lo que decía Matías antes es
+que el teorema de cap lo que dice es si
+bien Es bueno tener todo esto que está
+acá asegurarlo en todo momento solo es
+posible para dos
+cosas la tercera será a veces sí a veces
+no
+que se suele utilizar es
+eventual el término eventual en español
+eh tiene una connotación que a veces da
+la idea de
+raro pero en este caso No necesariamente
+lo que dice el teorema de cap es vos no
+lo vas a poder asegurar siempre a los
+tres vas a poder asegurar dos el tercero
+a veces tal vez casi siempre pero no
+siempre no vas a poder asegurar que
+siempre vas a tener los tres vas a tener
+que asegurar dos Entonces eso lleva a
+una estrategia de decir cuál de los tres
+quiero asegurarme siempre Y cómo manejo
+el tema del tercero que no puedo
+asegurar vamos a eh Ah voy
+a a
+comentarles que
+eh el slide que está la presentación que
+está puesta en el web campus hay algunos
+slides que no tiene Así que la voy a
+actualizar como este que está acá pues
+quería eh el tema del teorema de cap es
+de los sistemas distribuidos es muy
+complejo
+eh
+acá lo mismo que con la arquitectura de
+microservicios estamos
+dando un punto de entrada nada más eh
+vamos a dar un ejemplo en el
+cual uno dice me voy a concentrar en
+consistencia y disponibilidad y una
+tolerancia a la partición
+eventual entonces en el diagrama que
+ustedes tienen en pantalla
+vemos horizontalmente avanza el tiempo
+en la parte de arriba se ven
+eh unas elipses azuladas de borde negro
+que
+muestra la operación en un estado
+normal en algún
+momento se genera una partición es decir
+hay una parte de los datos que con la
+cual perdemos
+comunicación pero no es que se murieron
+no esos datos están vivos o sea los
+nodos que lo contienen están pero hemos
+perdido la comunicación con
+ellos es decir hay un grupo de nodos
+conectados y hay otro grupo conectados
+son dos grupos no hay nodos
+aislados bien
+entonces a partir de que sucede
+esto uno podrá manejar la consistencia y
+la disponibilidad dentro de cada uno de
+estos grupos Pero hay una partición
+generada y contra eso no hay nada uno
+dice Bueno ocurrió qué va a hacer se
+podía romper y se rompió ahora lo que sí
+uno puede hacer es trabajar
+en una serie de acciones que va a
+ejecutar cuando la conectividad se
+recupere nada es para
+siempre Entonces cuando se recupera la
+partición
+vieron que en el centro de este diagrama
+dice el el estado s original se partió
+en dos en un s1 y en un s2 dos
+particiones Sí después cuando se
+recupera la la conectividad con la otra
+línea vertical de puntos se dispara un
+proceso para
+resolver el problema que generó la
+partición es decir que hay dos grupos de
+datos consistentes H hay que hacer una
+suerte de merge digamos de eso H
+Entonces se dispara ese proceso que no
+pudo evitar la partición lo que hace es
+corregir las consecuencias de ese
+particionamiento
+y sigue adelante con esto no estamos
+violando el teorema de cap porque la
+partición ocurrió nosotros nos
+concentramos en la
+consistencia y disponibilidad dentro de
+cada
+partición recuperada la la conectividad
+trabajamos digamos para resolver Esta es
+una estrategia posible por supuesto que
+no la única pero en general la
+estrategia En qué consiste en asegurar
+dos tener mecanismos de monitoreo que
+detecten la pérdida de esa tercera el no
+cumplimiento de la tercera ese
+cumplimiento eventual Dejó de ser dejó
+de existir en este momento no se cumple
+esa Tercera y por otro lado detectar
+cuándo se puede volver a la situación
+original y disparar un proceso para
+arreglar la falta de alineamiento que
+haya generado ese periodo en el cual se
+perdió la
+tercera acá lo hemos explicado para la
+tolerancia a la partición Pero vale para
+cualquier combinación que uno haga lo
+importante es tener en claro de que no
+se puede asegurar de ninguna forma las
+tres y también aclaremos que si bien no
+se pueden asegurar porque todo puede
+fallar
+eh Hay cosas que fallan muy poco y es
+bueno estar en esa situación no todo se
+puede romper pero hay cosas que se
+rompen menos que
+otras entonces cuidado con el concepto
+de
+que no se puede
+asegurar el grado de aproximación a eso
+es muy variable Y por supuesto el costo
+también es variable o sea sufrir pocos
+daños implica gastar mucho dinero y a
+veces hay cosas que se pueden hacer pero
+no se hacen porque no hay una
+justificación desde el punto de vista
+económico es decir tener
+eh aplicaciones en alta disponibilidad
+en muchas organizaciones es una
+estrategia
+selectiva Nos gustaría tenerlas a todas
+en alta disponibilidad Sí pero no
+podemos justificar el gasto entonces eh
+Solo será para
+algunas eh el Otro aspecto
+que teníamos
+entonces voy a detener un segundo
+acá si quiero volver
+entonces dejemos de lado a Matías que ya
+ya es un viejo conocido del del teorema
+de
+cap para el
+resto lo que hemos tratado entonces de
+transmitirles
+es que los sistemas idos como pueden
+fallar por lo menos en cuanto a la
+conexión es decir un nodo se puede morir
+además
+pero en muchos casos el nodo está vivo
+Simplemente no podemos llegar a él no
+podemos comunicarlos con él
+eso en un esquema donde es distribuido y
+es distribuido no hay posibilidad de
+poner todo junto entonces hay que lidiar
+con eso y lidiar con eso
+implica prepararse para las fallas lo
+que decíamos antes
+de me concentro en la c y en la a y la p
+de tolerancia a la partición que sea
+eventual Okay pero esto significa que y
+bueno se me generó una partición y
+paciencia qué querés el teorema de cap
+es así no
+no puedo evitar la generación de La
+partición pero puedo hacer dos cosas La
+primera es que la tolerancia la
+partición tenga una posibilidad de
+ocurrencia mucho menor eso lo puedo
+hacer en muchos casos y
+segundo lo que sería esto es como
+gestión de
+riesgos trabajo en la mitigación para
+bajar la probabilidad de impacto Sí pero
+también trabajo en la contingencia es
+decir si efectivamente me ocurre Bueno
+cómo me recupero de ello y lo posible en
+forma
+rápida entonces fíjense que acá estamos
+aplicando conceptos que vimos en lo que
+es gestión de riesgos pero también en
+gestión de riesgos dijimos ojo que tener
+un plan de contingencia implica
+prepararse Y eso implica trabajar gastar
+dinero etcétera sí
+Entonces lo a lo que nos lleva el
+teorema de cap en las aplicaciones
+distribuidas Es que la aplicación tiene
+que contemplar aspectos de recuperación
+de fallas no de fallas de ella sino de
+la infraestructura en la cual está
+montada para qué y bueno para asegurar
+que el servicio sea mejor que no haya
+grandes interrupciones o que no haya eh
+eh casos eh serios de inconsistencia de
+datos que la inconsistencia sea
+momentánea eventual que se ajuste que la
+podamos explicar etcétera eso requiere
+trabajo requiere que eh eh tiene que
+formar parte del diseño de la aplicación
+porque uno podría decir okay con el
+teema de cap a mí en qué me cambia lo mi
+trabajo de desarrollador que hago
+siempre Bueno tal vez no te lo cambie
+tal vez entiendas por qué alguien te
+pidió que armaras cierto software de
+recuperación de fallas sí eh tiene que
+ver con
+eso la razón que lo hacemos No es que
+somos recontra precavidos sino que
+sabemos que esto puede pasar y eh
+queremos que si pasa eh nos recuperemos
+digamos
+rápidamente para que el negocio tenga
+más confianza en nuestra solución y no
+tengamos que decir y bueno vos sabes la
+redes falla es así internet puede fallar
+no Para qué digamos bueno dada esa tasa
+de
+fallas Tratamos de que no se incremente
+y por otro lado cuando las fallas
+efectivamente ocurren lo que tratamos es
+de tener una recuperación rápida eso sí
+depende de nosotros no del teorema de
+cap
+bien sigamos
+entonces con lo una de las últimas cosas
+que
+es automatización de la infraestructura
+s esta cuestión
+de de armar aplicaciones
+pequeñas o mejor dicho de armar
+aplicaciones grandes pero con unidades
+pequeñas que son los microservicios que
+son como pequeñas aplicaciones que
+corren dentro de un solo proceso que se
+despliegan en forma independiente y que
+eh tienen una persistencia de datos
+independientes todo ese grado de
+Independencia lleva a que esto tiene
+impacto a la hora de desplegar es decir
+la cantidad de despliegues
+puede ser mucho más grande y no
+solamente despliegues en producción
+despliegues en distintos ambientes de
+testing por
+ejemplo
+entonces necesitamos que los despliegues
+no se transformen en el cuello de
+botella que no tengamos una situación de
+Ah desarrollamos rápido pero
+eh cada vez que tenés que desplegar tu
+solución en algún ambiente o mejor dicho
+en toos los ambientes bueno tomel con c
+porque eseva tiempo entonces
+cuando Cuando
+tenemos una buena cantidad de ambientes
+de T cosa que es
+deseable tiempo
+total el tiempo total desde que nos
+piden algo hasta que lo ponemos en
+producción se puede alargar enormemente
+por cuestiones que no tienen que ver con
+el desarrollo puro y duro sino con el
+despliegue en los distintos ambientes
+Entonces es importante contar con
+mecanismos automatizados para ese
+despliegue muy muy importante no porque
+no se pueda hacer a mano sino porque
+hacer a mano genera más test más eh
+tiempo en general todo lo que es manual
+es difícilmente trazable para en caso de
+falla detectar la razón eh Y Y por
+supuesto este es más
+caro entonces muy importante digamos esa
+cuestión despliegues automatizados si no
+estamos cambiando de problemas estamos
+con un esquema de desarrollo mucho más
+rápido pero
+eh el tiempo que va a percibir el
+usuario no va a tener gran
+diferencia bien
+Eh bueno Esto lleva al esquema de eh el
+despliegue continuo H es decir
+continuamente estamos entregando cosas
+las los despliegues en producción no son
+eventos raros extraordinarios que
+ocurren en muy pocas ocasiones sino muy
+muy seguidos ya vamos a ver vamos a a a
+a detallar un poquito más enseguida al
+hablar de métricas diseño tolerante a
+fallas esto lo mencionamos con el
+teorema de cap las redes siempre pueden
+fallar entonces las aplicaciones hay que
+diseñarlas para que puedan recuperarse
+digamos de esas situaciones y para que
+puedan eh tener esquemas de monitoreo
+para detectar las fallas no en en las
+redes eh los los problemas no siempre
+son de se bajó la térmica no Y de pronto
+no anda nada no sino que las cosas
+empiezan a
+deteriorarse Y eso para detectarlo hay
+que tener esquemas de
+monitoreo diseño evolutivo bueno Esto lo
+vamos a pasar es
+autoexplicativo y vamos a meternos en
+las métricas algunas métricas que
+consideramos
+para lo que es desarrollo de software
+una métrica importante con una visión de
+negocio es el plazo de la ejecución de
+los
+cambios el negocio pide algo cuánto
+tiempo pasa desde que levantó la mano y
+dijo quiero algo hasta que ese algo está
+en
+producción eso mide algo así como la
+capacidad de reacción que tiene el área
+de desarrollo no es un es una métrica
+digamos
+que que es importante y que después hay
+que analizar Cuáles son las razones que
+llevan a ese plazo para tratar de
+detectar hellos de botella Sí para ver
+dónde están las restricciones más
+fuertes y en ese lugar y no en otro
+poner
+fuerza
+eh desde el punto de vista del
+despliegue si ponemos algo en un
+ambiente sea productivo o
+no la tasa de fallas es decir cuántos
+despliegues fueron para atrás el
+despliegue cuá es exitoso y cuando lo
+que ponemos lo que sea que es lo podamos
+hacer porque el objetivo es poner algo
+en un ambiente lo pudimos poner bien es
+exitoso lo que pusimos no está bueno ese
+es otro Problem estamos hablando de
+poner en un
+ambiente desde el punto de vista de la
+operación lo que está a la derecha de la
+pantalla bueno la quinta esencia de la
+operación es la
+disponibilidad es
+decir la obsesión de los equipos de
+operación es que las aplicaciones
+siempre se puedan usar siempre estén en
+funcionamiento que nunca paren eso está
+amente asociado al concepto de
+disponibilidad
+bien las primeras dos métricas de plazo
+de ejecución de cambios y de tasa de
+falla en cambios las podemos vincular
+con otra que es muy importante que es la
+frecuencia del despliegue es decir más
+allá de que los despliegues sean
+exitosos o no que importa por supuesto
+Cada cuánto se hace
+y por otro
+lado relacionando la del medio que es la
+tasa de falla en los cambios y la
+disponibilidad otra muy importante es el
+tiempo de restauración del servicio es
+decir si el servicio no estuviera
+disponible en cuánto tiempo se puede
+recuperar este es el concepto de trato
+de que las cosas no se rompan y si se
+rompen trato de arreglarlas rápidamente
+bien esas cuatro
+métricas la industria en general las
+considera
+eh muy
+importantes entonces a los que trabajan
+en desarrollo
+actualmente quiero preguntarles para la
+organización en la que
+trabajan una buena frecuencia de
+despliegue Cada cuánto es en esa
+organización todos los días una vez por
+semana dos veces por día dos veces por
+semana una vez por mes es decir lo bueno
+para la organización Cuánto
+es para si quieren para una aplicación
+determinada porque eso podrá variar
+según la la solución
+en mi caso se despliegan todos los días
+y de hecho hasta varias veces por día d
+la arquitectura orient
+microservicios Ok y están bien con eso
+S hay una política en la cual cada
+desarrollador es responsable del
+producto que quiere
+incorporar entonces
+hay integración
+luego de cada revisión de código
+directamente un ambiente de Station es
+un ambiente
+más sea que
+sea lo más cercano posible a lo que está
+en producción pero que se pueda testear
+y no tenga un
+impacto a los usuarios que están
+actualmente usando la aplicación
+y y posterior a eso hay un despliegue
+manual a producción pero que también
+está automatizado pues se hace con otra
+visión también
+eh y se trata de que el tiempo en el
+cual el cambio se integra Station y pasa
+producción no
+sea tan distante normalmente si un
+cambio
+este es muy grande eh puede llegar a
+ocasionar Que varios pedidos de cambio
+también se encol entonces las pruebas en
+staging van a ser se van a dilatar más
+entonces tratan de hacer sin depl
+continuos más de una vez por día okay
+bien algún
+otro alguien más trabaja en
+desarrollo bueno Entonces esto lo
+consultaba no para juzgar eso sino
+precisamente para marcar que depende de
+la
+organización como dice en el
+slide la mejor situación es bajo
+demanda Es decir de acuerdo a lo que sea
+necesario pueden ser varios despliegues
+por día sí puede ser pero podría no
+serlo digamos es porque si lo hago bajo
+demanda significa que satisfago la
+demanda es decir lo que me piden lo doy
+nadie se queda esperando no hay una
+demanda insatisfecha la gente no está
+esperando ahí no
+entonces bajo demanda significa el
+despliegue de ninguna forma es un cuello
+de botella es decir si la aplicación
+tarda mucho en ponerse enuc
+no será por la puesta en producción en
+sí misma sino por todo lo que ocurrió
+antes es decir la puesta en producción
+no es un cuello de botella no es que
+bueno Esto no ocurre siempre en algunas
+organizaciones se hacen colas hay
+aplicaciones que están listas que
+pasaron por el equivalente a lo que
+mencionaba Matías de un ambiente de
+Station y
+y bueno tiene que esperar que el área de
+operaciones le dé una ventana para poder
+hacer el despliegue y se quedan ahí
+esperando Entonces eso no es bajo
+demanda
+bien menciono Esto entonces de que puede
+puede llegar a a ser diario e inclusive
+varias veces por día por supuesto que
+hay casos extremos
+de grandes
+empresas como puede ser el caso del
+sitio de Amazon donde la cantidad de
+despliegues que hay por día es
+gigantesca s pero esos son casos
+excepcionales normalmente las empresas
+que logran hacer más de un despliegue
+por día dos tres cuatro despliegues por
+día en general con eso logran satisfacer
+plenamente a la demanda no hace falta
+tener este eh una cantidad de despliegue
+de dos o tres o cuatro dígitos por día
+no en general eh con menos de 10 se
+satisface plenamente la demanda es decir
+el cuello de botella pasa a ser otro es
+decir eh Mira si querés desplegar más
+rápido vas a tener que producir más
+rápido Sí entonces
+este normalmente cuando se llega a
+varios despliegues es por día este la
+posibilidad de reducir el el plazo de
+ejecución de cambios que es la segunda
+línea que figura ahí en verde en esta
+tabla va a depender de otras cosas menos
+de la frecuencia de
+despliegue bien los plazos de ejecución
+Eh bueno si a nosotros nos quitan el
+cuello de botella del despliegue si
+ahora ya no podemos decir No pero lo que
+pasa que a la hora de poner en
+producción es un garrón entonces la
+responsabilidad es nuestra no es decir
+tenemos que entender qué es lo que
+quiere el negocio este y tenemos que
+hacer todo un ciclo de desarrollo para
+poder entregárselo entonces la cuestión
+es Cuál es el el tiempo de ejecución
+media de los cambios porque por supuesto
+hay cambios más grandes hay cambios más
+chicos digamos etcétera sí eh
+uno podría decir que los cambios que no
+sean
+grandes en una situación muy buena
+deberían
+tardar menos de un día horas
+sí estamos hablando
+de de
+cambios que por supuesto sean pequeños
+Porque si me lleva menos de un día todo
+el ciclo completo piensen que Eso
+incluye que me lo
+cuenten Entonces si que me lo cuenten
+lleva 4 horas y no va a ser fácil que
+menos de un día que menos de 8 horas lo
+pueda poner en producción
+no entonces tiene que ver con eso Pero
+hay organizaciones en las cuales
+este por por rápidos que sean los
+cambios
+este llevan algunos días
+bien tiempo restauración del servicio
+esto en esto de esto vamos a volver en
+la
+materia lo y esto por supuesto depende
+de el tipo de servicio que se trate de
+la causa que lo haya generado
+de El alcance que haya tenido la caída
+de servicio a veces la caída de un
+servicio puede arrastrar a otros digamos
+etcétera lo ideal por supuesto es que
+nada pase de una hora sí en general en
+el negocio eh si algo crítico dejó de
+andar y lo resolvemos en menos de una
+hora zamos sí
+eh Y por otro lado esto les aclaro que
+esta tabla se armó con este una encuesta
+hechas en en en empresa del hemisferio
+norte empresas grandes eh Y fíjense que
+en el último rubro que la tasa de falla
+en cambios muestra una dispersión muy
+grande porque tasa de falla en cambios
+entre 0 y 15 eso es un
+abismo porque eh
+1% o medio por está entre 0 y 15 y 14,5
+también está entre
+en ese Rango es un Rango
+enorme Sí entonces hay una dispersión
+digamos muy grande en lo que es la la
+tasa de falla en cambios
+eh Y esto Bueno nos habla de varias
+cosas no
+eh Por supuesto que lo que hay que hacer
+es analizar Por qué los cambios fallan
+eh
+si es un tema de la forma en la que se
+construye la rigurosidad digamos del
+testing si son aspectos de control de la
+infraestructura etcétera es un tema
+bastante complicado digamos de analizar
+pero es una métrica muy importante de
+cara al negocio Porque el negocio lo que
+ve es los resultados de lo que nosotros
+hicimos no ve de ambientes de colas de
+espera de incompatibilidad de versiones
+lo tengo o no lo tengo tarda poco o
+tarda mucho eso es lo que se ve se rompe
+o no se rompe no
+entonces de afuera o sea esta taza habla
+mucho de la imagen que damos hacia
+afuera lo mismo que el plazo de
+ejecución de cambios
+no ve si lo hacemos de taquito o si nos
+matamos lo que ve es cuánto tardamos eso
+es lo que ve el
+negocio bien entonces estas son métricas
+que en general son valiosas esto no dice
+que todas las organizaciones tienen que
+eh incorporarlas lo que dice es todas
+las organizaciones deberían
+mirarlas y por otro lado los
+valores normales los valores deseables
+también son definiciones de la la propia
+organización
+bien Esto lo pasamos
+ventajas
+inconvenientes Qué inconvenientes tiene
+la arquitectura de microservicios
+bueno el primero el que está a la cabeza
+es tiene un enfoque distribuido Entonces
+eso agrega
+complejidad aunque se resuelva es decir
+aunque los problemas que
+genera el esquema distribuido se pueda
+resolver implica que hay que trabajar
+para resolverlo Sí entonces hay una
+complejidad
+adicional que arrastra a veces como
+decíamos antes
+eh la necesidad de contar con cierta
+infraestructura con cierto grado de
+automatización con software que nos
+permita la administración de todos esos
+microservicios
+eh con
+funcionalidad para la detección rápida
+de errores En tiempo de ejecución
+etcétera hay un precio digamos a
+pagar y por otro lado y ya lo
+mencionamos que a nivel de los datos esa
+persistencia
+particionada mete ruido
+entonces hay casos en los cuales se
+pueden armar
+transacciones transacciones distribuidas
+es decir que abarquen a múltiples
+servicios pero no siempre son una opción
+las transacciones
+distribuidas habrá casos que sí habrá
+casos que no Entonces en los casos que
+no tenemos que lidiar con esa cuestión
+de que la persistencia es particionada
+puede llevar a que la
+consistencia sea eventual en algunos
+casos
+etcétera
+eh cuándo utilizar eh
+una
+solución de
+microservicios esta es otra pregunta
+general general Ya sé que la estoy
+haciendo para los microservicios pero a
+lo que me refiero es es general de Haití
+en cuanto incorporación de algo en la
+organización diamos por un lado está la
+evaluación de cuán bueno es eso que
+existe en la industria eso es lo primero
+ahora lo segundo es
+eso que hemos calificado como deseable
+como muy bueno etcétera es bueno para
+nosotros a nosotros nos va a
+servir en qué
+condiciones tenem esas condiciones
+porque a lo mejor hay que hacer un
+trabajo
+previo para poder hacer lo que queremos
+hacer es como decir me voy a comprar un
+determinado aparato no sé una cinta para
+correr pero resulta que en mi casa no
+tengo lugar para ponerla Ah pero yo
+quiero hacerlo bueno entonces primero
+habrá que trabajar habrá que reacomodar
+algunas cosas para hacer el necesario
+para que después sí la podamos
+colocar
+entonces lo que vamos a decir ahora son
+consideraciones que en el fondo son
+generales lo particular es qué necesita
+la arquitectura de microservicios para
+poder implementarse exitosamente Cuando
+funciona y cuando no de eso es lo que
+vamos a hablar
+ahora bien a ver
+creo que
+tengo otro
+slide para ver
+esto no vamos a arrancar por este est
+bien
+bien entonces
+eh Qué
+cosas necesitamos tener por un lado
+eh Perdón Acá está aprovisionamiento
+rápido es decir
+nosotros tenemos que desplegar nuestra
+solución en una determinada
+infraestructura eso normalmente en las
+organizaciones depende de otros sectores
+Bueno pero la cosa el problema no es que
+lo tengamos que pedir el problema es que
+lo tengamos que pedir y
+tarde
+entonces por ejemplo si necesitamos un
+servidor nuevo Eso debería resolverse en
+horas en algunas organizaciones eso es
+complicado Claro que si ustedes trabajan
+en un esquema de Cloud computing bueno
+Eso suena como natural pero a veces hay
+Estos son premis
+e por otro
+lado la cuestión del monitoreo
+básico es decir tenemos que poder
+monitorear eh algunos aspectos técnicos
+sí como es que el servicio esté
+disponible la latencia pero también
+aspectos de negocio por qué es esto
+porque las comunicaciones pueden
+funcionar perfectamente y a lo mejor el
+problema es que una solución está
+funcionando mal y dice acá cantidades de
+pedidos bueno imagínense que ustedes
+normalmente reciben a lo largo de la
+mañana 100 pedidos la media es más o
+menos eso más menos
+10% resulta que son las 11:30 y han
+entrado 10
+pedidos pero las comunicaciones andan en
+forma perfecta El problema es que el
+problema lo tuvo quién manda los pedidos
+es decir es la aplicación que manda los
+pedidos Pero eso afecta a otras partes
+del negocio Entonces eso también hay que
+monitorearlo sí hay algo que está
+funcionando mal y No necesariamente es
+la
+conectividad entonces hay que contar con
+herramientas para poder hacer eso
+sí y por otro Y por último el tema de El
+despliegue rápido de las aplicaciones
+lo que habíamos mencionado antes
+Generalmente hay un herramientas de
+automatización digamos para entonces si
+no tenemos estas
+cosas es bueno que trabajemos para
+tenerla porque si no después nos vamos a
+chocar con que nos hemos largado
+y no podemos hacer lo que
+queremos los resultados no son buenos
+los tiempos son largos tenemos complica
+errores etcétera entonces pareciera que
+la arquitectura de microservicios es un
+verso y que nos sirve o que nosotros
+hacemos mal digamos las cosas pero
+entonces estos tres puntos es son como
+una suerte de prerrequisitos digamos que
+es importante digamos tener no está
+mencionado acá lo hemos mencionado antes
+que también hay otras cuestiones que
+desde punto de vista organizacional a
+veces hay que trabajarlo durante
+bastante tiempo ese enfoque que no sea
+de proyecto sino de producto
+Eh puede ser un cambio fuerte en una
+organización y a veces puede llevar
+tiempo eh Puede que haya que armar un
+piloto para poder Mostrar que eso da
+buenos resultados
+etcétera entonces es muy importante ese
+aspecto y casi diría que directamente
+relacionado con eso el hecho de que el
+equipo que es encarga del producto el
+equipo es
+multifuncional ese también es otro
+cambio
+importante porque significa que ahora
+tenemos que traer gente que depende de
+tiene otros jefes en la organización
+y Bueno hay que mover fichas para poder
+lograr eso no es lo pido y ya
+está entonces eh esos aspectos son
+centrales si no
+después el equipo queda
+Ringo
+entonces para tal aspecto y bueno
+entonces hay que ir a hablar con alguien
+de otro sector esperar que nos atienda
+etcétera no está sentado acá en la mesa
+trabajando con nosotros Entonces es
+importante que el enfoque de producto y
+que el equipo multifuncional
+sea resuelto
+antes bien Y por último acá tienen
+patrones relacionados con los
+microservicios que en el link que tienen
+ahí lo pueden ver más en
+detalle
+bien esto ha sido el primer baño digamos
+de de
+microservicios para los que llegaron Más
+tarde les recuerdo que hay algunos vdeos
+introductorios del del
+concepto que pueden complementar un poco
+lo lo lo que hemos visto acá esos videos
+están No figuran acá en estas
+referencias del último slide sino que
+están directamente colgados del aula
+virtual
+Eh sí Rubén si me regalas los últimos 3
+minutos por ahí compartirles uno donde
+todo hace un resumen de todo esto que
+vos estuviste Charlando a lo largo de la
+mañana eh Y que por ahí visto en
+imágenes puede puede resultar
+Interesante como para terminar de de
+focalizar estos conceptos y Y estos
+nuevos contenidos que hemos visto en la
+clase de hoy
+okay Bueno si les parece entonces Se los
+voy a presentar
+[Música]
+let's Look at an online Store it has a
+product catalog a shopping cart so That
+I can buy Stuff an order screen to Track
+the status of my order a product Search
+function and a promo panel for the
+latest special offers traditional
+architecture builds these features into
+a single application single database
+adding New features introduces tightly
+covered dependencies and That's Okay
+Because the application is managed as a
+single
+package in a microservices architecture
+each feature is built in isolation and
+is independent of all the other features
+an http Rest or message bus is Used To
+allow these Services to communicate to
+each other
+asynchronously that May seem a lot more
+Complex and a lot more work so Why would
+I want
+microservices traditional architecture
+creates large monolithic packages that
+can be challenging to
+deploy configuration can be hard to
+manage deployment is a drama so we
+deploy seldom Maybe once Every few weeks
+or months microservices are small and
+isolated and are packaged and deployed
+independent of each
+other that makes configuration easier to
+manage so we can deploy often deployment
+is routine multiple Times a day
+there's another significant benefit for
+microservices as your application
+becomes popular It's increases load on
+your computer and storage
+capacity traditional architecture
+usually scales out an application by
+ramping up more Hardware If the Search
+feature load is up 10 Times then i r h
+10 Times the servers in microservices I
+only ramp up the instances of the
+Services that needed saving resources 10
+instances of Search feature aread balan
+acr multiple
+servers res Because each feature is
+desed in isolation to handle events When
+other Services fail microservices May be
+more Complex traditional architecture
+and require stronger collaboration
+during development not Everything May be
+sued to microservices and this video
+shows some simplified concepts hopefully
+you Found this video useful and are
+ready to ask questions and I'll Leave
+Those for another video Just remember
+the previous question Why would I want
+micr
+Services time to Market used to be
+measured in months Now It's measured in
+days business agility and time to Market
+is
+critical microservices
+bien bueno Estaba en inglés pero este
+bastante sencillo de visualizar y de
+poner un poco en imágenes todos estos
+que Estuvimos viendo acerca de
+este de cuándo utilizarlo y de Por qué
+sería bueno este utilizar una una
+arquitectura de
+microservicios en la
+organización tengo después algunos otros
+vídeos sobre el ejemplo de Netflix que
+mencionaba Rubén y algunos otros más
+después si alguno hay interesado se los
+puedo compartir también este pero bueno
+como como decía Rubén hay mucho material
+didáctico para seguir investigando
+dentro del aula virtual y y es nuestro
+deseo que que así lo hagan siempre que
+necesiten más información saben que
+pueden consultarnos este como para poder
+darles más detalle respecto del
+contenido visto en esta
+unidad eh bien ahí Matías eh
+pegó en el en el chat un link sobre
+nunca desplegar un
+viernes un aspecto digamos super
+importante siempre hay que tratar de
+cumplir con eso a veces puede ser que no
+se pueda
+pero así que tomamos la
+Sí claro el riesgo es ese de quedar
+pegado no un fin de
+semana
+bien uno podría digamos Yo todavía no
+miré el link pero si podría agregar de
+que nunca debería haber un
+despliegue planificado un viernes por un
+cambio un viernes Debería ser una
+situación de emergencia claramente que
+uno diga no puedo esperar al lunes pero
+eh de planificar algo para hacerlo un
+viernes es correr un riesgo innecesario
+como dice Matías el riesgo cuál es y que
+algo falle y quedemos pegados el fin de
+semana Entonces este fuimos nosotros los
+que eligimos el
+viernes
+bien entonces eh e hasta acá Hemos
+llegado en el día de hoy atenderemos por
+supuesto durante la semana consultas que
+pudieran existir relacionadas con estos
+temas y nos estaremos viendo el próximo
+martes a las este 88:30 esta semana
+vamos a
+e digamos ya mañana o pasado van a tener
+los materiales de la semana próxima y
+vamos a actualizar el calendario porque
+saben ustedes que se eliminó la mesa de
+finales que había en mayo que nos
+afectaba a nosotros porque había un
+martes sí así que ahí se hay un
+corrimiento de lugar digamos de las de
+las clases que que vamos a estar
+actualizando no sé si tenías algo más eh
+Bárbara no agradecerles que que estén
+presentes que se hayan quedado hasta el
+final y recuerden sí que el martes que
+viene se va a hacer la entrega de este
+el primer punto del trabajo práctico sí
+la primera entrega del tp con estos tres
+documentos que hacen referencia a la
+especificación de requerimientos ledt y
+el plan de riesgos Así que eh traten de
+ir puliendo en el transcurso de esta
+semana todo lo que necesiten sobre todo
+Por si tienen que fijar alguna
+entrevista con nosotros Ahí vi que me
+están llegando algunos mails Para
+pedirme eh los los minutos de de
+entrevista los vamos a estar fijando en
+el transcurso de este en entre hoy
+mañana y bueno lo que queda de la semana
+eh Muchas gracias a todos buena semana
+nos vemos el martes hasta luego buena
+semana chao Hasta luego cha buena semana
+chao chao

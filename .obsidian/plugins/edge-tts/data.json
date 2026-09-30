@@ -1,6 +1,6 @@
 {
   "selectedVoice": "en-US-AvaNeural",
-  "customVoice": "es-ES-XimenaNeural",
+  "customVoice": "es-AR-ElenaNeural",
   "playbackSpeed": 1.2,
   "showNotices": true,
   "showStatusBarButton": true,
@@ -36,8 +36,8 @@
     }
   },
   "floatingPlayerPosition": {
-    "x": 654,
-    "y": 570
+    "x": 1570.98974609375,
+    "y": 320.99493408203125
   },
   "disablePlaybackControlPopover": false,
   "enableReplayOption": true,

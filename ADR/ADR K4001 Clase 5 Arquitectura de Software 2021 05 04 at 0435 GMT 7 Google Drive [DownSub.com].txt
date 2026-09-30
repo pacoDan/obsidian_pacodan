@@ -1,0 +1,1538 @@
+como saben hoy vamos a comenzar con
+temas de
+arquitectura hoy vamos a a ver una
+visión organizacional que explicaremos
+detalladamente y en la próxima clase
+vamos a estar
+conversando
+sobre microservicios
+y arquitecturas
+monolíticas todos estos
+elementos les vendrán bien a ustedes
+para la para el trabajo en el
+tp e lo que vamos a repasar hoy de la
+presentación que está en el campus
+eh lo que queremos marcar
+particularmente
+es la mirada que tienen que que aplicar
+ustedes a la hora de revisar esa
+presentación que está en el campus
+eh digo esto porque es probable que
+varios de ustedes tengan experiencia en
+algunos aspectos del campo de la
+arquitectura de
+software y
+que esto puede
+representar otra mirada que de ninguna
+manera reemplaza a la que pudieran tener
+ustedes sino que en todo caso La
+complementa queremos remarcar esto lo
+que vamos a decir hoy no destruye ni
+colisiona
+con otros aspectos de la
+arquitectura si alguno de ustedes ha
+tenido oportunidad de conocer este
+enfoque bueno bienvenido será en todo
+caso un
+repaso A qué nos referimos con una nueva
+mirada a
+que vamos a hablar de lo sig imagínense
+que ustedes están parados en el área que
+gestiona el sector de it no ustedes son
+gerentes de it o colaboradores de la
+gerencia de it no entonces tienen mucho
+trabajo y parte de ese trabajo tiene que
+ver con
+administrar muchísimas aplicaciones
+la cantidad de aplicaciones puede tener
+dos tres dígitos sí eh que tiene la
+organización en la que ustedes trabajan
+son muchísimas pero administrarlo no
+implica solamente tener un inventario
+que ya no es un tema sencillo sí
+e quiero decir todo aquel que
+administra gran cantidad de cosas sí eh
+tiene que enfrentar el problema de la
+cantidad qué quiero decir con esto si
+ustedes tienen que organizar las cosas
+en un escritorio lo podrán hacer más
+menos pero en todo momento Si miran
+sobre el escritorio verán lo que hay
+ahora imagínense que ustedes tienen 100
+escritorios no hay manera de que puedan
+de un vistazo
+to si en alguno de esos escritorios se
+cae algo ustedes podrían no enterarse
+durante mucho
+tiempo entonces quien maneja gran
+cantidad de cosas las que sean tiene que
+lidiar con eso con asegurarse de que la
+información que maneja está
+actualizada porque si esto no es así si
+no tiene un buen sistema de
+información tranquilamente pueden
+ocurrir cambios significativos y uno no
+enterarse durante mucho tiempo y eso Por
+supuesto tiene consecuencias negativas
+en la
+gestión entonces dicho
+esto se trata no solamente de tener el
+inventario actualizado sino de empezar a
+ver que esas aplicaciones que nosotros
+gestionamos podrían y a veces necesitan
+interactuar entre sí que empieza a ver
+figuritas repetidas porque hay
+aplicaciones que hacen una misma cosa
+parcialmente no es que las aplicaciones
+son iguales pero hay un tema que está
+tratado por dos aplicaciones pero como
+mundos
+distintos Cuál es el se imaginan cuál es
+el problema de los mundos distintos no
+mundos
+separados
+e hay una serie eh alemana que retrata
+que en determinado momento de la década
+del 60 ocurrió un experimento fallido y
+que generó algo así como dos dimensiones
+de
+Berlín es como si ustedes hubieran
+tenían el original y hubieran sacado una
+copia y cada una empezó a vivir por su
+cuenta claro al cabo de algunas décadas
+los mundos eran muy entes Simplemente
+porque enfrentaron reaccionaron de foras
+distintas a las circunstancias que se
+presentaban digamos etcétera es decir
+los mundos disociados naturalmente
+divergen Entonces dos aplicaciones en la
+mejor situación que hayan arrancado en
+el mismo momento y con el mismo enfoque
+y esto en general no ocurre en general
+Hay una que empezó
+mucho antes con un enfoque después vino
+la otra y dijo No esto lo vamos a hacer
+mejor etcétera etcétera etcétera
+entonces esto lleva que en determinado
+momento ustedes piden algunos datos de
+clientes desde una solución y lo piden
+desde otra y puede haber en algunos
+casos diferencias
+significativas y cuando digo diferencias
+son
+datos que no pueden ser ciertos ambos sí
+es como si dijera que alguien dice que
+ustedes miden 1.80 y otro dice que mid
+un 70 no se puede medir 1 70 y un80 a la
+vez Entonces esto puede ser un problema
+serio de las organizaciones y
+eh esta visión de la arquitectura o sea
+de la forma en la que armamos el
+software puede ayudar a paliar esto es
+decir la visión que vamos a ver hoy que
+también se la conoce como arquitectura
+organizacional No mira cómo están
+armadas por dentro de las aplicaciones
+que es otro Otro aspecto sumamente
+importante de la arquitectura de
+software sino que todas esas
+aplicaciones vistas desde arriba como si
+fuera un
+ecosistema Cómo interactúan entre sí qué
+cosas hace cada una
+entonces la arquitectura de software se
+preocupa por mejorar esas
+interacciones por eliminar funciones
+redundantes por aumentar la seguridad
+etcétera de eso vamos a estar hablando
+entonces es como si nuestro zoom hasta
+donde pudiera llegar o sea la unidad más
+pequeña que pudiera ver es una
+aplicación no puede ver adentro de ella
+aora aplicaciones grandes aplicaciones
+chicas pero es como si uno Viera
+círculos grandes y círculos pequeños
+pero que hay ahí
+adentro no sé Es toda una cosa homogénea
+de un solo color ve un círculo rojo pero
+no veo
+detalles Entonces eso es lo que vamos
+digamos a ver hoy insisto no es que
+eh meterse en la arquitectura de cada
+una de las aplicaciones no sea necesario
+y muy
+importante lo que estamos diciendo es
+que esto También es importante Sí porque
+eh A veces podemos pensar que una
+arquitectura sólida Sí este resuelve
+básicamente todos los problemas que
+tenemos Sí seguramente resuelve una
+cantidad enorme Pero hay un aspecto que
+la arquitectura de la aplicación eh por
+sí sola no resuelve que es vivir en un
+vecindario
+digamos entonces ahí vienen
+negociaciones vienen bueno vos necesitas
+tal cosa me adapto para eso vos me
+podrías dar aquello sí Entonces eso va a
+repercutir en la arquitectura de la de
+la aplicación por supuesto en muchos
+casos le vamos a agregar
+funcionalidad pero a partir de la
+aceptación de la ex
+de otras
+soluciones que en muchos casos estamos
+lejos de poder
+controlar bien dicho esto Entonces vamos
+a hasta
+acá Esto suena muy extraño no se
+entiende nada o más o menos nos ubicamos
+de lo que estamos hablando Digo porque
+esto es fundamental para después
+entender lo que dice la presentación no
+Cristina Marina
+Federico está claro la mirada que
+estamos teniendo s Yo sé que dije
+generalidades pero me interesa que estas
+generalidades más o menos se
+entiendan bien Igual volvemos en el
+momento que sea
+necesario voy a ver si les puedo
+compartir dónde lo
+tengo a ver un
+[Música]
+segundo Acá
+está vamos de
+nuevo bien entonces acá tenemos la
+presentación que está en el
+campus el tema de la arquitectura de
+software bueno saben ustedes que las
+definiciones en general
+este son variadas
+y no siempre la
+industria tiene una que acepta todo el
+mundo con la arquitectura del Software
+eh pasa así en términos generales
+podríamos decir que la arquitectura nos
+habla de una abstracción
+sí que
+H refiere a la forma en la cual se
+construye el el el software algo así
+como el esqueleto H de eh de de una
+solución en el caso
+nuestro el esqueleto se referiría En
+todo caso
+a mirar todas las aplicaciones sería
+como una especie de meta eh arquitectura
+HM la arquitectura de todas las
+arquitecturas ahí volcadas
+H porque uno podría decir Bueno pero
+cómo es la arquitectura de cosas que ya
+están hechas y que se generaron en forma
+independiente bueno eh es eso eh tengo
+eh soluciones que el punto de vista
+arquitectónico son heterogéneas pero
+tengo que armar una nueva criatura que
+es ese conjunto de soluciones que hemos
+armado para problemas puntuales eh Y que
+varias de ellas eh necesitan o pueden
+hacer mejor
+eh su puede desempeñar mejor su función
+si eh trabajan colaborativamente con
+otras HM no estamos diciendo que esto es
+todos se relacionan con
+todos pero hay relaciones y algunas de
+ellas bastante
+importantes
+bien Esto lo vamos a
+pasar por qué es importante la
+arquitectura uno podría
+decir no no podemos vivir sin una
+arquitectura lo que yo diría es no
+podemos vivir razonablemente bien si no
+pensamos por lo menos en el concepto
+digamos de arquitectura Más allá de
+que le demos que tenga un nombre en un
+catálogo digamos de arquitectura Sí pero
+uno siempre tiene que pensar Cuál es la
+estructura de de aquella de aquello que
+ha decidido armar eso tenga un nombre
+Mercado o no sea una idea original o sea
+un refit de un montón de ideas que hemos
+visto en otros lugares más experiencia
+personal nuestra eso es lo lo importante
+es como si ustedes fueran a construirse
+una casa digamos de A poco sí porque no
+tienen presupuesto para hacerla toda de
+golpe bueno es importante que piensen en
+en que en la casa como
+una unidad una unidad que va creciendo
+para que eso que van agregando
+e tenga sentido en el contexto de miro
+toda la casa yo agrego una nueva
+habitación bien con un cierto enfoque
+ahora cómo queda esa habitación agregada
+con las que ya
+tenía es decir cuando dejo de mirar la
+habitación agregada y miro todas las
+habitaciones digamos en su conjunto
+es muy importante hacerse digamos esas
+preguntas
+bien la arquitectura nos lleva a pensar
+precisamente que que cuando nosotros
+analizamos la arquitectura de algo
+estamos pensando ese algo como un todo
+formado por partes que pueden ser
+heterogéneas que
+tienen distintas relaciones digamos
+entre sí pero estamos mirando todo el
+cuerpo Por así decirlo de aquello que
+estamos analizando su
+arquitectura Entonces lo importante es
+preguntarse por eso y después bueno la
+industria y la bibliografía podrán
+ayudarnos a dar soluciones a distintos
+temas Pero lo primero es eso es
+preguntarse
+por qué estamos generando cuando miramos
+lo que estamos
+bien de arriba qué
+vemos bien
+eh Por supuesto que la
+arquitectura repercute en todos aquellos
+que están involucrados con la con la
+solución Aunque algunos puedan no
+manejar el concepto de arquitectura
+Aunque
+algunos por su
+función como un usuario como un cliente
+puedan tener una visión más funcional o
+presupuestaria de lo que estamos
+hablando Sí pero en todo caso
+e será nuestra tarea como miembros de un
+equipo de it
+eh incluir en nuestras interacciones con
+estos
+stakeholders esos elementos que son de
+interés digamos para ellos y no
+centrarnos en tecnicismos s quiero decir
+si esta arquitectura responde al modelo
+tal eso podrá ser relevante o no
+dependerá de nuestro interlocutor Pero
+lo importante es
+conocer dónde las decisiones
+arquitectónicas lo afectan digamos y Y
+desde ese lugar
+conocer sus
+intereses por eso que digamos esta lista
+incluye a algunos roles que
+decididamente no son técnicos y uno
+podría decir que no participan de una
+forma directa en la elaboración de la
+arquitectura pero si participan desde el
+punto de vista de expresar sus
+necesidades en ese sentido si hay una
+participación y muy
+importante nunca tenemos que olvidar
+desde el área de ha que nosotros somos
+un área de un área de
+staff nosotros existimos porque hay algo
+más importante que nosotros que nos
+necesita no existimos por nosotros
+mismos en términos generales no podría
+haber este En todo caso una compañía que
+venda servicios de it pero aún en ese
+caso necesitamos de sectores del negocio
+que nos digan Por dónde quiere ir la
+compañía Qué tipo de cosas quiere
+vender Entonces siempre estamos
+dependiendo de la visión de otros
+sectores de la
+compañía Por eso está mencionado acá
+que en la arquitectura hay que tener en
+cuenta aspectos técnicos y del negocio
+entre
+otros
+eh atributos de calidad es decir cuando
+uno quiere medir la calidad de una
+arquitectura
+casi le diría que de cualquier tipo Más
+allá de que sea la organizacional como
+la que estamos hablando Qué cosas hay
+que tener en cuenta Bueno hay cosas
+que me pasa el tiempo
+pero siguen siendo conceptos muy útiles
+que son los requerimientos funcionales
+lo que nuestra arquitectura
+permite la
+funcionalidad y vamos a ver los
+requerimientos de y las restricciones eh
+uno de los aspectos que que en muchos
+casos la arquitectura puede aportar
+muchísimo eh son los aspectos de
+disponibilidad esto lo lo vamos a estar
+eh trabajando en detalle por ahora y en
+continuación de lo que dijimos sobre eh
+los conceptos de Haití en en otras
+nuestras charlas digamos que la
+disponibilidad habla de
+eh Qué porcentaje del tiempo
+total acordado
+eh un servicio o un componente de un
+servicio estuvo ahí listo para ser
+utilizado Se use o no es decir cuánto
+tiempo la ventanilla estuvo
+abierta hubiera gente en la cola o no
+pero la ventanilla estaba abierta Qué
+estuvo el 100%
+o sea esto funciona de lunes a viernes
+de 918 y estrictamente lunes a viernes
+de 918 estuvo disponible si fue el 100%
+o el jueves hubo 2 horas que no Entonces
+el porcentaje bajó bueno eso que es un
+aspecto muy importante en los servicios
+en general cuando uno mide la calidad de
+un servicio la disponibilidad suele
+estar siempre o casi siempre
+en muchos casos poder asegurar una
+disponibilidad está condicionado
+fuertemente por la arquitectura digamos
+de la solución como dice acá la
+arquitectura puede aportar a minimizar
+esas interrupciones sí y mitigar
+posibles fallas que a su vez generen
+esas
+interrupciones esto lo vamos a pasar
+interoperabilidad es algo de lo que
+estuvimos hablando
+recién al principio cuando hablábamos de
+tener ese ecosistema de aplicaciones
+entonces la
+interoperabilidad habla de la
+posibilidad de interface digamos de
+intercambiar
+información un elemento
+Central es decir cuando uno dice que las
+aplicaciones interactúan entre sí lo que
+está diciendo es intercambi informción
+básicamente aún cuando podría ser en
+algún caso información de control no
+quiero decir le mandamos la orden o el
+mensaje que le mandamos a otra
+aplicación es Necesito que hagas algo
+sigue siendo información es de control
+porque es para accionar
+Pero
+bueno es intercambio de información
+e adaptabilidad bueno adaptabilidad es
+una especie de quimera es algo que todo
+el mundo quiere tener uno quiere que la
+solución resuelva los problemas actuales
+y los futuros aquellos que en algunos
+casos ni siquiera hemos imaginado eh
+podamos acomodarnos para satisfacer esas
+necesidades si sin tener que hacer casi
+todo de nuevo no
+entonces esa necesidad de flexibilidad
+en la arquitectura o sea en la
+estructura es como si uno dijera Eh
+bueno eh tengo que tener una estructura
+sólida pero que se pueda cambiar porque
+la realidad cambia
+Eh entonces Eh Esto
+es algo que afecta al software digamos
+en general y la arquitectura por
+supuesto no está
+ajena en realidad vamos a marcarlo un
+poco más uno podría decir que muchas
+veces las limitaciones del software para
+adaptarse a nuevas necesidades en
+algunos casos son limitaciones
+arquitectónicas no se trata de bueno
+toquemos acá el código allá es la
+estructura del código o sea
+ese esqueleto sobre el cual nos montamos
+cada vez que queremos hacer un cambio es
+ese esqueleto el
+que no nos deja hacer lo que queremos
+hacer
+o nos obliga a hacerlo a un costo
+altísimo a una mala relación entre el
+resultado obtenido y el esfuerzo para
+lograr eh bien después hay aspectos por
+supuesto de seguridad
+nosotros vamos a tener una clase de
+seguridad pero también acá adelantamos
+que
+eh en muchos
+casos la arquitectura puede aportar
+digamos a la seguridad puede tener
+consideraciones para incluir
+eh algo que que que todos necesitamos
+que son aspectos digamos de seguridad
+usabilidad las pruebas no pensemos que
+la arquitectura de software es un
+elemento del software y como
+tal tiene que ser probado que funciona
+que cumple con sus
+objetivos y esto nos remite a algo que
+creo que dijimos en la primera o segunda
+clase
+algo
+así como que los
+requerimientos Según dice la norma
+i83 tienen que ser verificables
+es decir necesitamos que la solución
+tenga esto y la en la forma que
+definimos
+esto la forma en la
+que lo expresamos
+tiene que permitir después en el
+resultado final que uno chequee a ver si
+eso está o no está porque si no el
+problema que tenemos es Hemos cumplido
+con ese requerimiento o no y no estoy
+seguro Bueno ahí tenemos un problema
+decir bueno armaste mal el
+requerimiento o sea el requerimiento es
+para cubrir una necesidad Todo arrancó
+de la necesidad entonces ahí nos
+equivocamos
+cuando formalizamos esa necesidad como
+un requerimiento lo hemos hecho en una
+forma en la cual su verificación no es
+posible por lo menos en todos los casos
+entonces la arquitectura le pasa lo
+mismo la arquitectura tiene ciertos
+objetivos Entonces tenemos que pensarla
+la arquitectura de forma que después
+podamos verificar que esos objetivos se
+cumplen o
+no esto puede parecer una obviedad s
+pero no es una obviedad de mostrar las
+cosas la posibilidad de mostrar algo no
+es una obviedad en muchos casos es
+simple eh No estoy este creando
+fantasmas pero hay que asegurarse de que
+eso siempre es posible después
+discutimos si el costo de la
+verificación es grande es pequeño si es
+grande Si se puede reducir o no lo que
+no puede ocurrir es que no sea posible a
+ningún
+costo bien
+sigamos esto lo vamos a
+pasar los patrones de arquitectura Bueno
+de nuevo el concepto de patrón de
+arquitectura es similar al del concepto
+de patrón de diseño es de decir para
+ciertos problemas complejos Entonces se
+encuentran
+soluciones esas soluciones se utilizan
+durante mucho tiempo se perfeccionan se
+simplifican entonces para ciertos
+problemas aparecen muy buenas soluciones
+que llamamos patrones con la
+arquitectura pasa lo mismo eh los
+patrones de arquitectura no nos definen
+la arquitectura pero pero son
+herramientas que a la hora de pensar la
+arquitectura según Cuáles sean sus
+objetivos y los problemas que enfrenta
+eh Son soluciones que ya están armadas
+si la podemos calzar como con una llave
+y una cerradura brillante porque tenemos
+algo recontra
+probado y y que no tenemos que pensarlo
+es el mismo es la misma idea que hay
+detrás de los patrones de diseño pero
+aplicados a la
+arquitectura esto lo
+sacamos los requerimientos Bueno de
+nuevo la arquitectura de software y para
+construir software hace falta
+requerimientos bueno la arquitectura
+también se construye a partir de ciertos
+requerimientos
+arquitectónicos que como dijimos
+tienen que ser entre otras cosas
+verificables
+eh arquitectura en proyectos
+ágiles Déjenme decirles que durante no
+poco
+tiempo
+hubo grandes
+discusiones sobre arquitectura y
+agilidad
+hubo severas acusaciones al enfoque ágil
+de
+que no pensaba en la arquitectura que la
+ningunea etcétera no bueno la la la
+discusión se fue en causando y se empezó
+a ver que en realidad
+este la agilidad veía la arquitectura de
+otra manera pero no es que no la veía y
+que en general en el enfoque ágil la
+arquitectura es vista como decisiones
+arquitectónicas en el contexto de otras
+decisiones Sí Uno decide varias cosas y
+algunas de ellas tienen que ver con
+arquitectura entonces a veces pareciera
+que la arquitectura se ignora porque a
+lo
+mejor en algunas formas de los proyectos
+ágiles No existe un título fuerte en ese
+sentido eh entre
+la las referencias agregadas en el
+campus al final de de esta sección
+correspondiente a
+arquitectura hay varios links a nuestro
+juicio que sirven muy bien como como
+introducción al tema este de la tensión
+que puede haber entre arquitectura y
+agilidad
+les
+recomendamos que los
+revisen Y agreguemos también que así
+como cuando hablamos de gestión de los
+proyectos dijimos que había un enfoque
+tradicional que había un enfoque ágil y
+que había la posibilidad de una
+combinación de enfoques inclusive dentro
+de un mismo proyecto era posible eh con
+este las arquitecturas Ocurre algo
+similar en general las
+arquitecturas son una combinación de
+enfoques en general puede haber Tal vez
+sí eh un enfoque
+e que es el que está más presente y que
+es el que por ahí le da nombre o
+caracteriza a la arquitectura pero
+seguramente siempre se cuela alguno Otro
+aspecto que no es propio digamos de esa
+arquitectura Entonces el grado de
+hibridación eh es muy variable pero es
+difícil encontrar eh
+arquitecturas llamémoslo De alguna forma
+puras
+no Nosotros tampoco nunca creímos en La
+pureza digamos de de los conceptos eh
+Porque es una especie de enamoramiento
+de los conceptos los conceptos nos
+ayudan a generar mejores soluciones y la
+función del ingeniero es
+esa e Buscar las mejores herramientas
+pero para resolver problemas no para
+deleitarse con las herramientas en sí
+mismo o sea no vendemos herramientas
+vendemos soluciones a problemas
+bien los aspectos de
+gobierno digamos
+que esto de que la arquitectura
+organizacional está por arriba de las
+aplicaciones y mencionamos ese concepto
+de vivir en un vecindario y este
+negociar con los vecinos no un
+vecindario digamos de de aplicaciones de
+soluciones entonces eh en ese concepto
+uno dice
+Bueno vamos a necesitar algún tipo de
+normativa de
+reglas
+para
+encausar la las relaciones en este
+vecindario entonces aparece la necesidad
+para para para manejar esta cuestión que
+no tiene un un
+dueño porque está lleno de jugadores y
+todos son importantes algunos podrán
+tener más fuerza que otros
+pero siempre se depende de un tercero
+Entonces es bueno establecer cómo vamos
+a llevar a cabo digamos estas
+negociaciones Cuáles son los conceptos
+que todos compartimos y que queremos
+mantener
+Cuáles son las ideas que a lo mejor son
+personalizables y en qué grado ese tipo
+de cosas a eso se refiere la cuestión
+de gobierno de la arquitectura es decir
+en una organización para los aspectos
+organizacionales va a haber un grupo de
+arquitectura organizacional con
+representantes de los distintos sectores
+va a ser así ese grupo va estable hacer
+los lineamientos va a generar documentos
+en ese sentido tendrá que dar la
+aprobación para ciertas cosas o no bueno
+todo eso es necesario este definir en
+una
+organización para
+que realmente la cosa fluya porque si no
+se traban mucho las las negociaciones
+aún por por intereses que uno puede
+considerar Genuinos pero se falla en
+aricular mis intereses con los del que
+está al lado mío eh es como si a veces
+este a la hora de hablar de
+arquitectura el trabajo en equipo con
+otros sectores se transformar en algo
+difícil entonces hay que colocar
+aspectos de gobierno y por supuesto de
+planificación esto suelen ser proyectos
+eh Por definición interáreas eh
+participan distintos sectores de la
+compañía cada uno de los cuales tiene su
+propia agenda sus propios proyectos
+entonces este hay que
+coordinar varios proyectos entre sí la
+planificación es un aspecto digamos
+importante bueno Estos son distintos
+roles esto lo vamos a pasar y
+e nosotros vamos a tener una charla
+sobre Cloud
+eh vamos a hacer acá un pequeño adelanto
+eh Cloud desde el punto de vista
+arquitectónico
+eh
+introdujo cambios muy fuertes digamos eh
+Por el esquema que tiene Cloud en sí
+mismo y también por lo que decíamos
+antes la interacción con otros tipos de
+arquitectura esas arquitecturas híbridas
+nosotros mencionamos eh las soluciones
+son premis entonces a veces aparecen
+desde el punto de vista de la
+arquitectura organizacional soluciones
+que tienen una parte on premis y una
+parte Cloud y no solamente eso sino que
+la parte on premise y Cloud interactúan
+entre sí para brindar ciertos servicios
+entonces para que eso sea posible
+las las soluciones tienen que tener
+cierta arquitectura para poder generar
+esa meta arquitectura por encima de todo
+no cuando uno Mira toda la organización
+Y dice Bueno acá Tengo este una parte
+Cloud Acá tengo una parte on premis la
+parte Cloud tiene más de un proveedor la
+parte on premis tiene distintos sites
+etcétera bien eso para como Introducción
+a a la arquitectura Cloud pero ya
+hablando propiamente de
+Cloud Más allá de que pueda convivir con
+otros enfoques
+entonces características que vamos a
+profundizar insisto en la clase que
+tengamos sobre el tema son eh los
+servicios son a demanda es decir lo que
+uno quiere consumir eh es no por un
+contrato que tiene todo fijado sino que
+puedo demandar más menos eh en algunos
+casos con muchísima variabilidad en el
+tiempo o sea los servicios servicios a
+demanda significa que el servicio
+responde a la demanda la oferta se se
+adapta a la demanda la demanda se chica
+la oferta se chica la demanda crece
+extraordinariamente la oferta la
+acompaña y sobre todo
+rápidamente porque una cosa es que yo
+necesite crecer y mi proveedor me
+permite a crecer pero implementar ese
+crecimiento una cosa es que me lleve dos
+meses y otra cosa es que me lleve 2
+minutos cambia completamente eh lo que
+puedo hacer con ese nivel de
+escalabilidad
+con ese tiempo para implementar una
+escalabilidad
+otra de las características es que estos
+servicios se consumen a través de una
+red
+que eh constan con un Pull de recursos
+es decir hay un detrás de escena que no
+se ve
+eh precisamente porque lo que se muestra
+es el servicio y no toda la
+infraestructura que hay detrás que en
+general es común para atender a otros
+como
+nosotros eh Hay una Independencia
+importante de la ubicación Esto no es
+absoluto esto hay proveedores eh que eh
+precisamente por demandas demandas eh Me
+refiero a solicitudes pedidos de los
+clientes eh ofrecen eh la posibilidad de
+elegir una
+ubicación donde estén residiendo esos
+servicios
+Cloud es decir hay compañías en las
+cuales uno dice Bueno yo quiero utilizar
+los servicios eh yo quiero utilizar
+algún Data Center que esté en Brasil por
+ejemplo HM Entonces eso es parte digamos
+del contrato pero en términos generales
+eso no está especificado H
+eh rápida elasticidad lo que decíamos
+antes elasticidad se refiere a eh si eh
+dem si la oferta se acomoda rápidamente
+a la demanda o no inclusive en algunos
+casos H puede ser automática uno puede
+decir eh yo contrato básicamente un
+Rango de consumo Sí pero ya habilito que
+si crece por ejemplo hasta tanto
+eh se adapte automáticamente sin sin
+tener que hacer nada no es como si uno
+dijera Bueno si viene mucha gente a
+endela después me lo cobrarás pero no
+perdamos tiempo avisándome Che hay una
+cola larga te parece que ponga más
+ventanillas hacé lo que tengas que hacer
+pero que nadie quede sin
+atender bien y por supuesto los
+servicios son medidos porque en general
+el enfoque es pagas por lo que
+usas si bien hay formas de
+facturación que
+e tienen una parte más
+fija pero en en términos generales uno
+podría decir que estos típicamente son
+servicios medidos eh Hay un medidor que
+va registrando
+según cierto criterio lo que se consume
+y en función de eso luego se
+factura bien
+eh cl eh privada y pública bueno Esto
+básicamente digamos que claud en el
+sentido
+tradicional
+es algo
+público considerado como público que un
+proveedor se lo ofrece a todo el mundo
+todo aquel que quiera comprarlo lo puede
+hacer no es un club esto donde uno tiene
+que hacerse socio y pasar por un derecho
+de admisión no
+vas Estas son las condiciones las querés
+listo adentro pagá y es tuyo
+eh Y es para todo el mundo o sea es
+libre en el sentido de que no hay
+restricciones y este por otro
+lado si son miles bueno serán
+miles la eh cuando se arma Cloud
+privado
+esto la forma estándar es el mismo que
+ofrece el servicio público tiene
+opciones privadas donde esos
+servicios son exclusivos para vos en el
+sentido de que lo que usas para brindar
+el
+servicio está todo acomodado para vos lo
+que compartes con otros va por otro lado
+o sea te garantiza de que esto está
+armado para vos eso mismo eso ese mismo
+efecto puede lograrse haciéndolo uno
+es decir
+en mi propia infraestructura o sea on
+premise monto una arquitectura de
+aplicaciones Cloud Sí y brindo a mis
+usuarios ese servicio entonces tengo
+garantizado eh lo que hay detrás del
+servicio Cloud porque lo estoy prestando
+yo esa también es otra forma de de Cloud
+privada
+cuán importante es esta definición en
+general la importancia de esto pasa por
+el tema de si se comparten recursos o no
+Si la organización que lo consume
+considera de que tener recursos en forma
+exclusiva es mandatorio o es muy
+importante pasa por ese
+lado
+eh bien
+sí bien
+e lo que hay que pensar de todas maneras
+con los servicios Cloud
+eh es hay un aspecto muy importante con
+cualquier servicio que se consuma a
+través de una red esto tiene Por así
+decirlo dos componentes muy grandes uno
+es el proveedor de el servicio todo lo
+que él tiene para brindarnos y el otro
+aspecto es todo el recorrido que
+nosotros tenemos que hacer para llegar
+hasta la ventanilla donde la
+tiende Por qué digo esto porque lo que
+nosotros recibimos es la combinación de
+esas dos
+cosas cuando esto no anda bien puede ser
+por la red puede ser por el proveedor y
+puede ser por ambas
+cosas entonces que el proveedor cumpla
+con las condiciones de disponibilidad no
+significa que eso se traduzcan que yo
+tenga el servicio disponible porque si
+el problema lo tengo en la red el
+servicio no va a estar disponible el
+proveedor cumplió la ventanilla estaba
+abierta pero yo no pude llegar a la
+ventanilla porque la calle estaba rota y
+no podía o estaba inundada y no podía
+cruzar y él podrá decir Bueno pero yo no
+controlo la calle yo controlo mi negocio
+mi negocio estaba
+abierto Entonces es importante tener en
+cuenta eso de qué participa en la
+disponibilidad esta esta cuestión lleva
+a que muchas veces las organizaciones
+para garantizar ciertos aspectos de
+disponibilidad de una arquitectura Cloud
+hacen contrataciones especiales en lo
+referido a a
+conectividad es más en algunos casos el
+mismo proveedor Cloud ofrece servicios
+adicionales que tienen que ver con esa
+conectividad hacia
+ellos bien
+[Aplausos]
+este en los aspectos de
+seguridad
+también puede haber
+normativas propias de la organización o
+legales
+que o no permitan directamente los
+servicios Cloud o los
+restrinjan que digan que ciertas cosas
+pueden estar en un servicio Cloud y
+ciertas no eh Y o que lo que va en Cloud
+no va de cualquier forma y que tiene
+algunas restricciones no por ejemplo
+podría ser la ubicación de la
+infraestructura Cloud no O sea en dónde
+reside esa
+infraestructura pero
+eso como dijimos eh antes que hace
+algunos años hubo discusiones muy
+fuertes entre arquitectura y agilidad eh
+las discusiones
+por los aspectos de confidencialidad
+eh que siempre son importantes y que no
+no no no han dejado estar vigentes de
+entrada
+este el choque era muy fuerte y la
+resistencia a usar servicios Cloud era
+enorme por precisamente cuestiones de
+seguridad de la información sobre todos
+los aspectos de
+confidencialidad pero
+eso los mismos
+proveedores lo han ido trabajando y los
+mismos proveedores de servicios Cloud
+los grandes jugadores sobre todo con
+áreas gubernamentales las una de las muy
+reticentes al uso de servicios Cloud
+bueno han ido negociando entonces bueno
+a ver vos por qué no nos queres
+contratar a nosotros Ah por tal cosa
+bueno eso te lo puedo cambiar no y
+e hoy en día no son poco no son pocas
+las áreas gubernamentales que tienen
+algunos acuerdos especiales con
+proveedores Cloud O sea que consumen
+servicios Cloud
+lo lo que no significa
+que lo consuman para todo sea
+restricciones hay pero antes
+directamente era terreno Vedado el
+estado no está en Cloud así
+ya no es así bien hasta acá el repaso de
+algunos aspectos que
+consideramos necesario remarcar de la la
+presentación que está en el
+campus la Bueno llegó Mariano bienvenido
+Mariano
+entonces vimos el enfoque de
+arquitectura organizacional eh la
+recomendación de la lectura de
+e de esos aspectos
+eh ágiles o mejor dicho la la Cómo la
+agilidad puede considerar a la
+arquitectura y Como algunos
+eh pretendidos conflictos en realidad no
+son
+tales como que requiere una una mirada
+más
+más detallada más
+sutil no es que todo está resuelto y que
+no puede haber dificultades Pero en esos
+artículos
+aparecen algunos conceptos que nos
+parece interesante a la hora de atacar
+un problema complejo sin ninguna duda y
+lo último que quiero mostrarles
+es algo que también está en el campus y
+que me parece que establece una suerte
+de puente entre este enfoque que estamos
+dando hoy de lo
+organizacional con lo que vamos a
+ver fundamentalmente en la próxima clase
+que es meternos en la
+arquitectura de las aplicaciones en sí
+mismas
+entonces uno de los links que ustedes
+también ahí en las
+referencias es el llamado modelo
+c4 Para quienes no se
+lo Para quienes no lo conozcan voy a
+hacer una breve presentación porque
+esto es conveniente que lo lean por
+ustedes
+mismos acá se lo muestro a 10000 Met Acá
+hay varias cosas que que seguramente eh
+No no se pueden leer pero digamos que
+este modelo es una especie de zoom a
+distinta profundidad
+eh No sé si alcanza a verse pero abajo
+dice nivel uno contexto nivel dos
+contenedores nivel 3es componentes nivel
+cu código es decir el modelo c4 o de las
+cuat cs
+eh va eh haciendo zoom parte del nivel
+más alto que ya lo vamos a ver que es el
+contexto el nivel de contexto a ver si
+esto lo puedo agrandar Sí el nivel de
+contexto Qué hace
+Mira nuestra solución y acá es donde e
+miran nuestra solución como una unidad
+acá es donde hay un puente con la
+arquitectura organizacional Por qué
+Porque lo que va a mostrar este diagrama
+de contexto es nuestra solución con
+algunos de sus vecinos con los que
+interactúa es decir un pedazo de la
+arquitectura organizacional no va a
+mostrar ningún aspecto interno de
+nuestra solución sino precisamente
+Cuáles son los vecinos con los que
+interactúa Y qué tipo de interacciones
+hay
+Entonces el enfoque c4 parte de acá y
+decimos que va haciendo zoom por qué
+porque acá tenemos nuestra solución y
+otras
+soluciones El Paso siguiente es hacer
+zoom sobre nuestra
+solución entonces de ese diagrama de
+contexto Cuando hacemos zoom en nuestra
+solución pasamos a un nivel
+dos que este modelo lo llama de
+contenedores pero no son no es un
+diagrama de
+contenedores docker digamos no no no es
+otro concepto de contenedor más genérico
+acá un contenedor
+es algo que desde el punto de vista de
+la ejecución o de la implementación del
+despliegue es una unidad no y podía ser
+una aplicación
+web una aplicación
+desktop
+Mobile un esquema de base de datos un
+file
+System eso ese es el concepto de
+contenedor que se maneja acá no entonces
+arriba de todo tenemos aquello a lo cual
+le estamos haciendo zoom que es en este
+caso
+eh nuestra
+aplicación y hacia abajo los
+contenedores digamos que se han definido
+o sea las partes que
+componen pero fíjense que también está
+arrastrando parte del diagrama anterior
+porque resulta que si nosotros dijimos
+que nuestra aplicación interactúa con
+otras bueno eso se hará a través de
+alguna parte o componente o contenedor
+de nuestra solución Entonces es
+necesario
+mostrarlo antes era nuestra Aplicación
+como un bloque y ahora ese bloque se ha
+transparentado se ve qué parte Lo
+componen Entonces se ve qué parte de
+nuestra aplicación es la responsable de
+esas interacciones que habíamos
+mencionado entonces eh fíjense que no
+solamente se ha un zoom sobre lo
+anterior sino que también se mantienen
+algunos aspectos del diagrama anterior
+para una mejor
+comprensión Esa es la segunda c la c de
+los
+contenedores la tercera c es la de los
+componentes con el mismo concepto en el
+primer diagrama teníamos
+aplicaciones incluida La nuestra en el
+segundo diagrama hicimos zoom sobre una
+parte de ese diagrama que era nuestra
+aplicación y dijimos está formada por
+contenedores en el nivel tres habiendo
+elegido algún contenedor vamos a hacer
+zoom para ver qué hay dentro de él y eso
+lo llamamos diagrama de componentes
+sí acá tienen un poco más de detallado
+en este caso se ven dos de los
+componentes de El diagrama anterior
+y perdón dos de los contenedores del
+diagrama anterior
+y cómo son los componentes de ellos
+porque son componentes compartidos
+digamos entonces tiene sentido
+mostrarlos
+juntos y por último la útima más e es
+cuando finalmente llegamos al
+código este este modelo que uno podía
+decir no inventa nada es simplemente un
+drill down sí lo podemos ver de esa
+manera pero también podríamos decir que
+es algo así como una formalización
+simple de algo que es de sentido común
+y dentro de las formas posibles de hacer
+zoom bueno acá va mostrando una de las
+formas que se puede hacer eso con este
+esquema con con estos conceptos que
+maneja Este modelo que es
+contexto contenedor componente
+código de todas maneras tengamos en
+cuenta que este modelo que presenta
+varios diagramas y otros que también
+tienen diagramas Asociados
+nunca hay que olvidarse que los
+diagramas son herramientas de
+comunicación Son medios para lograr algo
+quiero transmitir ciertos conceptos
+ciertas ideas y los diagramas me pueden
+ayudar muchísimo pero los diagramas no
+son Un fin en sí mismo es decir No tengo
+que hacer los diagramas porque está
+establecido que los tengo que
+hacer o en todo caso si está ido que los
+tengo que hacer Tengo que verificar que
+en este caso
+aplica Es raro que un diagrama Se use en
+todos los lugares donde hay elementos
+como para usarlo porque es una
+herramienta de comunicación entonces
+Eh hay situaciones en las cuales se
+puede hacer un diagrama pero no aporta
+nada porque estoy contando algo que todo
+el mundo sabía Entonces cuál es el
+sentido de trabajar para comunicar una
+obviedad Es una pérdida de tiempo
+entonces con los
+diagramas como herramientas de
+comunicación Hay que ser selectivo hay
+que hacer aquellos diagramas que
+agreguen algo algo que me lo estaría
+perdiendo si no hiciera el diagrama y
+algo importante
+no Entonces ese es otro aspecto con el
+cual uno tiene que lidiar en un enfoque
+metod lógico a la hora que está
+definiendo Qué documentación utilizar
+entonces uno podía agregar hay que
+definir qué y hay que definir Cómo y
+cuándo
+usarla porque una buena forma de
+documentación no determina que se use en
+todos los casos que es posible usarla
+hay que pensar siempre en el objetivo de
+ese uso que lo pueda usar no determina
+que hay que hacerlo porque a lo mejor es
+un uso inocuo entonces estoy gastando
+recursos para nada o hasta Negativo si
+yo estuviera transmitiendo con un
+diagrama un mensaje equivocado no lo que
+quiero transmitir entonces selectividad
+a la hora de usar los diagramas no nos
+enamoremos de los diagramas sino en todo
+caso enamoremos noos del buen uso de los
+diagramas
+muy bien hasta acá Entonces los que les
+quería comentar sobre arquitectura no sé
+eh bárbara
+si si vos tenés algo que quieras agregar
+a lo dicho si me estoy olvidando de algo
+que te parece importante no no no no eh
+concuerdo con todo lo que lo que
+estuviste diciendo y estaba repasando
+Mientras
+tanto la presentación a ver si si
+faltaba algo y no lo que me gustaría
+compartirle ahora entonces a todos ellos
+si te parece es un cuestionario de
+valoración sobre la clase para ver si
+puntualmente estos conceptos de la
+arquitectura a nivel organizacional
+quedaron este bien claros y y después
+Este de haber hecho esta esta evaluación
+pasamos a charlar un poquito de lo que
+tiene que ver con el trabajo práctico y
+la asignación de de nosotros a los
+distintos grupos te parece Eh sí yo voy
+a voy a salir un momento de todas
+maneras dejo grabando y y luego vuelvo
+para el final sí Perfecto entonces
+mientras que Rubén este se toma estos
+minutitos les voy a compartir
+e el
+cuestionario sí los copio acá en
+el en el chat pueden ingresar ahí y y
+directamente completar son muy poquitas
+preguntas que hacen relación a a lo que
+Estuvimos viendo en la clase de hoy
+k
+al
+al
+al
+ah
+al al
+Bueno estoy viendo que están llegando
+las
+respuestas
+al
+al
+al
+al
+al
+al al
+Bueno ya tenemos 18 respuestas faltan
+los últimos que ya están
+acercándoles
+y y para finalizar vamos a hablar unos
+últimos minutitos de de la clase de
+sobre el tema de los grupos y y de los
+trabajos prácticos sí les damos dos
+minutitos más que terminen este los
+últimos que ya están ahí con
+eh con la finalidad de de terminar de
+completar este formulario y nos ponemos
+a charlar respecto
+profe puedo mencionar
+algo en aa virtual sieres accer a las
+grabaciones de las clases ten que pedir
+permiso por en ve de hacer haya que
+pedir permiso por cada grabación hacer
+que se pida permiso a una carpeta en la
+que estén todos entonces sieres ver más
+de uno no hay que andar molestando tando
+ustedes como nosotros pidiendo permiso
+nada de eso sí Mira eh Bueno le voy a
+decir a a Rubén yo el tema es así
+nosotros primero
+eh yo probé en otros cursos también de
+subir directamente el video al campus Lo
+que pasa que son muy pesados entonces me
+me hacía compartirlo a través de Drive
+yo uno solo pude subir así de decir
+Bueno pero una clase muy cortita Eh
+entonces a partir de ese momento
+nosotros lo subimos al drive y al
+principio con el solo hecho de tener la
+cuenta institucional podías acceder
+ahora no no sé Rubén si vos tenés la
+posibilidad de que la carpeta esa compar
+lo vamos a ver vamos a tomarla la la
+sugerencia del armado de una carpeta Eh
+bueno probaremos a ver si si lo podemos
+hacer Sí igualmente Mariano una vez que
+vos pedís permiso después si quisieras
+este verlos en en otro momento ya no te
+vuelve a a pedir o sea si vos no sé vas
+solicitando los permisos a medida que se
+van habilitando y después no sé antes el
+parcial unas semanas antes querés ver
+varios vídeos en en simultáneo por decir
+algo por ir a buscar este un momento
+dentro de la clase los podés rever sin
+necesidad de volver a pedir el permiso
+me explico ahí eso no sí sí obvio me
+refería a la idea de autorizar una única
+vez sí claro Sí sí no solo para ustedes
+sino para mí también o sea nosotros me
+refiero si si yo quisiera ver más de uno
+por ejemplo los molesto ustedes pidiendo
+permiso y yo a la vez tengo que andar
+pidiendo permiso pero sí Supongo que
+puedo ir semana a semana pidiéndolo por
+las doas bueno era eso Gracias igual si
+lo vamos a evaluar
+eh tomamos la sugerencia y y vamos a
+intentar
+implementarlo bien buen gracias No no
+por favor no hay por qué eh tengo 19
+respuestas hasta ahora Así que entiendo
+que de los 23 este hay cuatro que por
+ahí están ahí un poco rezagados o o
+quizás este ya no están prestando
+atención al a la clase eh Para no
+demorarnos más a ustedes Eh me tomo
+estos últimos minutitos de la clase para
+charlar respecto de eh la participación
+de los grupos en cuanto a la confección
+del trabajo práctico y de las eh de las
+correcciones y y de las entrevistas con
+eh nosotros que quienes seríamos los los
+analistas funcionales en este caso
+eh Son seis grupos en total sí por la
+cantidad de de alumnos que hay en este
+curso eh los grupos del uno al tres
+tienen asignado como eh docente
+corrector y como analista funcional en
+el caso de querer tener la entrevista o
+de mandarnos consultas y dudas eh a mi
+persona Sí y del cuatro al seis van a
+estar trabajando con Rubén es decir
+todas las consultas este funcionales que
+quieran hacer para esta primera entrega
+o o dudas que tengan respecto del
+enunciado demás cuestiones eh del cuatro
+al seis pueden charlarlo con con Rubén
+que es quien después va a ser el docente
+encargado de corregir eh esos tres
+trabajos prácticos sí Asimismo el día
+que ustedes se entreguen eh van a tener
+acceso a la documentación del equipo al
+que le tienen que corregir sí esto es
+consecutivo si soy el grupo uno le
+corrijo al dos el dos al tres del tres
+al cuatro el cuatro al cco el cco al se
+y el seis al uno Sí para no marearnos
+entonces eh después veremos si la
+entrega Rubén la hacen a través del web
+campus o por mail en el caso de que sea
+por mail nosotros redistribuir al equipo
+dos le daremos el
+el del grupo uno para que lo corrija y
+así siguiendo pero si este hacemos que
+lo suban directamente al
+campo le habilitaremos eh una forma de
+entrega institucional digamos Claro así
+ustedes pueden al mismo tiempo que nos
+entregan a nosotros su versión original
+ver la del equipo par al que le van a
+tener que hacer eh la corrección pero
+quería este notificarles Esta división
+que hemos hecho entre nosotros para
+poder corregir los trabajos prácticos
+sobre todo Por si tienen eh intención o
+interés de tener alguna reunión para
+sacar algunas dudas antes de la entrega
+de de la especificación de
+requerimientos del edt y todo lo que
+conlleva la entrega uno prof í tenía una
+pregunta sobre las los 15 minutos que se
+podían pedir a la al la analista
+funcional entre comillas sí eh eso se lo
+mando a usted en los mails
+O sí ahí lo que les iba a decir también
+les habilite un foro adentro del Campus
+que es un foro general Sí donde Digamos
+si si es una pregunta particular que
+quiera hacer el grupo por su trabajo o
+por una por esbozar alguna idea y
+charlarlo y debatirla eh tenemos una
+reunión y no hay problema hay preguntas
+generales que por ahí son de comprensión
+de texto o que son digamos que que
+pueden servirle a todos los equipos
+pueden usar ese foro también para este
+consultarse para preguntarse y nosotros
+estamos intervenidos ahí como para
+también eh ofrecer nuestras respuestas
+si este si son si vos Cristian sos del
+grupo uno o dos o tres no tengo problema
+en que me manden un un mail y buscamos
+un eh un ratito en el que ustedes puedan
+reunirse eh con conmigo y a través de de
+un Meet eh nos juntamos a a conversar
+sobre el relevamiento para para la
+primera entrega eh la verdad yo mañana
+después de las eh de las 88:30 que más o
+menos es cuando termina la clase 8:30 9
+de la noche vamos a estar terminando la
+clase de los miércoles ya tengo agendado
+un grupo de de ese curso para para
+charlar digamos después de clase
+Entonces ya mañana estoy medio
+complicada pero podemos este juntarnos o
+verlo para para hoy digamos después del
+horario laboral o el jueves eh lo vamos
+combinando este no no tenemos ningún
+problema en Buscar digamos algún algún
+espacio como para poder canalizar todas
+las consultas que tengan Sí pero bueno
+es importante que identifiquen Quién va
+a ser también eh el que está a cargo de
+su corrección porque eh va a ser digamos
+más estrecha la la comunicación en
+cuanto a los aspectos del trabajo
+práctico sí
+genial profe muchas gracias No por favor
+No sé si tienen alguna otra duda alguna
+otra
+consulta respuestas han quedado 19 Así
+que entiendo que hay cuatro que se
+fueron a desayunar y nos abandonaron
+chicos una consulta
+Sí cómo me contacto con los de mi
+grupo este estoy en tu mismo grupo así
+que mandaron mail a mí y después el
+resto vemos sí eh fíjense que si ustedes
+entran al aula virtual hay una sección
+que dice participantes y ahí tienen
+todos los datos de contacto sobre todo
+si filtran por el número de grupo que
+tienen asignado eh van a también conocer
+Quiénes son eh los de su equipo Yo
+además les mandé un mensaje a cada uno
+de ustedes a través de la plataforma y
+ustedes pueden mandarse mensajes entre
+ustedes por la plataforma o por el mail
+eh dentro de los datos de cada uno de
+los alumnos está está esp ificado el
+mail Ah Dónde veo eso no lo encuentro en
+el aula ustedes entran al campus y hay
+una sección que dice participantes ahí
+pueden ver la
+información son ustedes el grupo
+seis
+sí bien bueno los pongo en en contacto
+el grupo seis está conformado por eh
+Fernando Eh vos Fernando
+machaca Jeremías Ramírez
+Maximiliano barneto y Nicolás
+Scott no sé si Encontraron la sección
+donde dice participantes pero estos eh
+ustedes
+cuatro son los que conforman el
+grupo
+Sí veo pero no veo los integrantes
+porque veo la parte que decís de
+participantes est ahí a la derecha tenés
+que tocar un botón para que para que te
+muestre los participantes dice Mostrar
+participantes
+Ah Dale
+dale
+Ah ya lo encontré
+perfecto listo y ahí ya se pueden poner
+en contacto entre
+ustedes nosotros profe en el somos el
+grupo si si no me equivoco el grupo que
+son cinco de cuatro
+el grupo s no no puede ser el grupo s si
+Acá hay seis grupos nada más esp
+Entonces ellos serán grupo c me parece
+creo Creo que mi grupo es el último
+grupo que es el que tiene cinco
+integrantes de cuatro sea tenemos como
+un hay uno de los alumnos que o sea yo
+ya me puse en contacto con todos Ya
+formamos grupo y demás Pero hay uno que
+directamente en el campus no aparece y
+bueno estaba esperando a ver si hoy
+aparecía en la clase pero no vi no sé si
+usted capaz tiene no sé capaz le
+contesta a usted y no a nosotros pero
+Guillermo meneo es el de Gea me parece
+ahora me fijo bien Estoy buscando dónde
+estaban los grupos ahí le digo fura como
+que nunca se conectó al curso guill Es
+uno que nunca se se conectó as guido
+Jimeno
+ese Bueno me equiv me parece no no form
+seguirán siendo un grupo de cuatro
+entonces okay
+bueno espera porque yo tenía registrado
+quedan seis grupos y son siete el grupo
+s también va a estar conmigo Ah Nosotros
+también estamos con
+usted de acuerdo
+bien
+Perfecto Bueno entonces grupo 1 2 3 y 7
+el analista a cargo voy a hacer yo y
+también voy a ser el docente que les va
+a corregir el grupo 4 5 y se van a estar
+con Rubén
+Sí y guido si no no participa Ya está no
+quizá pid un cambio de curso y nos avisó
+no sé la verdad no tengo claro Avis con
+edun en el registro del último acceso
+dice nunca O sea que
+nunc lo Exacto yo vi lo mismo y dije
+Bueno fue nunca se anotó es uno de los
+que se habrá anado con la excepción
+después nuna después no qued cambi
+puede ser puede ser
+también No se preocupen son cuatro
+Entonces no les afecta digamos a la
+carga de trabajo de resolver este tp
+Exacto nosotros era el único grupo que
+no nos afectaba perfecto bien Bueno
+listo no sé si tienen alguna duda
+respecto del trabajo de la comunicación
+entre ustedes si no solo el punto dos el
+punto dos todavía no llegamos a ver lo
+que que necesitamos para hacer el punto
+dos del tp no que es el no me acuerdo el
+nombre elt el tareas Sí bueno nosotros
+hablamos de
+algo sí en en la primer clase si no me
+equivoco hablamos un poquito sobre eso
+Igualmente la tomar documentos de
+referencia de su trabajo de otros
+trabajos lo mencionamos Bárbara s lo
+mencionamos de todas maneras
+es parte de lo que pueden ustedes
+digamos
+consultar bien pero lo investigamos
+porra par también
+digamos hay un modelo predeterminado de
+diagrama donde ustedes especifiquen es
+ese desglose de
+tareas pueden usar el que les qu a
+ustedes bien genial geni Igualmente si
+hay aluna Si quieren hacer una
+visualización previa cuando tengamos la
+reunión lo lo hacen digo no hay ningún
+problema nosotros mencionamos que existe
+esta herramienta y que es un un topd
+donde ustedes van a ir de digamos de de
+cuestiones más generales a funciones más
+particulares
+eh pero digamos el modelo de de trabajo
+les mostramos Incluso en la presentación
+hay un ejemplo donde veíamos que no
+todas las ramas estaban explotadas Al
+mismo nivel y que había por ahí las
+ramas de producción tenían menos hojas
+que las RAM más por ahí de análisis y de
+desarrollo no sé si se acuerdan tendrían
+que volver a la ppt de la primer clase
+eh
+queo se llamaba este sí la clase de
+gestión de proyectos Esa fue la primer
+clase que tuvimos y ahí mostramos un
+ejemplo pueden utilizar ese ejemplo como
+como esqueleto para armar después su
+diagrama
+tranquilamente
+genial bien bueno este si no hay más
+dudas yo los libero les agradezco que
+hayan estado la participación y nos
+vemos el martes que viene como todos los
+martes buena semana para todos nos vemos
+el
+martes hasta lueguito chicos

@@ -1,0 +1,1 @@
+en redes de información, comunicaciones y redes de datos , resumí y estructura bien todo esta transcripción, no olvides detalles y posibles preguntas y respuestas a exámenes, de esta transcripción:

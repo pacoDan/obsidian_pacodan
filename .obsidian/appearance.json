@@ -2,11 +2,12 @@
   "enabledCssSnippets": [
     "mi_estilo_1"
   ],
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "Obsidian gruvbox",
   "theme": "obsidian",
   "accentColor": "",
   "textFontFamily": "JetBrainsMono Nerd Font",
   "baseFontSizeAction": false,
   "baseFontSize": 10,
-  "monospaceFontFamily": "JetBrainsMono Nerd Font"
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font"
 }

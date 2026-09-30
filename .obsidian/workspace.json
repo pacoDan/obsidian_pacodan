@@ -6,116 +6,50 @@
       {
         "id": "7942cf31c5f73381",
         "type": "tabs",
-        "dimension": 51.770138532580816,
         "children": [
           {
-            "id": "d8fb84d6c4b5408d",
+            "id": "d3aeb1d8b6f051e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comandos linux.md",
+                "file": "ECO/BLOQUE ULTIMO/encaje bancario.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "comandos linux"
+              "title": "encaje bancario"
             }
           },
           {
-            "id": "23bede88d680f2dc",
+            "id": "ba7d6b745e579a60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_COSILLAS/ok ia local docker deepseek OLLAMA.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ok ia local docker deepseek OLLAMA"
-            }
-          },
-          {
-            "id": "97aa7336ea7b2463",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CV ATS filtros/dev ops.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "dev ops"
-            }
-          },
-          {
-            "id": "6dd393fa15a1006f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "entrenamiento de voz, entrenamiento ia voz ia.md",
+                "file": "_COSILLAS/hornos y termotanques/termotanque a gas vs termotanque electrico.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "entrenamiento de voz, entrenamiento ia voz ia"
+              "title": "termotanque a gas vs termotanque electrico"
             }
           },
           {
-            "id": "b82842ecfb5c8784",
+            "id": "3883aa7568cdf281",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "borrado de duplicados fdupes fdupes alternativa con revision de archivos.md",
+                "file": "SIMULACION/tarea evento a evento.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "borrado de duplicados fdupes fdupes alternativa con revision de archivos"
+              "title": "tarea evento a evento"
             }
           }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "a3180a079f4e285b",
-        "type": "tabs",
-        "dimension": 48.229861467419184,
-        "children": [
-          {
-            "id": "842227aaafdf2841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_COSILLAS/ok transcripcion whisper.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ok transcripcion whisper"
-            }
-          },
-          {
-            "id": "f2b6cfc8c45f762e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DDS-Notas/TP ORM/Resolucion Ejercicio Biblioteca Digital.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Resolucion Ejercicio Biblioteca Digital"
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rmlint",
+                "query": "mvn ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.76458740234375
+    "width": 340.8447952270508
   },
   "right": {
     "id": "3bddd586551dd828",
@@ -190,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SISTEMAS DE COSTOS Y PRESUPUESTOS/PRESUPUESTOS/ejercicio 19 esquema de financiacion.md",
+                "file": "CIBERSEGURIDAD/Entregable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de ejercicio 19 esquema de financiacion"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -265,47 +199,53 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "b82842ecfb5c8784",
+  "active": "d3aeb1d8b6f051e2",
   "lastOpenFiles": [
-    "entrenamiento de voz, entrenamiento ia voz ia.md",
-    "borrado de duplicados fdupes fdupes alternativa con revision de archivos.md",
-    "comandos linux.md",
-    "DDS-Notas/TPS 2026/DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #1.md",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2025] Primer Parcial - LivreStream - Segunda Parte - Resolución.md",
-    "DDS-Notas/TP ORM/Ejercicio ORM - Biblioteca Digital.pdf",
-    "DDS-Notas/TP ORM/Resolucion Ejercicio Biblioteca Digital.md",
-    "auxç_.md",
-    "CV ATS filtros/dev .net para dev ops y ciberseguridad.md",
-    "DDS-Notas/TP ORM.md",
-    "DDS-Notas/TP ORM/TP ORM.md",
-    "DDS-Notas/TP ORM",
-    "aux i9 13950HX.md",
-    "CV ATS filtros/dev ops para seguridad.md",
-    "CV ATS filtros/perfil analista JR en GRC, GRC es Governance, Risk and Complience.md",
-    "_COSILLAS/NAVEGADOR QUTEBROWSER/ok ok navegador qutebrowser config autoguardado de sesion y zoom.md",
-    "DDS-Notas/gRPC.md",
-    "CV ATS filtros/dev ops.md",
-    "IA/evaluacion de modelos.md",
-    "IA/uso de CUDA.md",
-    "IA/embbedinngs/stanford google.md",
-    "IA/embbedinngs/stanford playlist CS224N.md",
-    "IA/embbedinngs/youtube 1.md",
-    "IA/embbedinngs/embbedinngs.md",
-    "IA/IA.md",
-    "IA/embbedinngs",
+    "ECO/BLOQUE ULTIMO/demanda de bienes, demanda agregada.md",
+    "ECO/BLOQUE ULTIMO/encaje bancario.md",
+    "ECO/BLOQUE ULTIMO/inflacion.md",
+    "ECO/BLOQUE ULTIMO/tasa de interes de mercado.md",
+    "ECO/BLOQUE ULTIMO/masa monetaria.md",
+    "ECO/indicadores economicos e indicadores financieros.md",
+    "ECO/BLOQUE ULTIMO",
+    "ECO/ok politica monetaria contractiva vs politica monetaria expansiva.md",
+    "ECO/ok factores de producción, factores productivos.md",
+    "ECO/BLOQUE 1 demanda/factores de la produccion.md",
+    "ECO/ok controlador de monopilios.md",
+    "ECO/ok elasticidad elastica.md",
+    "ECO/ok inventarios de produccion terminada.md",
+    "ECO/ok economía positiva vs economía normativa.md",
+    "ECO/Sin nombre/Sin nombre.md",
+    "ECO/Sin nombre",
+    "_COSILLAS/OCR deepseek, pdf a md, imagen a md, imagen a markdown.md",
+    "DDS-Notas/Deploy y ssh.md",
+    "DDS-Notas/OTROS/Tp 2024/Deploy y ssh.md",
     "REDES AVANZADAS/recopilados utnianos.md",
-    "_COSILLAS/ok transcripcion whisper.md",
-    "ing de req/TP 1.md",
-    "REDES AVANZADAS/Resumen_TAR.pdf",
-    "ing de req/TP_TV_IR_2026.pdf",
-    "REDES AVANZADAS",
-    "ing de req/TP 1-2026-08-19-17-39-22.png",
-    "ing de req",
-    "_COSILLAS/whisper",
-    "CV ATS filtros",
-    "DDS-Notas/DDS FRANCO/[DDSi] [2026] Primer Parcial - Código a Voluntad - Contexto.pdf",
-    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-18-20-40-55.png",
-    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-15-00.png",
-    "DDS-Notas/TPS 2026/TPA/TPA2/diagrama_de_clases-2026-06-17-00-14-22.png"
+    "SIMULACION/tarea evento a evento.md",
+    "DDS-Notas/TPS 2026/ejemplos de test.md",
+    "DDS-Notas/TPS 2026/DonaTrack - Sistema de Gestión y Trazabilidad de Donaciones - Entrega #1.md",
+    "DDS-Notas/TPS 2026/Copia de casos de uso_sin ejemplo.pdf",
+    "DDS-Notas/_  NOTAS importantes DDS notas dds.md",
+    "DDS-Notas/TPS 2026/TPS 2026.md",
+    "DDS-Notas/TPS 2026/tpi 3.md",
+    "DDS-Notas/FINAL posible enunciado 3.md",
+    "DDS-Notas/FINAL posible enunciado 2.md",
+    "DDS-Notas/[DDS - UTN BA] Práctica de Repaso - Segundo Parcial 2024.pdf",
+    "CIBERSEGURIDAD",
+    "ECO/BLOQUE 1 demanda",
+    "MYSQL comandos",
+    "_COSILLAS/hornos y termotanques",
+    "_COSILLAS/Sin nombre",
+    "MINI PC ryzen anomalias",
+    "IA/Pasted image 20250325173654.png",
+    "IA/Pasted image 20250324173016.png",
+    "IA/Pasted image 20250320180412.png",
+    "IA/Pasted image 20250320175822.png",
+    "IA/Pasted image 20250320160702.png",
+    "IA/Pasted image 20250320155645.png",
+    "IA/Pasted image 20250320151525.png",
+    "IA/Pasted image 20250320144947.png",
+    "IA/Pasted image 20250320143135.png",
+    "IA/Pasted image 20250320134913.png"
   ]
 }
